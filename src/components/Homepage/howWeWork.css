@@ -1,0 +1,214 @@
+.how_we_work_main_div{
+    margin: 5% 0 5% 0;
+}
+
+.how_we_work_title{
+    border-left: #008ed9 15px solid;
+    margin-left: 5%;
+    /* margin-top: 2%; */
+    padding-left: 15px;
+}
+
+.How_we_work_main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5% 0 5%;
+}
+
+.How_we_work_sub{
+    text-align: center;
+    width: 20%;
+    margin: 2%;
+}
+
+.top_div{
+    background-color: #ebebeb;
+    /* text-align: end; */
+    display: flex;
+    justify-content: space-between;
+    /* text-align: end; */
+}
+
+.top_div_numbering{
+    margin:auto 0;
+    margin-left: 2%;
+}
+
+.How_we_work_card{
+    border-radius: 5px;
+    /* -moz-box-shadow: 0 0 10px #4885ed;
+    -webkit-box-shadow: 0 0 10px #4885ed;
+    box-shadow: 0 0 10px #4885ed; */
+    -moz-box-shadow: 0 0 10px #999;
+    -webkit-box-shadow: 0 0 10px #999;
+    box-shadow: 0 0 10px #999;
+}
+
+.icon{
+    width: 30px;
+    margin: 10px;
+}
+
+.icon_div{
+    height: 50px;
+}
+
+.heading_div{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.description_div{
+    font-size: 12px;
+    margin: 10px;
+}
+
+.fa-ellipsis-h{
+    margin-right: 10px;
+}
+
+.responsive_numbering_card{
+    display: none;
+}
+
+.res_arrows{
+    display: none;
+}
+
+.remove_auction_element{
+    display: none;
+}
+
+@media only screen and (max-width: 560px){
+    .how_we_work_title{
+        /* margin-top: 30px;
+        margin-bottom: 30px; */
+        font-size: x-large;
+        border-left: #4885ed 8px solid;
+        padding-left: 5px;
+        margin-left: 2%;
+    }
+
+    .arrows{
+        display: none;
+    }
+    .res_arrows{
+        display: block;
+    }
+
+    /* .How_we_work_main{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .How_we_work_main{
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        padding:0
+    }
+
+    .How_we_work_card{
+        height: 180px;
+        /* margin: 10%; */
+    }
+
+    .bottom_div{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .description_div{
+        /* font-size: 12px; */
+        margin: 0;
+        height: 55px;
+    }
+    .How_we_work_sub{
+        width: 35%;
+        margin-top: 20px;    
+    }
+
+    .How_we_work_sub{
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1125px){
+    /* .how_we_work_title{
+        font-size: x-large;
+        border-left: #4885ed 8px solid;
+        padding-left: 5px;
+        margin-left: 2%;
+    } */
+
+    .arrows{
+        display: none;
+    }
+
+    .responsive_numbering_card{
+        display: block;
+    }
+
+    .desktop_numbering_card{
+        display: none;
+    }
+
+    .How_we_work_sub{
+        margin: 10px 20px 10px 20px;
+    }
+}
+
+/* @media only screen and (max-width: 1430px){
+    .How_we_work_main{
+        margin: 0 8% 0 8%;
+    }
+} */
+
+@media only screen and (min-width: 1450px){
+    .How_we_work_main{
+        margin: 0 8% 0 8%;
+    }
+}
+@media only screen and (min-width: 1480px){
+    .How_we_work_main{
+        margin: 0 8% 0 8%;
+    }
+}
+@media only screen and (min-width: 1510px){
+    .How_we_work_main{
+        margin: 0 9% 0 9%;
+    }
+}
+@media only screen and (min-width: 1540px){
+    .How_we_work_main{
+        margin: 0 9% 0 9%;
+    }
+}
+@media only screen and (min-width: 1570px){
+    .How_we_work_main{
+        margin: 0 10% 0 10%;
+    }
+}
+@media only screen and (min-width: 1600px){
+    .How_we_work_main{
+        margin: 0 11% 0 11%;
+    }
+}
+@media only screen and (min-width: 1630px){
+    .How_we_work_main{
+        margin: 0 12% 0 12%;
+    }
+}
+@media only screen and (min-width: 1660px){
+    .How_we_work_main{
+        margin: 0 12% 0 12%;
+    }
+}
+@media only screen and (min-width: 1700px){
+    .How_we_work_main{
+        margin: 0 13% 0 13%;
+    }
+}

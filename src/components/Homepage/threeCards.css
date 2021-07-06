@@ -1,0 +1,382 @@
+
+
+
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > div.step_card_details_two{
+    text-align: start;  
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .one12::before{
+    content: "HiTech Developers Ltd.";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .one22::before{
+    content: "Palak Jewellers";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .one32::before{
+    content: "Laxmi Organic ltd.";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .one42::before{
+    content: "Micra Ltd.";   
+}
+
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .step_card_details_two{
+    background-color: white; 
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .step_card_details_one{
+    background-color: white; 
+}
+
+/* second card */
+
+.three_steps_sub:hover div.step_card > div.step_card_title > div > .date::after{
+    content: " : 20/03/2021";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_title > div > .time::after{
+    content: " : 01:30 pm";   
+}
+
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .two21::before{
+    content: "Magna Industries";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .two22::before{
+    content: "Star Booking Ltd.";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .two23::before{
+    content: "Ram Chem & Fert.";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .two24::before{
+    content: "Laxmi Exports";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .two11::before{
+    content: "1";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .two12::before{
+    content: "2";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .two13::before{
+    content: "3";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .two14::before{
+    content: "4";   
+}
+
+/* third card */
+.three_steps_sub:hover div.step_card > div.step_card_title > div.step_details_time > div.auction_end_time::after{
+    content: " : 05:00 pm";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_title > div.step_details_time > div.auction_end_date::after{
+    content: " : 25/03/2021";   
+}
+
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .three{
+    display: flex;  
+    justify-content: space-between;
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .three12 > .supplier::before{
+    content: "Manju Drugs & Org.";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .three22 > .supplier::before{
+    content: "Grand Pharma Ltd.";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .three32 > .supplier::before{
+    content: "Lekha Infrastruct";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .three42 > .supplier::before{
+    content: "Hanumant Agro-Organics";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .three11::before{
+    content: "1";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .three21::before{
+    content: "2";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .three31::before{
+    content: "3";   
+}
+.three_steps_sub:hover div.step_card > div.step_card_details > div.step_card_details_grey > .three41::before{
+    content: "4";   
+}
+
+
+/* automatic display of cards */
+
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > div.step_card_details_two{
+    text-align: start;  
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .one12::before{
+    content: "HiTech Developers Ltd.";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .one22::before{
+    content: "Palak Jewellers";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .one32::before{
+    content: "Laxmi Organic ltd.";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .one42::before{
+    content: "Micra Ltd.";   
+}
+
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .step_card_details_two{
+    background-color: white; 
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .step_card_details_one{
+    background-color: white; 
+}
+
+/* second card */
+
+.automatic div.step_card > div.step_card_title > div > .date::after{
+    content: " : 20/03/2021";   
+}
+.automatic div.step_card > div.step_card_title > div > .time::after{
+    content: " : 01:30 pm";   
+}
+
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .two21::before{
+    content: "Magna Industries";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .two22::before{
+    content: "Star Booking Ltd.";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .two23::before{
+    content: "Ram Chem & Fert.";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .two24::before{
+    content: "Laxmi Exports";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .two11::before{
+    content: "1";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .two12::before{
+    content: "2";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .two13::before{
+    content: "3";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .two14::before{
+    content: "4";   
+}
+
+/* third card */
+.automatic div.step_card > div.step_card_title > div.step_details_time > div.auction_end_time::after{
+    content: " : 05:00 pm";   
+}
+.automatic div.step_card > div.step_card_title > div.step_details_time > div.auction_end_date::after{
+    content: " : 25/03/2021";   
+}
+
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .three{
+    display: flex;  
+    justify-content: space-between;
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .three12 > .supplier::before{
+    content: "Manju Drugs & Org.";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .three22 > .supplier::before{
+    content: "Grand Pharma Ltd.";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .three32 > .supplier::before{
+    content: "Lekha Infrastruct";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .three42 > .supplier::before{
+    content: "Hanumant Agro-Organics";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .three11::before{
+    content: "1";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .three21::before{
+    content: "2";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .three31::before{
+    content: "3";   
+}
+.automatic div.step_card > div.step_card_details > div.step_card_details_grey > .three41::before{
+    content: "4";   
+}
+
+
+
+
+.three_steps_main{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 5% 0;
+}
+.three_steps_sub{
+    margin: 20px;
+    width: 350px;
+}
+.three_steps_sub_res{
+    margin: 20px;
+    width: 350px;
+}
+.borderr{
+    border-left: 2px solid rgb(197, 197, 197);
+    padding-left: 10px;
+    margin-left: 5px;
+}
+.step_heading > .fa{
+   margin-right: 10px;
+    
+}
+.step_heading {
+    font-size: 18px;    
+}
+.step_details{
+    margin-left: 12px;
+    height: 60px;
+    font-size: 15px;
+}
+.step_card{
+    margin: 10px;
+    padding: 10px;
+    height: 235px;
+    -moz-box-shadow: 0 0 10px #999;
+    -webkit-box-shadow: 0 0 10px #999;
+    box-shadow: 0 0 10px #999;
+
+}
+.step_card:hover{
+    -moz-box-shadow: 0 0 20px #999;
+    -webkit-box-shadow: 0 0 20px #999;
+    box-shadow: 0 0 20px #999;
+}
+
+.step_card_title{
+    height: 60px;
+    font-size: 15px;
+}
+.step_card_title > div > div{
+    font-size: 12px;
+}
+.step_card_details{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.step_card_details > .step_card_details_grey > .step_card_details_two{
+    font-size: 12px;
+    text-align: end;
+}
+.step_card_details > .step_card_details_grey > .step_card_details_one{
+    display: flex;
+    font-size: 12px;
+}
+
+.step_card_details_one > div{
+    margin-right: 10px;
+}
+
+
+.step_card_details > div > div{
+    font-size: 10px;
+}
+
+.step_card_details_grey{
+    display: flex;
+    justify-content: space-between;
+}
+.step_card_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.step_card_details_one{
+    height: 15px;
+    width: 15px;
+    background-color: #dfdfdf;
+    margin: 5px;
+}
+.step_card_details_two{
+    height: 15px;
+    width: 200px;
+    background-color: #dfdfdf;
+    margin: 5px;
+}
+
+/* step card rank, supplier, saving title START */
+.step_card_details_grey_title{
+    display: flex;
+    font-size: 15px;
+}
+.step_card_details_one_title{
+    display: flex;
+    margin-right: 130px;
+}
+.step_card_details > div > div > div{
+    font-size: 12px;
+}
+
+/* step card rank, supplier, saving title END */
+
+
+.step_button{
+    background-color: #dfdfdf;
+    border-radius: 4px;
+    /* font-size: 15px; */
+}
+.step_details_time{
+    display: flex;
+    justify-content: space-between;
+}
+.step_details_price{
+    display: flex;
+}
+.step_details_price > .fa-arrow-right{
+    color: rgb(12, 173, 12);
+    margin: 1px 5px 0 5px;
+}
+
+.main_div_responsive{
+    display: none;
+}
+
+@media only screen and (max-width: 560px){
+    
+    .three_steps_main{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .three_steps_main{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        /* width: 500px; */
+    }
+
+    .three_steps_main > div:last-child{
+        padding-right: 20px;
+    }
+    /* .main_div_responsive{
+        display: flex;
+    } */
+    
+    .main_div_full_width{
+        display: none;
+    }
+
+    .step_card_details_one{
+        background-color: white;
+    }
+    .step_card_details_two{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .three_steps_sub_res{
+        width: 92%;
+    }
+    .step_heading {
+        font-size: 15px;    
+    }
+    .step_details{
+        font-size: 13px;
+        height: 50px;
+    }
+
+}
+
+@keyframes three_steps_main {
+    0% { left: 0; }
+    100% { left: -180%; }
+  }

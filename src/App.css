@@ -1,0 +1,13 @@
+body{
+  margin-top: 55px;
+}
+
+@media only screen and (max-width: 560px) {
+  .background_image{
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 60%;
+    height: auto;
+  }
+}

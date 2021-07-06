@@ -1,0 +1,91 @@
+/* .player-wrapper {
+    margin: 0 auto;
+    width: 50%;
+    
+}
+
+.react-player {
+  height: 800px;
+} */
+
+.video_main_div{
+  display: flex;
+  justify-content: center;
+  /* vertical-align: top; */
+  /* flex-direction: unset; */
+}
+
+
+.modal_request_demo_button{
+  background-color: #ff0000!important;
+  color: white;
+  border: none;
+  font-size: 25px;
+}
+.modal_buttons:hover{
+  background-color: #008ed9!important;
+  color: black;
+}
+
+.close_button_request_demo > button:hover{
+  background-color: white;
+}
+
+.player-wrapper {
+  position: relative;
+  /* margin-left: 10%; */
+  height: 150%;
+  padding-top: 30% ;
+  padding-right: 0% ;
+  padding-bottom: -500px;
+  margin-bottom: -12%;
+  /* Player ratio: 100 / (1280 / 720) */
+  /* margin-top: 5%; */
+  /* margin-bottom: 5%; */
+  flex: 1;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  height: 70%;
+  width: 80%;
+  /* height: 100px; */
+}
+
+.signup{
+  margin: 15% 10% 10% 0;
+  height: 30%;
+}
+
+@media only screen and (max-width: 560px){
+  .video_main_div{
+    display: block;
+  }
+
+  .signup{
+    text-align: center;  
+/* border: 7px solid red;   */
+/* width: 300px;  
+height: 200px;   */
+padding-top: 20%;  
+margin: 0;
+    /* height: 30%; */
+    
+  }
+
+  .modal_buttons{
+    font-size: 15px;
+  }
+
+  .react-player{
+    left: 10%;
+  }
+}
+
+@media only screen and (min-width: 1350px){
+  .video_main_div{
+    margin-top: -100px;
+  }
+}

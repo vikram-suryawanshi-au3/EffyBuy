@@ -1,0 +1,156 @@
+.shipment_main_div{
+    background-color: #ebebeb;
+    padding: 10px!important;
+}
+
+/* .shipment_div{
+    margin-top: 80px!important;
+} */
+
+.shipment_div, .package_div, .weight_div{
+    /* border: 5px solid; */
+    margin: 15px 15px 15px 15px;
+    padding: 20px;
+    background-color: white;
+    -moz-box-shadow: 0 0 10px #999;
+    -webkit-box-shadow: 0 0 10px #999;
+    box-shadow: 0 0 10px #999;
+}
+
+.shipment_details_title, .package_details_title{
+    font-size: 30px;
+}
+
+.shipment_details_subtitle{
+    font-size: 15px;
+}
+
+.shipment_details{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.package_details{
+    display: flex;
+    justify-content: space-evenly;
+}
+.weight_details{
+    display: flex;
+    justify-content: space-around;
+}
+
+.weight_details > .dimensions > .MuiFormControl-root{
+    width: 100px!important;
+}
+
+.weight_details > .dimensions > span{
+    display: inline-block;
+    margin: 15px;
+}
+
+.weight_title_div_with_button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mappedButton{
+    display: flex;
+    justify-content: space-around;
+}
+
+.weight_detaild_sub_div{
+    margin-right: 50px;
+}
+
+.add_remove{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.package_details_second{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.upload_file_button{
+    margin-top: 30px;
+}
+.remove_button{
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+
+.weight_details{
+    display: flex;
+    justify-content: space-around;
+}
+
+.weight_details > .dimensions > .MuiFormControl-root{
+    width: 100px!important;
+}
+.weight_detaild_sub_div_weight > .MuiFormControl-root{
+    width: 120px!important;
+}
+
+.weight_details > .dimensions > span{
+    display: inline-block;
+    margin: 15px;
+}
+
+.weight_detaild_sub_div{
+    margin-right: 50px;
+}
+
+.weight_details{
+    margin-top: 20px;
+}
+
+.fontawesome_icon{
+    color: #4da8da;
+}
+
+@media only screen and (max-width: 740px){
+    .weight_details{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #f2f5fc;
+        margin-top: 20px;
+        padding: 10px
+    }
+
+    .weight_detaild_sub_div_weight > .MuiFormControl-root{
+        width: auto!important;
+    }
+}
+@media only screen and (max-width: 575px){
+    .shipment_details{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .shipment_details > div{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .package_details{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .package_details > div{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .package_details_second{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .package_details_second > div{
+        margin-top: 20px;
+    }
+}

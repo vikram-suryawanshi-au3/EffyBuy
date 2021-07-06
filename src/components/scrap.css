@@ -1,0 +1,14 @@
+.scrap_weight_div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.scrap_span{
+    display: inline-block;
+    margin: 15px 10px 10px 10px;
+}
+
+.scrap_dimension_div{
+    display: flex;
+    justify-content: center;
+}

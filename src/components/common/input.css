@@ -1,0 +1,20 @@
+.weight_details{
+    display: flex;
+    justify-content: space-around;
+}
+
+.weight_details > .dimensions > .MuiFormControl-root{
+    width: 100px!important;
+}
+.weight_detaild_sub_div_weight > .MuiFormControl-root{
+    width: 120px!important;
+}
+
+.weight_details > .dimensions > span{
+    display: inline-block;
+    margin: 15px;
+}
+
+.weight_detaild_sub_div{
+    margin-right: 50px;
+}

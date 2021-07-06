@@ -1,0 +1,41 @@
+.chatbot_main_div > .chatbot_whatsapp_div{
+    position: fixed;
+    left: 5%;
+    bottom: 5%;
+    z-index: 1000;
+}
+.chatbot_main_div > .chatbot_requestdemo_div{
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    z-index: 1000;
+}
+.chatbot_main_div > .chatbot_whatsapp_div > button{
+    border: none;
+    background-color: #25d366;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.chatbot_main_div > .chatbot_whatsapp_div > button:hover{
+    /* border: none; */
+    background-color: #008ed0;
+    /* border-radius: 15px;
+    font-size: 20px; */
+}
+
+.chatbot_main_div > .chatbot_whatsapp_div > button > a{
+    color: white!important;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 560px){
+    .chatbot_main_div > .chatbot_whatsapp_div > button > a > span{
+        display: none;
+    }
+
+    .chatbot_main_div > .chatbot_whatsapp_div > button{
+        border-radius: 25px;
+        /* font-size: 20px; */
+    }
+
+}

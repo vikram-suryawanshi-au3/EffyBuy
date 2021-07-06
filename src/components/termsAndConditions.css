@@ -1,0 +1,26 @@
+.Terms_and_conditions_main_div{
+    margin-top: 5%;
+}
+
+.Terms_and_conditions_title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.Terms_and_conditions_updated{
+    font-size: 12px;
+    text-align: end;
+    margin-right: 5%;
+}
+
+.Terms_and_conditions_paragraph_div{
+    margin: 5%;
+}
+
+.Terms_and_conditions_points_div > ul > li{
+    font-size: 20px;
+    font-weight: bold;
+}
+.Terms_and_conditions_points_div {
+    margin: 5%;
+}

@@ -1,0 +1,63 @@
+.pricing_table_main_div {
+  width:100%;
+  max-width:1000px;
+  margin:0 auto;
+  padding-top: 50px;
+}
+
+table { border-collapse:collapse; table-layout:fixed; width:100%; }
+/* th { background:#F5F5F5} */
+th { background:#F5F5F5; }
+td, th {
+  height:53px
+}
+td,th { border:1px solid #DDD; padding:10px; empty-cells:show; }
+td,th {
+  text-align:left;
+}
+td+td, th+th {
+  text-align:center;
+}
+td.default {
+  display:table-cell;
+}
+.bg-purple {
+  border-top:3px solid #A32362;
+}
+.bg-blue {
+  border-top:3px solid #0097CF;
+}
+.sep {
+  background:#F5F5F5;
+  font-weight:bold;
+}
+
+.additional_cost{
+  font-weight: bold;
+  font-size: 12px;
+}
+.additional_cost > span{
+  font-size:12px; 
+  color:#2CA01C;
+}
+.txt-l { font-size:28px; font-weight:bold; }
+.txt-top { position:relative; top:-9px; left:-2px; }
+.tick { font-size:18px; color:#2CA01C; }
+.notick { font-size:18px; color:#ff0800; }
+.hide {
+  border:0;
+  background:none;
+}
+
+@media (max-width: 640px) {
+
+  .pricing_table_plans > tr > th{
+    font-size: 9px;
+    transform: rotate(-30deg);
+    /* height: 100px; */
+    background: none;
+    padding: 0;
+  }
+
+  .txt-l { font-size:20px;font-weight: bold; }
+}

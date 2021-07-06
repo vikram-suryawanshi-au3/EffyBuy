@@ -1,0 +1,45 @@
+
+
+.logo{
+    height: 30px;
+    margin-top: 5px;
+}
+
+.logo_title{
+    display: flex;
+}
+
+.navbar-brand{
+    margin-left: 5%;
+    color :#008ed9!important;
+}
+
+.navbar > a{
+    text-decoration: none!important;
+}
+
+.bg-dark {
+    background-color: #12232e!important;
+}
+
+.nav-link{
+    color :#008ed9!important;
+    font-size: large;
+}
+
+.nav-link:hover{
+    color :black!important
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item{
+    margin-left: 3%;
+}
+
+/* .navbar{
+    border-bottom: 1px solid rgb(212, 212, 212);
+} */

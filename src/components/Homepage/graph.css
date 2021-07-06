@@ -1,0 +1,170 @@
+.chart_main{
+    background-color: #f2f5fc;
+    /* padding-bottom: 2%; */
+    margin: 10% 0% 5% 0%;
+    padding: 4% 0% 4% 0%;
+}
+
+.impact_title{
+    border-left: #008ed9 solid 15px;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-left: 15px;
+    margin-bottom: 2%;
+}
+
+.chart{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title_one{
+    text-align: center;
+    font-size: 45px;
+    /* text-decoration: underline;
+    text-decoration-color: red; */
+}
+.title_two{
+    text-align: center;
+    font-size: 30px;
+}
+
+.chart_footer_one{
+    text-align: center;
+    font-size: 10px;
+}
+.chart_footer_two{
+    text-align: center;
+    font-size: 10px;
+}
+
+.MuiSlider-thumb:not(.MuiSlider-active) {
+    transition: left 0.5s ease-in;
+}
+
+.MuiSlider-track {
+transition: width 0.5s ease-in;
+}
+
+.percentage_div{
+    width: 30%;
+    /* margin: auto 0; */
+    /* text-align: center; */
+    /* display: flex;
+    justify-content: center; */
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.typography{
+    text-align: center;
+}
+
+.asd{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 90px; */
+}
+
+.percentagemark{
+    font-size: 40px;
+    margin: auto 0;
+    margin-left: 10px;
+}
+
+/* .chartjs-render-monitor{
+    width: 100%!important;
+    height: 500px!important;
+} */
+
+/* MuiTypography-root typography MuiTypography-body1  */
+.MuiTypography-gutterBottom{
+    margin-top: -1.2rem!important;
+    font-size: 15px!important;
+    /* text-align: center!important; */
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.excel_calculations{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bar_horizontal_line{
+    display: none;
+}
+
+@media only screen and (max-width: 560px){
+    .chart{
+        display: block;
+        /* justify-content: space-evenly; */
+    }
+
+    .impact_title{
+        font-size: x-large;
+        border-left: #4885ed 8px solid;
+        padding-left: 5px;
+        margin-left: 2%;
+    }
+
+    /* .bar{
+        width: 90%;
+        height: 500px;
+    } */
+
+    .chartjs-render-monitor{
+        width: 100%!important;
+    }
+
+    .percentage_div{
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .asd{
+        margin-top: 0;
+    }
+
+    .title_one{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .title_two{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .bar{
+        /* border: 2px dotted black; */
+        border-radius: 5%;
+        padding: 10px 0 10px 0;
+        margin: 20px 5px 0 5px;
+    }
+
+    .bar_horizontal_line{
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .percentage_div > .asd{
+        margin: 20px 0 20px 0;
+    }
+
+    .chart_footer_one{
+        font-size: 7px;
+    }
+    .chart_footer_two{
+        font-size: 7px;
+    }
+    .chart_main{
+        border: 2px solid rgb(189, 189, 189);
+        border-radius: 10px;
+        /* margin: 5px; */
+        padding: 3px;
+    }
+}

@@ -23,7 +23,7 @@ export default class Video extends Component {
                     width='80%'
                     height='112%'
                     controls={true}
-                    light={true}
+                    // light={true}
                     />
                   {/* <iframe style={{width:'100%',height:'50%'}} src="https://www.youtube.com/embed/xpwm75uZQBs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
                 {/* </div> */}

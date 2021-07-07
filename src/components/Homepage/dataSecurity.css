@@ -33,6 +33,7 @@
 .data_security_points_div > div{
     display: flex;
     margin: 5%;
+    text-align: center;
     /* width: 20%; */
     /* justify-content: space-around; */
 }

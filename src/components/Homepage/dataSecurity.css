@@ -58,6 +58,7 @@
     .data_security_points_div > div{
         font-size: 9px;
         width: 130px;
+        text-align: start;
         /* margin: 5px; */
     }
     

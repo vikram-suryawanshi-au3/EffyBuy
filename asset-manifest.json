@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/EffyBuy/static/css/main.1a59afdd.chunk.css",
-    "main.js": "/EffyBuy/static/js/main.dd8e1ade.chunk.js",
-    "main.js.map": "/EffyBuy/static/js/main.dd8e1ade.chunk.js.map",
+    "main.css": "/EffyBuy/static/css/main.407792b5.chunk.css",
+    "main.js": "/EffyBuy/static/js/main.ff5a9e63.chunk.js",
+    "main.js.map": "/EffyBuy/static/js/main.ff5a9e63.chunk.js.map",
     "runtime-main.js": "/EffyBuy/static/js/runtime-main.13fb5431.js",
     "runtime-main.js.map": "/EffyBuy/static/js/runtime-main.13fb5431.js.map",
     "static/css/2.fd0c640a.chunk.css": "/EffyBuy/static/css/2.fd0c640a.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.16f1698b.chunk.js.map": "/EffyBuy/static/js/3.16f1698b.chunk.js.map",
     "index.html": "/EffyBuy/index.html",
     "static/css/2.fd0c640a.chunk.css.map": "/EffyBuy/static/css/2.fd0c640a.chunk.css.map",
-    "static/css/main.1a59afdd.chunk.css.map": "/EffyBuy/static/css/main.1a59afdd.chunk.css.map",
+    "static/css/main.407792b5.chunk.css.map": "/EffyBuy/static/css/main.407792b5.chunk.css.map",
     "static/js/2.2ae65525.chunk.js.LICENSE.txt": "/EffyBuy/static/js/2.2ae65525.chunk.js.LICENSE.txt",
     "static/media/1621436901571.1fd701cd.png": "/EffyBuy/static/media/1621436901571.1fd701cd.png",
     "static/media/Banner_1.fc600eb7.jpg": "/EffyBuy/static/media/Banner_1.fc600eb7.jpg",
@@ -32,22 +32,22 @@
     "static/media/HomepageContent.css": "/EffyBuy/static/media/Wall_E_dollar.c2f7fe6f.jpg",
     "static/media/about_us.124994e2.png": "/EffyBuy/static/media/about_us.124994e2.png",
     "static/media/anup_agarwal.a216f997.jpg": "/EffyBuy/static/media/anup_agarwal.a216f997.jpg",
-    "static/media/five.fd93d227.svg": "/EffyBuy/static/media/five.fd93d227.svg",
-    "static/media/four.d81f588e.svg": "/EffyBuy/static/media/four.d81f588e.svg",
     "static/media/jebanesan.89ea8af7.jpg": "/EffyBuy/static/media/jebanesan.89ea8af7.jpg",
     "static/media/kondaas.12ada7fa.jpeg": "/EffyBuy/static/media/kondaas.12ada7fa.jpeg",
-    "static/media/one.97c27fdb.svg": "/EffyBuy/static/media/one.97c27fdb.svg",
     "static/media/parthiban.a7080000.jpeg": "/EffyBuy/static/media/parthiban.a7080000.jpeg",
     "static/media/saving2.49e9ff73.svg": "/EffyBuy/static/media/saving2.49e9ff73.svg",
     "static/media/setting3.4ee81734.svg": "/EffyBuy/static/media/setting3.4ee81734.svg",
-    "static/media/three.a793a522.svg": "/EffyBuy/static/media/three.a793a522.svg",
-    "static/media/two.1a7b1650.svg": "/EffyBuy/static/media/two.1a7b1650.svg"
+    "static/media/test_five.8dea0a81.svg": "/EffyBuy/static/media/test_five.8dea0a81.svg",
+    "static/media/test_four.c57b2e83.svg": "/EffyBuy/static/media/test_four.c57b2e83.svg",
+    "static/media/test_one.aa93ff16.svg": "/EffyBuy/static/media/test_one.aa93ff16.svg",
+    "static/media/test_three.2d8d10bd.svg": "/EffyBuy/static/media/test_three.2d8d10bd.svg",
+    "static/media/test_two.63b41ce1.svg": "/EffyBuy/static/media/test_two.63b41ce1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.13fb5431.js",
     "static/css/2.fd0c640a.chunk.css",
     "static/js/2.2ae65525.chunk.js",
-    "static/css/main.1a59afdd.chunk.css",
-    "static/js/main.dd8e1ade.chunk.js"
+    "static/css/main.407792b5.chunk.css",
+    "static/js/main.ff5a9e63.chunk.js"
   ]
 }

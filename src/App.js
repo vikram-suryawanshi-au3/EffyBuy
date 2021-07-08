@@ -10,11 +10,11 @@ import Shipment from './components/Shipment'
 import Scrap from './components/Scrap'
 import Aboutus from './components/Aboutus'
 import Calc from './components/Homepage/calc'
-import Review from './components/Homepage/Review.js'
+// import Review from './components/Homepage/Review.js'
 import TermsAndConditions from './components/TermsAndConditions'
 import PrivacyPolicy from './components/PrivacyPolicy'
 
-import { Switch, Route, Redirect, useLocation,HashRouter } from "react-router-dom";
+import { Switch, Route, Redirect, useLocation } from "react-router-dom";
 
 // ReactGA.initialize("UA-177572023-1")
 

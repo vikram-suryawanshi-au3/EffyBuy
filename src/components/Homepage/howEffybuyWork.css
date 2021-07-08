@@ -58,7 +58,7 @@
 .How_effybuy_works_step_description_image{
     height: 150px;
     width: 150px;
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
     border-radius: 10px;
     align-items: center;
     margin: 0 auto;

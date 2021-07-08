@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import 'swiper/swiper-bundle.css';
 import './HomepageContent.css'
 import ProblemsWeSolve from './Homepage/ProblemsWeSolve'
-import Calculations from './Homepage/Calculations'
+// import Calculations from './Homepage/Calculations'
 import Calc from './Homepage/calc'
-import ThreeCards from './Homepage/ThreeCards'
-import HowWeWork from './Homepage/HowWeWork'
+// import ThreeCards from './Homepage/ThreeCards'
+// import HowWeWork from './Homepage/HowWeWork'
 import HowEffybuyWork from './Homepage/HowEffybuyWork'
 import Chatbot from './Homepage/Chatbot.js'
 import Whyus from './Homepage/Whyus'
@@ -16,8 +16,8 @@ import Swiper, { Navigation }  from 'swiper'
 import $ from "jquery"
 import banner from '../icons/Banner_final.jpg'
 import res_banner from '../icons/Banner_1.jpg'
-import rightLeaf from '../icons/right_leaf.png'
-import LeftLeaf from '../icons/left_leaf.png'
+// import rightLeaf from '../icons/right_leaf.png'
+// import LeftLeaf from '../icons/left_leaf.png'
 import MRP from '../icons/Customer reviews/MRP.jpeg'
 import Kondaas from '../icons/Customer reviews/kondaas.jpeg'
 import minutes from '../icons/saving2.svg'
@@ -84,8 +84,8 @@ export default class HomapageContent extends Component {
 
 
             // alert(typeof(location))
-            let tmp = this.state.tmp
-            let tmp2 = this.state.tmp1
+            // let tmp = this.state.tmp
+            // let tmp2 = this.state.tmp1
             let edit = this.state.edit
             let THIS = this
 

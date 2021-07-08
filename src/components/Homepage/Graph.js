@@ -366,6 +366,7 @@ export default class Graph extends Component {
                                         '#cccccc'],
                                         borderWidth: 3,
                                         borderSkipped:'top',
+                                        barPercentage: 0.2,
                                     }
                                 ]
                         }}
@@ -379,7 +380,7 @@ export default class Graph extends Component {
                             // cornerRadius: 100,
                             scales: {
                                 yAxes: [{stacked: true,
-                                    barPercentage: 0.2,
+                                    // barPercentage: 0.2,
                                     ticks: {
                                         autoSkip: false,
                                     fontSize:15,
@@ -457,7 +458,8 @@ export default class Graph extends Component {
                                         '#cccccc'],
                                         borderWidth: 3,
                                         borderSkipped:'top',
-                                    }
+                                        barPercentage: 0.2,
+                                    },
                                 ],
                         }}
                         width={500}
@@ -469,7 +471,7 @@ export default class Graph extends Component {
                             
                             scales: {
                                 yAxes: [{stacked: true,
-                                    barPercentage: 0.2,
+                                    // barPercentage: 0.2,
                                     ticks: {
                                         autoSkip: false,
                                         fontSize:15,

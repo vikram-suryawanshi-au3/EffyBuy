@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
 import './howEffybuyWork.css'
+import DefineItem from "../../icons/How effy buy works/one.svg"
+import DefineSuppliers from "../../icons/How effy buy works/two.svg"
+import DefineAuction from "../../icons/How effy buy works/three.svg"
+import MonitorAuction from "../../icons/How effy buy works/four.svg"
+import ImplementResult from "../../icons/How effy buy works/five.svg"
 
 export default class HowEffybuyWork extends Component {
     state={
@@ -62,7 +67,7 @@ export default class HowEffybuyWork extends Component {
                                 Create or upload<br/>your purchase items.
                             </div>
                             <div className="How_effybuy_works_step_description_image">
-
+                                <img src={DefineItem} alt="DefineItem"></img>
                             </div>
                         </div>
                     </div>
@@ -79,7 +84,7 @@ export default class HowEffybuyWork extends Component {
                                 Create/upload supplier<br/>for bidding process.
                             </div>
                             <div className="How_effybuy_works_step_description_image">
-
+                                <img src={DefineSuppliers} alt="DefineSuppliers"></img>
                             </div>
                         </div>
                     </div>
@@ -98,7 +103,7 @@ export default class HowEffybuyWork extends Component {
                             <div className="How_effybuy_works_step_description" dangerouslySetInnerHTML={{__html: this.state.description}}>
                             </div>
                             <div className="How_effybuy_works_step_description_image">
-
+                                <img src={DefineAuction} alt="DefineAuction"></img>
                             </div>
                         </div>
                     </div>
@@ -115,7 +120,7 @@ export default class HowEffybuyWork extends Component {
                                 Monitor and control the<br/>auction-in-process.
                             </div>
                             <div className="How_effybuy_works_step_description_image">
-
+                                <img src={MonitorAuction} alt="MonitorAuction"></img>
                             </div>
                         </div>
                     </div>
@@ -151,7 +156,7 @@ export default class HowEffybuyWork extends Component {
                             <div className="How_effybuy_works_step_description" dangerouslySetInnerHTML={{__html: this.state.description2}}>
                             </div>
                             <div className="How_effybuy_works_step_description_image">
-
+                                <img src={ImplementResult} alt="ImplementResult"></img>
                             </div>
                         </div>
                     </div>

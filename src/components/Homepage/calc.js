@@ -4,6 +4,8 @@ import Typography from '@material-ui/core/Typography';
 import Slider from '@material-ui/core/Slider';
 import './calc.css'
 import StarRatings from 'react-star-ratings';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFrown, faMeh, faSmile, faSmileBeam} from '@fortawesome/free-regular-svg-icons'
 // import Button from '@material-ui/core/Button';
 
 
@@ -44,6 +46,7 @@ export default function RangeSlider() {
 
   const [crore, setCrore] = React.useState("Cr");
   const [lakh, setLakh] = React.useState("lakh");
+  const [emoji, setEmoji] = React.useState(faSmile);
   const [currancy, setCurrancy] = React.useState("₹");
 
   const handleChange = (event, newValue) => {
@@ -145,6 +148,15 @@ export default function RangeSlider() {
   const changeRating = (newRating) => {
     // console.log(newRating)
     setRating(newRating);
+    if(newRating <=2 ){
+      setEmoji(faFrown)
+    }else if(newRating > 2 && newRating < 5 ){
+      setEmoji(faMeh)
+    }else if(newRating > 4 && newRating < 9 ){
+      setEmoji(faSmile)
+    }else{
+      setEmoji(faSmileBeam)
+    }
   };
   const calculate = () => {
     // console.log(newRating)
@@ -259,6 +271,7 @@ export default function RangeSlider() {
         <div className="calculation_calculate_button_div">
           <div>
             <i className="fa fa-plus-circle fa-2x" aria-hidden="true"></i>
+            
           </div>
           <br className="calculation_break"/>
           <br className="calculation_break"/>
@@ -275,7 +288,8 @@ export default function RangeSlider() {
           </div>
           <div>
             <br className="calculation_break"/>
-            <i className="fa fa-smile-o fa-2x" aria-hidden="true"></i>
+            {/* <i className="fa fa-smile-o fa-2x" aria-hidden="true"></i> */}
+            <FontAwesomeIcon icon={emoji} size="3x"/>
             <br className="calculation_break"/>
             <br className="calculation_break"/>
             

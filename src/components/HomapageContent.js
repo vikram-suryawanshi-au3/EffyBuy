@@ -27,6 +27,7 @@ import StarRatings from 'react-star-ratings';
 // import { Modal, Button } from "react-bootstrap";
 // import Typing from 'react-typing-animation';
 const infos = ["$","₹","€","¥"];
+let desktopBanner = "https://ibb.co/pwV4ttb"
 
 Swiper.use([Navigation])
 
@@ -167,7 +168,7 @@ export default class HomapageContent extends Component {
                     
                     <div>
 
-                    <img className="background_image desktop_banner" src={banner} alt="background_image"></img>
+                    <img className="background_image desktop_banner" src="https://i.ibb.co/024Yggm/Banner-final.jpg" alt="background_image"></img>
                     <div id="typing">
                         <p className='typewriter'>
                             <span className='typewriter-text' data-text='[ 

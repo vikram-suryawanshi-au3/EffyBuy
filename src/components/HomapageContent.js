@@ -14,8 +14,8 @@ import Video from './Homepage/Video'
 import DataSecurity from './Homepage/DataSecurity'
 import Swiper, { Navigation }  from 'swiper'
 import $ from "jquery"
-import banner from '../icons/Banner_final.jpg'
-import res_banner from '../icons/Banner_1.jpg'
+// import banner from '../icons/Banner_final.jpg'
+// import res_banner from '../icons/Banner_1.jpg'
 // import rightLeaf from '../icons/right_leaf.png'
 // import LeftLeaf from '../icons/left_leaf.png'
 import MRP from '../icons/Customer reviews/MRP.jpeg'
@@ -27,7 +27,6 @@ import StarRatings from 'react-star-ratings';
 // import { Modal, Button } from "react-bootstrap";
 // import Typing from 'react-typing-animation';
 const infos = ["$","₹","€","¥"];
-let desktopBanner = "https://ibb.co/pwV4ttb"
 
 Swiper.use([Navigation])
 
@@ -178,7 +177,7 @@ export default class HomapageContent extends Component {
                     </div>
                     </div>
                     <div>
-                    <img className="background_image responsive_banner" src={res_banner} alt="background_image"></img>
+                        <img className="background_image responsive_banner" src="https://i.ibb.co/4YFs1ht/Banner-1.jpg" alt="background_image"></img>
                     </div>
 
                     <div className="currancy_symbol">

@@ -62,7 +62,7 @@ export default class Footer extends Component {
                         <div className="footer_sub_first_social">
                             <div>Follow us : </div>
                             {/* <Link to='/EffyBuy/shipment'> */}
-                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/effybuy/">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/effybuysocial/">
                                 <div>
                                     <img alt="" src={instagram} className="social_icon instagram"></img>
                                 </div>

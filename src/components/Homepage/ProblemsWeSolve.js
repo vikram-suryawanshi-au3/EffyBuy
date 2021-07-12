@@ -17,11 +17,11 @@ import Invisibility_Department from '../../icons/Problems we solve/Invisibility_
 import Negotiation_skills from '../../icons/Problems we solve/Negotiation_skills.svg'
 import Reducing_buying_cost from '../../icons/Problems we solve/Reducing_buying_cost.svg'
 
-import Efficient_buying_process_img from '../../icons/Illustrator/Effecient_buying_process.png'
-import Expensive_procurement_tools_img from '../../icons/Illustrator/Expensive_procurement_tools.png'
-import Invisibility_Department_img from '../../icons/Illustrator/Lack_of_visibility_in_sourcing_department.png'
-import Negotiation_skills_img from '../../icons/Illustrator/Negotation_skill.png'
-import Reducing_buying_cost_img from '../../icons/Illustrator/Reduce_buying_cost.png'
+import Efficient_buying_process_img from '../../icons/Illustrator/Effecient_buying_process.webp'
+import Expensive_procurement_tools_img from '../../icons/Illustrator/Expensive_procurement_tools.webp'
+import Invisibility_Department_img from '../../icons/Illustrator/Lack_of_visibility_in_sourcing_department.webp'
+import Negotiation_skills_img from '../../icons/Illustrator/Negotation_skill.webp'
+import Reducing_buying_cost_img from '../../icons/Illustrator/Reduce_buying_cost.webp'
 
 // Import Swiper styles
 import 'swiper/swiper-bundle.css';

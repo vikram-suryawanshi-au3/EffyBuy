@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/EffyBuy/static/css/main.fa53aaee.chunk.css",
-    "main.js": "/EffyBuy/static/js/main.e3be6d89.chunk.js",
-    "main.js.map": "/EffyBuy/static/js/main.e3be6d89.chunk.js.map",
+    "main.js": "/EffyBuy/static/js/main.e6471b98.chunk.js",
+    "main.js.map": "/EffyBuy/static/js/main.e6471b98.chunk.js.map",
     "runtime-main.js": "/EffyBuy/static/js/runtime-main.13fb5431.js",
     "runtime-main.js.map": "/EffyBuy/static/js/runtime-main.13fb5431.js.map",
     "static/css/2.fd0c640a.chunk.css": "/EffyBuy/static/css/2.fd0c640a.chunk.css",
@@ -15,8 +15,8 @@
     "static/css/main.fa53aaee.chunk.css.map": "/EffyBuy/static/css/main.fa53aaee.chunk.css.map",
     "static/js/2.a7bda9d7.chunk.js.LICENSE.txt": "/EffyBuy/static/js/2.a7bda9d7.chunk.js.LICENSE.txt",
     "static/media/1621436901571.1fd701cd.png": "/EffyBuy/static/media/1621436901571.1fd701cd.png",
-    "static/media/Banner_1.fc600eb7.jpg": "/EffyBuy/static/media/Banner_1.fc600eb7.jpg",
-    "static/media/Banner_final.00db6fbe.jpg": "/EffyBuy/static/media/Banner_final.00db6fbe.jpg",
+    "static/media/Banner_1.d1859d2c.webp": "/EffyBuy/static/media/Banner_1.d1859d2c.webp",
+    "static/media/Banner_final.5d8af102.webp": "/EffyBuy/static/media/Banner_final.5d8af102.webp",
     "static/media/Effecient_buying_process.3d128367.webp": "/EffyBuy/static/media/Effecient_buying_process.3d128367.webp",
     "static/media/Efficient_buying_process.4019639b.svg": "/EffyBuy/static/media/Efficient_buying_process.4019639b.svg",
     "static/media/Expensive_procurement_tools.20266236.svg": "/EffyBuy/static/media/Expensive_procurement_tools.20266236.svg",
@@ -28,26 +28,26 @@
     "static/media/Negotiation_skills.30ad9e04.svg": "/EffyBuy/static/media/Negotiation_skills.30ad9e04.svg",
     "static/media/Reduce_buying_cost.34518f7c.webp": "/EffyBuy/static/media/Reduce_buying_cost.34518f7c.webp",
     "static/media/Reducing_buying_cost.e801c2b0.svg": "/EffyBuy/static/media/Reducing_buying_cost.e801c2b0.svg",
-    "static/media/Rupee1.451f2792.svg": "/EffyBuy/static/media/Rupee1.451f2792.svg",
+    "static/media/Rupee1.fcd0e783.svg": "/EffyBuy/static/media/Rupee1.fcd0e783.svg",
     "static/media/HomepageContent.css": "/EffyBuy/static/media/Wall_E_dollar.c2f7fe6f.jpg",
     "static/media/about_us.124994e2.png": "/EffyBuy/static/media/about_us.124994e2.png",
     "static/media/anup_agarwal.a216f997.jpg": "/EffyBuy/static/media/anup_agarwal.a216f997.jpg",
     "static/media/jebanesan.89ea8af7.jpg": "/EffyBuy/static/media/jebanesan.89ea8af7.jpg",
     "static/media/kondaas.12ada7fa.jpeg": "/EffyBuy/static/media/kondaas.12ada7fa.jpeg",
     "static/media/parthiban.a7080000.jpeg": "/EffyBuy/static/media/parthiban.a7080000.jpeg",
-    "static/media/saving2.49e9ff73.svg": "/EffyBuy/static/media/saving2.49e9ff73.svg",
-    "static/media/setting3.4ee81734.svg": "/EffyBuy/static/media/setting3.4ee81734.svg",
-    "static/media/test_five.8dea0a81.svg": "/EffyBuy/static/media/test_five.8dea0a81.svg",
-    "static/media/test_four.c57b2e83.svg": "/EffyBuy/static/media/test_four.c57b2e83.svg",
-    "static/media/test_one.aa93ff16.svg": "/EffyBuy/static/media/test_one.aa93ff16.svg",
-    "static/media/test_three.2d8d10bd.svg": "/EffyBuy/static/media/test_three.2d8d10bd.svg",
-    "static/media/test_two.63b41ce1.svg": "/EffyBuy/static/media/test_two.63b41ce1.svg"
+    "static/media/saving2.419a5238.svg": "/EffyBuy/static/media/saving2.419a5238.svg",
+    "static/media/setting3.cfa5e20d.svg": "/EffyBuy/static/media/setting3.cfa5e20d.svg",
+    "static/media/test_five.567bfc80.svg": "/EffyBuy/static/media/test_five.567bfc80.svg",
+    "static/media/test_four.5c6808a9.svg": "/EffyBuy/static/media/test_four.5c6808a9.svg",
+    "static/media/test_one.cb5ff52d.svg": "/EffyBuy/static/media/test_one.cb5ff52d.svg",
+    "static/media/test_three.f0d61faf.svg": "/EffyBuy/static/media/test_three.f0d61faf.svg",
+    "static/media/test_two.06722ba1.svg": "/EffyBuy/static/media/test_two.06722ba1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.13fb5431.js",
     "static/css/2.fd0c640a.chunk.css",
     "static/js/2.a7bda9d7.chunk.js",
     "static/css/main.fa53aaee.chunk.css",
-    "static/js/main.e3be6d89.chunk.js"
+    "static/js/main.e6471b98.chunk.js"
   ]
 }

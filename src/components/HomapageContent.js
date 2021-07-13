@@ -286,7 +286,7 @@ export default class HomapageContent extends Component {
                                     <div className="customer_review_sub">
                                     {/* <div className="inverted"> */}
                                     {/* </div> */}
-                                    <div className="customer_review_description">
+                                    {/* <div className="customer_review_description">
                                         <div style={{textAlign:"left"}}>
                                             <i className="fa fa-quote-left fa-2x" style={{color:"#cccccc"}} aria-hidden="true"></i> 
                                         </div>
@@ -294,19 +294,51 @@ export default class HomapageContent extends Component {
                                         both increase participation of suppliers and reduce our purchases cost. 
                                         EffyBuy solved the problem for us in a hassle free way.
                                         
-                                    </div>
+                                    </div> */}
 
-                                    <div className="customer_review_owner">
+                                    {/* <div className="customer_review_owner">
                                         <div className="customer_review_owner_image">
                                             <img className="aaa" src={MRP} alt="first_image"></img>
                                         </div>    
                                         <div className="customer_review_details">
                                             <div className="customer_review_name">
-                                                {/* Managing Director */}
                                                 Mr. Nikhil Sunil
                                             </div>
                                             <div className="customer_review_company"> 
                                                 Madras Radiators And Pressing Ltd.
+                                            </div>
+
+                                            <StarRatings
+                                                rating={5}
+                                                starRatedColor="#FDCC0D"
+                                                numberOfStars={5}
+                                                name='rating'
+                                                starDimension="12px"
+                                            />
+                                        </div>
+                                    </div> */}
+    <div className="customer_review_sub">
+                                    {/* <div className="inverted"> */}
+                                    {/* </div> */}
+                                    <div className="customer_review_description">
+                                        <div style={{textAlign:"left"}}>
+                                            <i className="fa fa-quote-left fa-2x" style={{color:"#cccccc"}} aria-hidden="true"></i> 
+                                        </div>
+                                        EffyBuy allows easy integration with portals.
+                                        It has easy to implement use cases and the guided workflows function 
+                                        smoothly. Their cloud solution and latest interface is amazing.
+                                    </div>
+
+                                    <div className="customer_review_owner">
+                                        <div className="customer_review_owner_image">
+                                            <img className="aaa" src={'https://i.pinimg.com/564x/3a/63/da/3a63da2ce8505e5d353d6509aa3e9e2b.jpg'} alt="first_image"></img>
+                                        </div>    
+                                        <div className="customer_review_details">
+                                            <div className="customer_review_name">
+                                                Mangesh K - Systems Executive
+                                            </div>
+                                            <div className="customer_review_company"> 
+                                                Enterprise 5001-10,000 employees
                                             </div>
 
                                             <StarRatings
@@ -320,6 +352,8 @@ export default class HomapageContent extends Component {
                                             />
                                         </div>
                                     </div>
+                                    </div>
+
 
                                 </div>
 

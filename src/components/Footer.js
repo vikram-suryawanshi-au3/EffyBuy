@@ -151,12 +151,12 @@ export default class Footer extends Component {
                         {/* <div className="footer_sub_third_direction">
                             Direction
                         </div> */}
-                        <Link to="/EffyBuy/TermsAndConditions">
+                        <Link target="_blank" rel="noreferrer" to="/EffyBuy/TermsAndConditions">
                             <div className="footer_sub_third_address">
                                 T&C
                             </div>
                         </Link>
-                        <Link to="/EffyBuy/privacyPolicy">
+                        <Link target="_blank" rel="noreferrer" to="/EffyBuy/privacyPolicy">
                         {/* <Link to="/EffyBuy/privacyPolicy" target="_blank" rel="noopener noreferrer"> */}
                             <div className="footer_sub_third_address">
                                 Privacy Policy

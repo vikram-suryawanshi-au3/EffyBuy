@@ -513,7 +513,7 @@ export default class Graph extends Component {
                 Expense saved in each department.
             </div> */}
             <div className="chart_footer_two">
-                Because generally purchase constitutes 50 to 60% of sales, salary 10 to 15%.
+                Because generally purchase constitutes 50 to 60% of sales.
             </div>
                 <div className="excel_calculations"> <a href="https://docs.google.com/spreadsheets/d/1yObupXbndKtsF0UFeOFI8XlvWgS8myE2k03PeP6NtNg/edit?usp=sharing" rel="noreferrer"  target="_blank">Click Here For Profitability Growth % Calculation</a></div>
             </div>

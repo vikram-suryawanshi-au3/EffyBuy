@@ -283,6 +283,41 @@ export default class HomapageContent extends Component {
                                         <p style={{fontSize: "14px"}}>Enterprise 5001-10,000 employees</p>
                                     </div> */}
 
+<div className="customer_review_sub">
+                                        <div className="customer_review_description">
+                                        <div style={{textAlign:"left"}}>
+                                            <i className="fa fa-quote-left fa-2x" style={{color:"#cccccc"}} aria-hidden="true"></i> 
+                                        </div>
+                                        {/* <br/> */}
+                                        EffyBuy allows easy integration and powerful automation which resulted in huge savings for us. 
+                                        We strongly recommend the use of 
+                                        this tool if you want to automate your procurement negotiations.
+                                        </div>
+                                        <div className="customer_review_owner">
+                                        <div className="customer_review_owner_image">
+                                            <img className="aaa" src={Kondaas} alt="first_image"></img>
+                                        </div>    
+                                        <div className="customer_review_details">
+                                            <div className="customer_review_name">
+                                                Sanjay
+                                            </div>
+                                            <div className="customer_review_company"> 
+                                                Kondaas automation Pvt Ltd.
+                                            </div>
+
+                                            <StarRatings
+                                                rating={5}
+                                                starRatedColor="#FDCC0D"
+                                                //   changeRating={(rating)=>{changeRating(rating)}}
+                                                numberOfStars={5}
+                                                name='rating'
+                                                //   starHoverColor="#FDCC0D"
+                                                starDimension="12px"
+                                            />
+                                        </div>
+                                    </div>
+                                    </div>
+
                                     <div className="customer_review_sub">
                                     {/* <div className="inverted"> */}
                                     {/* </div> */}
@@ -317,7 +352,12 @@ export default class HomapageContent extends Component {
                                             />
                                         </div>
                                     </div> */}
-    <div className="customer_review_sub">
+
+
+
+
+
+                                <div className="customer_review_sub">
                                     {/* <div className="inverted"> */}
                                     {/* </div> */}
                                     <div className="customer_review_description">
@@ -358,40 +398,7 @@ export default class HomapageContent extends Component {
                                 </div>
 
                                     
-                                    <div className="customer_review_sub">
-                                        <div className="customer_review_description">
-                                        <div style={{textAlign:"left"}}>
-                                            <i className="fa fa-quote-left fa-2x" style={{color:"#cccccc"}} aria-hidden="true"></i> 
-                                        </div>
-                                        {/* <br/> */}
-                                        EffyBuy allows easy integration and powerful automation which resulted in huge savings for us. 
-                                        We strongly recommend the use of 
-                                        this tool if you want to automate your procurement negotiations.
-                                        </div>
-                                        <div className="customer_review_owner">
-                                        <div className="customer_review_owner_image">
-                                            <img className="aaa" src={Kondaas} alt="first_image"></img>
-                                        </div>    
-                                        <div className="customer_review_details">
-                                            <div className="customer_review_name">
-                                                Sanjay
-                                            </div>
-                                            <div className="customer_review_company"> 
-                                                Kondaas automation Pvt Ltd.
-                                            </div>
-
-                                            <StarRatings
-                                                rating={5}
-                                                starRatedColor="#FDCC0D"
-                                                //   changeRating={(rating)=>{changeRating(rating)}}
-                                                numberOfStars={5}
-                                                name='rating'
-                                                //   starHoverColor="#FDCC0D"
-                                                starDimension="12px"
-                                            />
-                                        </div>
-                                    </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                             <div className="swiper-slide">

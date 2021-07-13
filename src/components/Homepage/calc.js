@@ -31,11 +31,11 @@ export default function RangeSlider() {
   // const [checked3, setChecked3] = React.useState(false);
 
   // const classes = useStyles();
-  const [value, setValue] = React.useState([6, 10]);
-  const [result, setResult] = React.useState([42, 70]);
-  const [value1] = React.useState([4, 5]);
-  const [value2] = React.useState([6, 10]);
-  const [value3] = React.useState([11, 15]);
+  const [value, setValue] = React.useState([10, 50]);
+  const [result, setResult] = React.useState([70, 350]);
+  const [value1] = React.useState([1, 10]);
+  const [value2] = React.useState([10, 50]);
+  const [value3] = React.useState([50, 100]);
   const [setChecked1] = React.useState(false);
   const [setChecked2] = React.useState(false);
   const [setChecked3] = React.useState(false);
@@ -50,15 +50,15 @@ export default function RangeSlider() {
   const [currancy, setCurrancy] = React.useState("₹");
 
   const handleChange = (event, newValue) => {
-    if(newValue===[4,5]){
+    if(newValue===[1,10]){
       setChecked1(true)
       setChecked2(false)
       setChecked3(false)
-    }else if(newValue===[6,10]){
+    }else if(newValue===[10,50]){
       setChecked1(false)
       setChecked2(true)
       setChecked3(false)
-    }else if(newValue===[11,15]){
+    }else if(newValue===[50,100]){
       setChecked1(false)
       setChecked2(false)
       setChecked3(true)
@@ -262,13 +262,13 @@ export default function RangeSlider() {
             valueLabelDisplay="on"
             aria-labelledby="range-slider"
             // getAriaValueText={valuetext}
-            max={15}
+            max={100}
             />
         </div>
         <div className="calculations_range_buttons">
-            <button type="button" className="btn btn-outline-secondary btn-sm range_button" onClick={()=>{(changeValue1())}}>{currancy} 4 {crore} - {currancy}  5 {crore}</button>
-            <button type="button" className="btn btn-outline-secondary btn-sm range_button" onClick={()=>{(changeValue2())}}>{currancy}  6 {crore} - {currancy}  10 {crore}</button>
-            <button type="button" className="btn btn-outline-secondary btn-sm range_button" onClick={()=>{(changeValue3())}}>{currancy}  11 {crore} - {currancy}  15 {crore}</button>
+            <button type="button" className="btn btn-outline-secondary btn-sm range_button" onClick={()=>{(changeValue1())}}>{currancy} 1 {crore} - {currancy}  10 {crore}</button>
+            <button type="button" className="btn btn-outline-secondary btn-sm range_button" onClick={()=>{(changeValue2())}}>{currancy}  10 {crore} - {currancy}  50 {crore}</button>
+            <button type="button" className="btn btn-outline-secondary btn-sm range_button" onClick={()=>{(changeValue3())}}>{currancy}  50 {crore} - {currancy}  100 {crore}</button>
         </div>
         </div>
 

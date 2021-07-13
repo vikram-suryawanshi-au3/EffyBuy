@@ -508,14 +508,14 @@ export default class Graph extends Component {
                     
             </div>
 
-            <div className="chart_footer_one">
+            {/* <div className="chart_footer_one">
                 *Average profitability impact is calculated in proportion to percentage of 
                 Expense saved in each department.
-            </div>
+            </div> */}
             <div className="chart_footer_two">
-                *Generally purchase constitutes 50 to 60% of sales, salary 10 to 15%.
-                <div className="excel_calculations"> <a href="https://docs.google.com/spreadsheets/d/1yObupXbndKtsF0UFeOFI8XlvWgS8myE2k03PeP6NtNg/edit?usp=sharing" rel="noreferrer"  target="_blank">Click Here For Profitability Growth % Calculation</a></div>
+                Because generally purchase constitutes 50 to 60% of sales, salary 10 to 15%.
             </div>
+                <div className="excel_calculations"> <a href="https://docs.google.com/spreadsheets/d/1yObupXbndKtsF0UFeOFI8XlvWgS8myE2k03PeP6NtNg/edit?usp=sharing" rel="noreferrer"  target="_blank">Click Here For Profitability Growth % Calculation</a></div>
             </div>
         ) 
     }

@@ -35,7 +35,7 @@
 }
 .chart_footer_two{
     text-align: center;
-    font-size: 10px;
+    font-size: 35px;
 }
 
 .MuiSlider-thumb:not(.MuiSlider-active) {
@@ -92,6 +92,7 @@ transition: width 0.5s ease-in;
     color: blue;
     text-decoration: underline;
     cursor: pointer;
+    font-size: 12px;
 }
 
 .bar_horizontal_line{
@@ -159,7 +160,7 @@ transition: width 0.5s ease-in;
         font-size: 7px;
     }
     .chart_footer_two{
-        font-size: 7px;
+        font-size: 16px;
     }
     .chart_main{
         border: 2px solid rgb(189, 189, 189);

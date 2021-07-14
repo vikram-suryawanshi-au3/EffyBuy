@@ -9,6 +9,7 @@ import facebook from '../icons/Social Icons/Facebook.png'
 import linkedin from '../icons/Social Icons/linkedin.png'
 import { Link } from 'react-router-dom'
 import { Modal, Button } from "react-bootstrap";
+import Chatbot from './Homepage/Chatbot.js'
 
 
 export default class Footer extends Component {
@@ -21,6 +22,7 @@ export default class Footer extends Component {
     render() {
         return (
             <div style={{position:'relative',bottom:'0'}}>
+                <Chatbot/>
                 <hr style={{backgroundColor:"#008ed9"}}></hr>
                 <div className="footer_main">
                     <div className="footer_sub">

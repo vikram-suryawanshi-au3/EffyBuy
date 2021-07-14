@@ -31,8 +31,8 @@ export default function RangeSlider() {
   // const [checked3, setChecked3] = React.useState(false);
 
   // const classes = useStyles();
-  const [value, setValue] = React.useState([10, 50]);
-  const [result, setResult] = React.useState([70, 350]);
+  const [value, setValue] = React.useState([1, 10]);
+  const [result, setResult] = React.useState([7, 70]);
   const [value1] = React.useState([1, 10]);
   const [value2] = React.useState([10, 50]);
   const [value3] = React.useState([50, 100]);
@@ -318,7 +318,17 @@ export default function RangeSlider() {
 
 
         <div className="calculation_result_div">
-             {saving} {currancy} {result[0]} {lakh} - {currancy} {result[1]} {lakh} per year
+        { //Check if message failed
+        (currancy === "₹" && result[0] > 100 && result[1] > 100)
+          ? <div> {saving} {currancy} {(result[0] / 100).toFixed(2)} Cr - {currancy} {(result[1]/100).toFixed(2)} Cr per year </div> 
+          : (currancy === "₹" && result[1] > 100)
+              ? <div> {saving} {currancy} {result[0]} {lakh} - {currancy} {(result[1]/100).toFixed(2)} Cr per year </div> 
+              : (currancy === "₹" && result[0] > 100)
+              ? <div> {saving} {currancy} {(result[0] / 100).toFixed(2)} Cr - {currancy} {result[1]} {lakh} per year </div> 
+              : <div> {saving} {currancy} {result[0]} {lakh} - {currancy} {result[1]} {lakh} per year </div> 
+          }
+      
+             {/* {saving} {currancy} {result[0]} {lakh} - {currancy} {result[1]} {lakh} per year */}
         </div>
         <div className="excel_calculations">
                   <a href="https://docs.google.com/spreadsheets/d/1DQw0gvx2TWiKzwKO5rn7wSwZG0jOW7r1NzgphN8drg0/edit?usp=sharing" rel="noreferrer"  target="_blank">Click Here For Calculation</a>

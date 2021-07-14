@@ -7,7 +7,7 @@ import Calc from './Homepage/calc'
 // import ThreeCards from './Homepage/ThreeCards'
 // import HowWeWork from './Homepage/HowWeWork'
 import HowEffybuyWork from './Homepage/HowEffybuyWork'
-import Chatbot from './Homepage/Chatbot.js'
+// import Chatbot from './Homepage/Chatbot.js'
 import Whyus from './Homepage/Whyus'
 import Graph from './Homepage/Graph'
 import Video from './Homepage/Video'
@@ -223,7 +223,7 @@ export default class HomapageContent extends Component {
 
                 </div>
 
-                <Chatbot/>
+                {/* <Chatbot/> */}
 
                 <Video/>
 

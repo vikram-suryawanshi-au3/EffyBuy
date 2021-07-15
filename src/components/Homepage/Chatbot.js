@@ -49,7 +49,7 @@ export default class Chatbot extends Component {
                                             </Button>
                                         </Modal.Body>
                                     </Modal> */}
-                                    <PopupWidget  url="https://calendly.com/bizgam/effybuy"
+                                    <PopupWidget  url="https://calendly.com/bizgamsupport/effybuy"
                                       text="Request Demo"
                                     //   pageSettings={{
                                     //     backgroundColor: 'ffffff',

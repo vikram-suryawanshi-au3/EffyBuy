@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/EffyBuy/static/css/main.75eb45d7.chunk.css",
-    "main.js": "/EffyBuy/static/js/main.e2675988.chunk.js",
-    "main.js.map": "/EffyBuy/static/js/main.e2675988.chunk.js.map",
+    "main.js": "/EffyBuy/static/js/main.18df50be.chunk.js",
+    "main.js.map": "/EffyBuy/static/js/main.18df50be.chunk.js.map",
     "runtime-main.js": "/EffyBuy/static/js/runtime-main.5056b8c7.js",
     "runtime-main.js.map": "/EffyBuy/static/js/runtime-main.5056b8c7.js.map",
     "static/css/2.fd0c640a.chunk.css": "/EffyBuy/static/css/2.fd0c640a.chunk.css",
@@ -15,18 +15,11 @@
     "static/css/main.75eb45d7.chunk.css.map": "/EffyBuy/static/css/main.75eb45d7.chunk.css.map",
     "static/js/2.be3bf1fd.chunk.js.LICENSE.txt": "/EffyBuy/static/js/2.be3bf1fd.chunk.js.LICENSE.txt",
     "static/media/1621436901571.1fd701cd.png": "/EffyBuy/static/media/1621436901571.1fd701cd.png",
-    "static/media/Banner_1.d1859d2c.webp": "/EffyBuy/static/media/Banner_1.d1859d2c.webp",
-    "static/media/Banner_final.5d8af102.webp": "/EffyBuy/static/media/Banner_final.5d8af102.webp",
-    "static/media/Effecient_buying_process-min.cf5afd97.webp": "/EffyBuy/static/media/Effecient_buying_process-min.cf5afd97.webp",
     "static/media/Efficient_buying_process.4019639b.svg": "/EffyBuy/static/media/Efficient_buying_process.4019639b.svg",
-    "static/media/Expensive_procurement_tools-min.d691412b.webp": "/EffyBuy/static/media/Expensive_procurement_tools-min.d691412b.webp",
     "static/media/Expensive_procurement_tools.20266236.svg": "/EffyBuy/static/media/Expensive_procurement_tools.20266236.svg",
     "static/media/Invisibility_Department.34f94a0a.svg": "/EffyBuy/static/media/Invisibility_Department.34f94a0a.svg",
-    "static/media/Lack_of_visibility_in_sourcing_department-min.b566dd48.webp": "/EffyBuy/static/media/Lack_of_visibility_in_sourcing_department-min.b566dd48.webp",
     "static/media/Logo_finalll.debce56c.png": "/EffyBuy/static/media/Logo_finalll.debce56c.png",
-    "static/media/Negotation_skill-min.58114321.webp": "/EffyBuy/static/media/Negotation_skill-min.58114321.webp",
     "static/media/Negotiation_skills.30ad9e04.svg": "/EffyBuy/static/media/Negotiation_skills.30ad9e04.svg",
-    "static/media/Reduce_buying_cost-min.d40bb7fe.webp": "/EffyBuy/static/media/Reduce_buying_cost-min.d40bb7fe.webp",
     "static/media/Reducing_buying_cost.e801c2b0.svg": "/EffyBuy/static/media/Reducing_buying_cost.e801c2b0.svg",
     "static/media/Rupee1.fcd0e783.svg": "/EffyBuy/static/media/Rupee1.fcd0e783.svg",
     "static/media/HomepageContent.css": "/EffyBuy/static/media/Wall_E_dollar.c2f7fe6f.jpg",
@@ -48,6 +41,6 @@
     "static/css/2.fd0c640a.chunk.css",
     "static/js/2.be3bf1fd.chunk.js",
     "static/css/main.75eb45d7.chunk.css",
-    "static/js/main.e2675988.chunk.js"
+    "static/js/main.18df50be.chunk.js"
   ]
 }

@@ -168,7 +168,7 @@ export default class HomapageContent extends Component {
                     
                     <div>
 
-                    <img className="background_image desktop_banner" src="https://doioa3yixu6p0.cloudfront.net/Banner_final.webp" alt="background_image"></img>
+                    <img className="background_image desktop_banner" data-src="https://effybuy.s3.us-east-2.amazonaws.com/Banner_final.webp" alt="background_image"></img>
                     <div id="typing">
                         <p className='typewriter'>
                             <span className='typewriter-text' data-text='[ 

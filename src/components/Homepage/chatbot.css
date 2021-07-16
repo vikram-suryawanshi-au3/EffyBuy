@@ -1,8 +1,12 @@
 .chatbot_main_div > .chatbot_whatsapp_div{
     position: fixed;
     left: 5%;
-    bottom: 5%;
+    bottom: 2%;
     z-index: 1000;
+}
+.chatbot_main_div > .chatbot_whatsapp_div > button > a{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .chatbot_main_div > .chatbot_requestdemo_div{
     position: fixed;
@@ -11,9 +15,10 @@
     z-index: 1000;
 }
 .chatbot_main_div > .chatbot_whatsapp_div > button{
+    height: 40px;
     border: none;
     background-color: #25d366;
-    border-radius: 15px;
+    border-radius: 25px;
     font-size: 20px;
 }
 .chatbot_main_div > .chatbot_whatsapp_div > button:hover{
@@ -34,8 +39,13 @@
     }
 
     .chatbot_main_div > .chatbot_whatsapp_div > button{
-        border-radius: 25px;
+        border-radius: 50%;
         /* font-size: 20px; */
+    }
+
+    .chatbot_main_div > .chatbot_whatsapp_div > button > a{
+        margin-left: 3px;
+        margin-right: 3px;
     }
 
 }

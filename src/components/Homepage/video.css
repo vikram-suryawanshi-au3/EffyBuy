@@ -15,8 +15,13 @@
   /* flex-direction: unset; */
 }
 
+.signup > button{
+  font-size: 25px;
+  border-radius: 5px;
+}
 
-.modal_request_demo_button{
+
+/* .modal_request_demo_button{
   background-color: #ff0000!important;
   color: white;
   border: none;
@@ -29,6 +34,11 @@
 
 .close_button_request_demo > button:hover{
   background-color: white;
+} */
+
+.signup > button:hover{
+  background-color: #008ed9!important;
+  color: black;
 }
 
 .player-wrapper {
@@ -75,7 +85,11 @@ margin: 0;
     
   }
 
-  .modal_buttons{
+  /* .modal_buttons{
+    font-size: 15px;
+  } */
+
+  .signup > button{
     font-size: 15px;
   }
 

@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import './video.css'
 import ReactPlayer from 'react-player/youtube'
 // import videoo from '../../video/EffyBuy.mp4'
-import { Modal, Button } from "react-bootstrap";
+// import { Modal, Button } from "react-bootstrap";
+import { PopupButton } from "react-calendly";
 
 
 export default class Video extends Component {
@@ -30,24 +31,23 @@ export default class Video extends Component {
                 </div>
 
                   <div className="signup">
-                    <Button className="modal_buttons modal_request_demo_button" variant="primary" onClick={this.openModal}>
-                            Request Demo
-                        </Button>
-
-                        <Modal show={this.state.isOpen} onHide={this.closeModal} animation={false} 
-                          backdrop="static" dialogClassName="modal-60w">
-                        <Modal.Header closeButton className="close_button_request_demo">
-                            <Modal.Title>Request Demo</Modal.Title>
-                        </Modal.Header>
-
-                        <Modal.Body>
-                            <input className="input" placeholder="Business email address to start saving"></input>
-                            <Button variant="primary" className="modal_buttons modal_submit_button">
-                                Submit
-                            </Button>
-                        </Modal.Body>
-                    </Modal>
-                    </div>
+                    <PopupButton
+                      url="https://calendly.com/bizgamsupport/effybuy"
+                      text="Request Demo"
+                      pageSettings={{
+                        backgroundColor: 'ffffff',
+                        hideEventTypeDetails: false,
+                        hideLandingPageDetails: false,
+                        primaryColor: '008ed9',
+                        textColor: '4d5055',
+                      }}
+                      styles={{
+                        color:"white",
+                        backgroundColor: 'red',
+                        border:"none",
+                        // fontSize:"25px"
+                        }}/>
+                  </div>
                     {/* <div> */}
                       
                     

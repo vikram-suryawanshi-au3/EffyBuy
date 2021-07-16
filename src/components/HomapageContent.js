@@ -168,7 +168,7 @@ export default class HomapageContent extends Component {
                     
                     <div>
 
-                    <img className="background_image desktop_banner" src="https://doioa3yixu6p0.cloudfront.net/Banner_final.jpg" alt="background_image"></img>
+                    <img className="background_image desktop_banner" src="https://doioa3yixu6p0.cloudfront.net/Banner_final.webp" alt="background_image"></img>
                     <div id="typing">
                         <p className='typewriter'>
                             <span className='typewriter-text' data-text='[ 
@@ -178,7 +178,7 @@ export default class HomapageContent extends Component {
                     </div>
                     </div>
                     <div>
-                    <img className="background_image responsive_banner" src="https://doioa3yixu6p0.cloudfront.net/Banner_1.jpg" alt="background_image"></img>
+                    <img className="background_image responsive_banner" src="https://doioa3yixu6p0.cloudfront.net/Banner_1.webp" alt="background_image"></img>
                     </div>
 
                     <div className="currancy_symbol">

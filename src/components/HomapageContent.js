@@ -14,11 +14,12 @@ import Video from './Homepage/Video'
 import DataSecurity from './Homepage/DataSecurity'
 import Swiper, { Navigation }  from 'swiper'
 import $ from "jquery"
-import banner from '../icons/Banner_final.webp'
-import res_banner from '../icons/Banner_1.webp'
+// let banner = 'https://doioa3yixu6p0.cloudfront.net/Banner_final.webp'
+// let res_banner = 'https://doioa3yixu6p0.cloudfront.net/Banner_1.webp',
 // import rightLeaf from '../icons/right_leaf.png'
 // import LeftLeaf from '../icons/left_leaf.png'
 // import MRP from '../icons/Customer reviews/MRP.jpeg'
+
 import Kondaas from '../icons/Customer reviews/kondaas.jpeg'
 import minutes from '../icons/saving2.svg'
 import huge_cost from '../icons/setting3.svg'
@@ -167,7 +168,7 @@ export default class HomapageContent extends Component {
                     
                     <div>
 
-                    <img className="background_image desktop_banner" src={banner} alt="background_image"></img>
+                    <img className="background_image desktop_banner" src="https://doioa3yixu6p0.cloudfront.net/Banner_final.jpg" alt="background_image"></img>
                     <div id="typing">
                         <p className='typewriter'>
                             <span className='typewriter-text' data-text='[ 
@@ -177,7 +178,7 @@ export default class HomapageContent extends Component {
                     </div>
                     </div>
                     <div>
-                    <img className="background_image responsive_banner" src={res_banner} alt="background_image"></img>
+                    <img className="background_image responsive_banner" src="https://doioa3yixu6p0.cloudfront.net/Banner_1.jpg" alt="background_image"></img>
                     </div>
 
                     <div className="currancy_symbol">

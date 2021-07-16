@@ -17,11 +17,11 @@ import Invisibility_Department from '../../icons/Problems we solve/Invisibility_
 import Negotiation_skills from '../../icons/Problems we solve/Negotiation_skills.svg'
 import Reducing_buying_cost from '../../icons/Problems we solve/Reducing_buying_cost.svg'
 
-import Efficient_buying_process_img from '../../icons/Illustrator/Effecient_buying_process-min.webp'
-import Expensive_procurement_tools_img from '../../icons/Illustrator/Expensive_procurement_tools-min.webp'
-import Invisibility_Department_img from '../../icons/Illustrator/Lack_of_visibility_in_sourcing_department-min.webp'
-import Negotiation_skills_img from '../../icons/Illustrator/Negotation_skill-min.webp'
-import Reducing_buying_cost_img from '../../icons/Illustrator/Reduce_buying_cost-min.webp'
+// import Efficient_buying_process_img from 'https://doioa3yixu6p0.cloudfront.net/Effecient_buying_process.webp'
+// import Expensive_procurement_tools_img from 'https://doioa3yixu6p0.cloudfront.net/Expensive_procurement_tools.webp'
+// import Invisibility_Department_img from 'https://doioa3yixu6p0.cloudfront.net/Lack_of_visibility_in_sourcing_department.webp'
+// import Negotiation_skills_img from 'https://doioa3yixu6p0.cloudfront.net/Negotation_skill.webp'
+// import Reducing_buying_cost_img from 'https://doioa3yixu6p0.cloudfront.net/Reduce_buying_cost.webp'
 
 // Import Swiper styles
 import 'swiper/swiper-bundle.css';
@@ -118,7 +118,7 @@ export default class Yello extends Component {
                 <div className="carousel-item active">
                     <div className="carousel_main">
                     <div className="carousel_img">
-                            <img className="carousel_image" style={{width:"600px", height:"350px"}} src={Reducing_buying_cost_img} alt="Second slide"/>
+                            <img className="carousel_image" style={{width:"600px", height:"350px"}} src="https://doioa3yixu6p0.cloudfront.net/Reduce_buying_cost.webp" alt="Second slide"/>
                         </div>
                         <div className="carousel_desc">
                             <h4 style={{fontWeight:"bold"}} >Reducing buying cost</h4>
@@ -146,7 +146,7 @@ export default class Yello extends Component {
                 <div className="carousel-item">
                 <div className="carousel_main">
                 <div className="carousel_img">
-                            <img style={{width:"600px", height:"350px"}} src={Negotiation_skills_img} alt="Second slide"/>
+                            <img style={{width:"600px", height:"350px"}} src="https://doioa3yixu6p0.cloudfront.net/Negotation_skill.webp" alt="Second slide"/>
                         </div>
                         <div className="carousel_desc">
                             <h4 style={{fontWeight:"bold"}}>Improving negotiation skills</h4>
@@ -174,7 +174,7 @@ export default class Yello extends Component {
                 <div className="carousel-item">
                 <div className="carousel_main">
                         <div className="carousel_img">
-                            <img style={{width:"600px", height:"350px"}} src={Efficient_buying_process_img} alt="Second slide"/>
+                            <img style={{width:"600px", height:"350px"}} src="https://doioa3yixu6p0.cloudfront.net/Effecient_buying_process.webp" alt="Second slide"/>
                         </div>
                         <div className="carousel_desc">
                             <h4 style={{fontWeight:"bold"}}>Efficient buying process</h4>
@@ -203,7 +203,7 @@ export default class Yello extends Component {
                 <div className="carousel-item">
                 <div className="carousel_main">
                 <div className="carousel_img">
-                            <img style={{width:"600px", height:"350px"}} src={Expensive_procurement_tools_img} alt="Second slide"/>
+                            <img style={{width:"600px", height:"350px"}} src="https://doioa3yixu6p0.cloudfront.net/Expensive_procurement_tools.webp" alt="Second slide"/>
                         </div>
                         <div className="carousel_desc">
                             <h4 style={{fontWeight:"bold"}}>Expensive procurement tools</h4>
@@ -231,7 +231,7 @@ export default class Yello extends Component {
                 <div className="carousel-item">
                 <div className="carousel_main">
                 <div className="carousel_img">
-                            <img style={{width:"600px", height:"350px"}} src={Invisibility_Department_img} alt="Second slide"/>
+                            <img style={{width:"600px", height:"350px"}} src="https://doioa3yixu6p0.cloudfront.net/Lack_of_visibility_in_sourcing_department.webp" alt="Second slide"/>
                         </div>
                         <div className="carousel_desc">
                             <h4 style={{fontWeight:"bold"}}>Lack of visibility in sourcing department</h4>

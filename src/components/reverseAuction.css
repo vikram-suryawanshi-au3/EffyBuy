@@ -1,0 +1,98 @@
+.Reverse_auction_banner{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #008ed9 100%);
+}
+
+.Reverse_auction_banner > .Reverse_auction_banner_text{
+    font-size: 90px;
+    padding: 3%;
+    color: white;
+    text-align: center;
+}
+
+.Reverse_auction_video{
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.reverse_auction_four_step_div{
+    margin: 15% 8% 0 8%;
+}
+
+.reverse_auction_four_step_div > .reverse_auction_step{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.reverse_auction_four_step_div > .reverse_auction_step > .reverse_auction_step_image{
+    height: 200px;
+    width: 35%;
+    background-color: #cccccc;
+}
+
+/* .reverse_auction_four_step_div > .reverse_auction_step > .reverse_auction_step_text:nth-child(even){
+    margin-left: 5%;
+}
+.reverse_auction_four_step_div > .reverse_auction_step > .reverse_auction_step_text:nth-child(odd){
+    margin-right: 5%;
+} */
+
+.reverse_auction_four_step_div > .reverse_auction_step > .reverse_auction_step_text{
+    font-size: 45px;
+    width: 60%;
+    vertical-align: middle;
+    display: table-cell;
+    color: #008ed9;
+}
+
+.reverse_auction_salient_features_div{
+    background-color: #dadada;
+    /* justify-content: space-between; */
+}
+.reverse_auction_salient_features_steps_div{
+    display: flex;
+    padding: 5%;
+    /* background-color: #cccccc; */
+    /* justify-content: space-between; */
+}
+
+.reverse_auction_salient_features_title{
+    padding: 2% 0 0 0;
+    font-size: 50px;
+    text-align: center;
+    color: #008ed9;
+    font-weight: bold;
+}
+
+.reverse_auction_salient_features_steps_div > div > div{
+    font-size: 40px;
+    margin: 4% 0 4% 0;
+    width: auto;
+}
+.reverse_auction_salient_features_steps_div > div > div > span{
+    cursor: pointer;
+    color: #008ed9;
+}
+
+.reverse_auction_salient_features_images_div{
+    /* background-color: tomato; */
+    margin-left: 5%;
+    width: 40%;
+}
+
+.reverse_auction_how_it_works{
+    background-color: #008ee017;
+  width: 400px;
+  height: 100px;
+  border-radius: 50% / 100%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.reverse_auction_how_it_works_title{
+    font-size: 50px;
+    color: #008ed9;
+    text-align: center;
+    margin-top: 5%;
+}

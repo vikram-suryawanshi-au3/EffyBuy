@@ -13,6 +13,7 @@ import Calc from './components/Homepage/calc'
 // import Review from './components/Homepage/Review.js'
 import TermsAndConditions from './components/TermsAndConditions'
 import PrivacyPolicy from './components/PrivacyPolicy'
+import ReverseAuction from './components/ReverseAuction'
 
 import { Switch, Route, Redirect, useLocation } from "react-router-dom";
 
@@ -67,6 +68,9 @@ function App() {
         </HashRouter> */}
         <Route path='/EffyBuy/privacyPolicy'>
           <PrivacyPolicy/>
+        </Route>
+        <Route path='/EffyBuy/ReverseAuction'>
+          <ReverseAuction/>
         </Route>
 
         <Redirect to='/EffyBuy/underwork' />

@@ -402,7 +402,7 @@
     color: black;
   }
   input[type=radio].toggle + label:after {
-    background: #ebebeb;
+    background: #008ed9;
     border-radius: 15px;
     content: "";
     height: 100%;
@@ -418,22 +418,22 @@
   }
   input[type=radio].toggle.toggle-left + label {
     border-right: 0;
-  }
-  input[type=radio].toggle.toggle-left + label:after {
+}
+input[type=radio].toggle.toggle-left + label:after {
     left: 98%;
-  }
-  input[type=radio].toggle.toggle-right + label {
+}
+input[type=radio].toggle.toggle-right + label {
     margin-left: -2px;
-  }
-  input[type=radio].toggle.toggle-right + label:after {
+}
+input[type=radio].toggle.toggle-right + label:after {
     left: -98%;
-  }
-  input[type=radio].toggle:checked + label {
+}
+input[type=radio].toggle:checked + label {
     cursor: default;
-    color: black;
+    color: white;
     z-index: 2;
     transition: color 200ms;
-  }
+}
   input[type=radio].toggle:checked + label:after {
     left: 0;
   }

@@ -16,35 +16,29 @@
 }
 
 .reverse_auction_four_step_div{
-    margin: 15% 8% 0 8%;
-}
-
-.reverse_auction_four_step_div > .reverse_auction_step{
-    display: flex;
-    justify-content: space-between;
     margin: 5%;
 }
-
-.reverse_auction_four_step_div > .reverse_auction_step > .reverse_auction_step_image{
-    height: 200px;
-    width: 35%;
-    background-color: #cccccc;
+.reverse_auction_four_step_div > .reverse_auction_step{
+    display: flex;
 }
-
-/* .reverse_auction_four_step_div > .reverse_auction_step > .reverse_auction_step_text:nth-child(even){
-    margin-left: 5%;
+.reverse_auction_four_step_div > .reverse_auction_step > .reverse_auction_step_image > img{
+    width: 80%;
 }
-.reverse_auction_four_step_div > .reverse_auction_step > .reverse_auction_step_text:nth-child(odd){
-    margin-right: 5%;
-} */
-
-.reverse_auction_four_step_div > .reverse_auction_step > .reverse_auction_step_text{
-    font-size: 45px;
-    width: 60%;
-    vertical-align: middle;
-    display: table-cell;
+.reverse_auction_four_step_div > .reverse_auction_step > .reverse_auction_step_text > .reverse_auction_step_text_title{
+    font-size: 48px;
     color: #008ed9;
 }
+.reverse_auction_four_step_div > .reverse_auction_step > .reverse_auction_step_text > .reverse_auction_step_text_desc{
+    font-size: 25px;
+}
+.reverse_auction_four_step_div > .reverse_auction_step > .reverse_auction_step_text > .reverse_auction_step_text_points{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.reverse_auction_four_step_div > .reverse_auction_step > .reverse_auction_step_text > .reverse_auction_step_text_points > div > img{
+    margin-right: 10px;
+}
+
 
 .reverse_auction_salient_features_div{
     background-color: #dadada;
@@ -63,6 +57,14 @@
     text-align: center;
     color: #008ed9;
     font-weight: bold;
+}
+
+.reverse_auction_how_it_works_image{
+    padding: 2% 0 0 0;
+    font-size: 100px;
+    text-align: center;
+    /* color: #008ed9; */
+    /* font-weight: bold; */
 }
 
 .reverse_auction_salient_features_steps_div > div > div{
@@ -95,4 +97,49 @@
     color: #008ed9;
     text-align: center;
     margin-top: 5%;
+}
+
+.reverse_auction_how_it_works_div{
+    background-color: #008dd907;
+  /* width: 400px;
+  height: 100px; */
+  border-radius: 50% / 70%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.reverse_auction_how_it_works_radio_buttons{
+    padding-bottom: 3%;
+}
+
+.reverse_auction_how_it_works_radio_buttons > div > div > div > a{
+    cursor: pointer;
+}
+
+.reverse_auction_stories_div{
+    margin: 10% 8% 0 8%;
+}
+
+.reverse_auction_stories_div > .reverse_auction_story > .reverse_auction_story_image{
+    background-color: #cccccc;
+    height: 200px;
+    width: 35%;
+    /* background-color: #cccccc; */
+}
+
+.reverse_auction_stories_div > .reverse_auction_story{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.reverse_auction_stories_div > .reverse_auction_story > .reverse_auction_story_description_div{
+    /* font-size: 45px; */
+    width: 60%;
+    /* color: #008ed9; */
+}
+.reverse_auction_stories_div > .reverse_auction_story > .reverse_auction_story_description_div > .reverse_auction_story_description_title{
+    font-size: 45px;
+    /* width: 60%; */
+    color: #008ed9;
 }

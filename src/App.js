@@ -69,6 +69,7 @@ function App() {
         <Route path='/EffyBuy/privacyPolicy'>
           <PrivacyPolicy/>
         </Route>
+
         <Route path='/EffyBuy/ReverseAuction'>
           <ReverseAuction/>
         </Route>

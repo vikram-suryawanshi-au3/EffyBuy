@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './reverseAuction.css'
-import Video from './Homepage/Video'
+// import Video from './Homepage/Video'
 // import { Stepper, Step } from 'react-form-stepper';
 import Stepper from 'react-stepper-horizontal'
 

@@ -25,8 +25,7 @@ export default class Chatbot extends Component {
                 <div className="chatbot_whatsapp_div">
                     <button>
                         <a rel="noreferrer" href="https://api.whatsapp.com/send?phone=917538801133&amp;text=Hey! Looking for EffyBuy Solution! Can you help ?" className="whatsapp" target="_blank" title="WhatsApp us" async>
-                            <span>Whatsapp </span>
-                            <i className="fa fa-whatsapp fa-lg"></i>
+                            <i className="fab fa-whatsapp fa-2x" style={{"marginLeft":"-6px"}}></i>
                         </a> 
                     </button>
                 </div>

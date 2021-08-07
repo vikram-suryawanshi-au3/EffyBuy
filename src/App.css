@@ -2,6 +2,15 @@ body{
   margin-top: 55px;
 }
 
+.siq_bR {
+  bottom: 70px!important;
+  right: 10px!important;
+}
+
+.calendly-badge-widget{
+  left: 20px!important;
+}
+
 @media only screen and (max-width: 560px) {
   .background_image{
       display: block;

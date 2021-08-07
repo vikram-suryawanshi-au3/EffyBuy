@@ -148,7 +148,11 @@ export default class Footer extends Component {
                             <br/>
                             Vikhroli,Mumbai, 
                             <br/>
-                            Maharashtra 400079
+                            Maharashtra 400079.
+                            <br/>
+                            <i class="fas fa-phone-alt fa-sm" style={{"marginRight":"10px"}}></i>+91 7538 851 133
+                            <br/>
+                            <i class="fab fa-whatsapp" style={{"marginRight":"10px"}}></i>+91 7538 801 133
                         </div>
                         {/* <div className="footer_sub_third_direction">
                             Direction

@@ -19,4 +19,9 @@ body{
     width: 60%;
     height: auto;
   }
+
+  .siq_bR {
+  bottom: 80px!important;
+  right: 10px!important;
+}
 }

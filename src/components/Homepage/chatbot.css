@@ -1,6 +1,6 @@
 .chatbot_main_div > .chatbot_whatsapp_div{
     position: fixed;
-    bottom: 10px!important;
+    bottom: 80px!important;
     right: 10px!important;
     z-index: 1000;
 

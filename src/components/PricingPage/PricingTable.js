@@ -47,7 +47,7 @@ export default class PricingTable extends Component {
                         </tr>
 
                         <tr>
-                            <td>RFQ(Vendor Per Auction)</td>
+                            <td>Number Of RFQ Per Month</td>
                             <td><span >7</span></td>
                             <td><span >12</span></td>
                             <td><span >25</span></td>

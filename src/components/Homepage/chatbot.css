@@ -9,6 +9,11 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.chatbot_main_div > .chatbot_whatsapp_div > button > a > .fa-whatsapp{
+    margin-left: -3px;
+}
+
 .chatbot_main_div > .chatbot_requestdemo_div{
     position: fixed;
     right: 5%;
@@ -16,8 +21,8 @@
     z-index: 1000;
 }
 .chatbot_main_div > .chatbot_whatsapp_div > button{
-    height: 54px;
-    width: 54px;
+    height: 60px;
+    width: 60px;
     border: none;
     background-color: #25d366;
     border-radius: 50%;
@@ -48,6 +53,10 @@
     .chatbot_main_div > .chatbot_whatsapp_div > button > a{
         margin-left: 3px;
         margin-right: 3px;
+    }
+
+    .chatbot_main_div > .chatbot_whatsapp_div > button > a > .fa-whatsapp{
+        margin-left: 0px;
     }
 
 }

@@ -1,6 +1,12 @@
 body{
   margin-top: 55px;
+  /* font-family: 'DM Sans'!important */
 }
+
+/* html *
+{
+  font-family: 'DM Sans'!important
+} */
 
 /* .siq_bR {
   bottom: 80px!important;
@@ -9,6 +15,7 @@ body{
 
 .calendly-badge-widget{
   left: 20px!important;
+  width: 40%!important;
 }
 
 @media only screen and (max-width: 560px) {
@@ -23,5 +30,9 @@ body{
   .siq_bR {
   bottom: 80px!important;
   right: 10px!important;
+}
+
+.calendly-badge-widget{
+  width: 60%!important;
 }
 }

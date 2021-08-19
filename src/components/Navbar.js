@@ -55,10 +55,9 @@ export default class Navbar extends Component {
                         data-target="dropdown-target" >Resources
                         </Link>
                         <div className="dropdown-menu" aria-labelledby="dropdown-target">
-                            <Link className="dropdown-item" to='/resources/resource1'>Resource 1</Link>
-                            <Link className="dropdown-item" to='/resources/resource2'>Resource 2</Link>
-                            <Link className="dropdown-item" to='/resources/resource3'>Resource 3</Link>
-                            <Link className="dropdown-item" to='/resources/resource4'>Resource 4</Link>
+                            <Link className="dropdown-item" to='/EffyBuy/resources/blog'>Blog</Link>
+                            <Link className="dropdown-item" to='/EffyBuy/resources/case_study'>Case Studies</Link>
+                            <Link className="dropdown-item" to='/EffyBuy/resources/knowledge_source'>Knowledge Source</Link>
                         </div>
                     </li> */}
 

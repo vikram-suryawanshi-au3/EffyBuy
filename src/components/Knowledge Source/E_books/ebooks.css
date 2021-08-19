@@ -1,0 +1,95 @@
+.ebooks_main_div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ebooks_main_div > .ebook_individual_card{
+    width: 45%;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 12px 8px 9px -1px rgba(0,0,0,0.49);
+    -webkit-box-shadow: 12px 8px 9px -1px rgba(0,0,0,0.49);
+    -moz-box-shadow: 12px 8px 9px -1px rgba(0,0,0,0.49);
+
+}
+.ebooks_main_div > .ebook_individual_card > .ebook_download_button{
+    text-align: center;
+    margin-top: 10px;
+}
+.ebooks_main_div > .ebook_individual_card > .ebook_description{
+    display: flex;
+}
+.ebooks_main_div > .ebook_individual_card > .ebook_description > .ebook_description_image > img{
+    width: 150px;
+}
+.ebooks_main_div > .ebook_individual_card > .ebook_description > .ebook_description_image {
+    margin-right: 10px;
+}
+.ebooks_main_div > .ebook_individual_card > .ebook_description > .ebook_description_info > .ebook_description_info_title {
+    font-size: 25px;
+}
+.ebooks_main_div > .ebook_individual_card > .ebook_description > .ebook_description_info > .ebook_description_info_desc {
+    font-size: 15px;
+    color: #999;
+}
+
+.ebook_modal_form{
+    margin: 0 5% 0 5%;
+}
+
+.ebook_modal_description > .ebook_modal_description_title{
+    font-size: 35px;
+}
+
+.ebook_modal_description > .ebook_modal_description_points > ul > li{
+    font-size: 15px;
+    color: #999;
+}
+
+
+
+/* .ebook_modal_form > form > div > label{
+    position: relative;
+    text-align: center!important;
+} */
+/* 
+
+.terms_privacy_policy{
+    color: #008ed9;
+    cursor: pointer;
+}
+
+
+.form-group > .iti {
+    display: block!important;
+} */
+/* .ebook_modal_form > form >.form-group{
+    position: relative;
+}
+
+.ebook_modal_form > form > div > label{
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    color: #999;
+    font-weight: normal;
+    transition: all 0.3s;
+}
+
+.ebook_modal_form > form > div > .form-control:focus ~ label{
+    left: 5px;
+    top: -10px;
+    font-size: 10px;
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+.active{
+    left: 20px;
+    top: -10px;
+    font-size: 10px;
+    background-color: #fff;
+    padding: 0 5px;
+} */

@@ -14,6 +14,16 @@ import Calc from './components/Homepage/calc'
 import TermsAndConditions from './components/TermsAndConditions'
 import PrivacyPolicy from './components/PrivacyPolicy'
 import ReverseAuction from './components/ReverseAuction'
+import CaseStudy from './components/CaseStudies/CaseStudy'
+import Blog from './components/Blogs/Blog'
+import BlogOne from './components/Blogs/Blog_1'
+import BlogTwo from './components/Blogs/Blog_2'
+import BlogThree from './components/Blogs/Blog_3'
+import BlogFour from './components/Blogs/Blog_4'
+import BlogFive from './components/Blogs/Blog_5'
+import BlogSix from './components/Blogs/Blog_6'
+import BlogSeven from './components/Blogs/Blog_7'
+import KnowledgeSource from './components/Knowledge Source/KnowledgeSource'
 
 import { Switch, Route, Redirect, useLocation } from "react-router-dom";
 
@@ -35,6 +45,7 @@ function App() {
         <Route path='/EffyBuy/shipment'>
         <Shipment />
         </Route>
+
         <Route path='/EffyBuy/scrap'>
         <Scrap />
         </Route>
@@ -72,6 +83,40 @@ function App() {
 
         <Route path='/EffyBuy/ReverseAuction'>
           <ReverseAuction/>
+        </Route>
+
+        <Route path='/EffyBuy/resources/case_study'>
+          <CaseStudy/>
+        </Route>
+
+        <Route exact path='/EffyBuy/resources/blog'>
+          <Blog/>
+        </Route>
+
+        <Route path='/EffyBuy/resources/blog/blog_1'>
+          <BlogOne/>
+        </Route>
+        <Route path='/EffyBuy/resources/blog/blog_2'>
+          <BlogTwo/>
+        </Route>
+        <Route path='/EffyBuy/resources/blog/blog_3'>
+          <BlogThree/>
+        </Route>
+        <Route path='/EffyBuy/resources/blog/blog_4'>
+          <BlogFour/>
+        </Route>
+        <Route path='/EffyBuy/resources/blog/blog_5'>
+          <BlogFive/>
+        </Route>
+        <Route path='/EffyBuy/resources/blog/blog_6'>
+          <BlogSix/>
+        </Route>
+        <Route path='/EffyBuy/resources/blog/blog_7'>
+          <BlogSeven/>
+        </Route>
+
+        <Route exact path='/EffyBuy/resources/knowledge_source'>
+          <KnowledgeSource/>
         </Route>
 
         <Redirect to='/EffyBuy/underwork' />

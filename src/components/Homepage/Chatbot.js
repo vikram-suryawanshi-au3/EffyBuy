@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import './chatbot.css'
 // import { Modal, Button } from "react-bootstrap";
 import { PopupWidget } from "react-calendly";
+import Fab from '@material-ui/core/Fab';
+import WhatsApp from '@material-ui/icons/WhatsApp';
 
 export default class Chatbot extends Component {
     // state={
@@ -23,11 +25,16 @@ export default class Chatbot extends Component {
         return (
             <div className="chatbot_main_div">
                 <div className="chatbot_whatsapp_div">
-                    <button>
+                    {/* <button>
                         <a rel="noreferrer" href="https://api.whatsapp.com/send?phone=917538801133&amp;text=Hey! Looking for EffyBuy Solution! Can you help ?" className="whatsapp" target="_blank" title="WhatsApp us" async>
                             <i className="fab fa-whatsapp fa-2x"></i>
                         </a> 
-                    </button>
+                    </button> */}
+                    <Fab color="primary" aria-label="add">
+                    <a rel="noreferrer" href="https://api.whatsapp.com/send?phone=917538801133&amp;text=Hey! Looking for EffyBuy Solution! Can you help ?" className="whatsapp" target="_blank" title="WhatsApp us" style={{"textDecoration":"none"}}>
+                        <WhatsApp fontSize="large"/>
+                    </a> 
+                    </Fab>
                 </div>
 
                 <div className="chatbot_requestdemo_div">

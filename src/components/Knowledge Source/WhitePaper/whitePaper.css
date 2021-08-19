@@ -1,0 +1,49 @@
+.whitepapers_main_div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.whitepapers_main_div > .whitepaper_individual_card{
+    width: 45%;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 12px 8px 9px -1px rgba(0,0,0,0.49);
+    -webkit-box-shadow: 12px 8px 9px -1px rgba(0,0,0,0.49);
+    -moz-box-shadow: 12px 8px 9px -1px rgba(0,0,0,0.49);
+}
+.whitepapers_main_div > .whitepaper_individual_card > .whitepaper_download_button{
+    text-align: center;
+    margin-top: 10px;
+}
+.whitepapers_main_div > .whitepaper_individual_card > .whitepaper_description{
+    display: flex;
+}
+.whitepapers_main_div > .whitepaper_individual_card > .whitepaper_description > .whitepaper_description_image > img{
+    width: 150px;
+}
+.whitepapers_main_div > .whitepaper_individual_card > .whitepaper_description > .whitepaper_description_image {
+    margin-right: 10px;
+}
+.whitepapers_main_div > .whitepaper_individual_card > .whitepaper_description > .whitepaper_description_info > .whitepaper_description_info_title {
+    font-size: 25px;
+}
+.whitepapers_main_div > .whitepaper_individual_card > .whitepaper_description > .whitepaper_description_info > .whitepaper_description_info_desc {
+    font-size: 15px;
+    color: #999;
+}
+
+.whitepaper_modal_form{
+    margin: 0 5% 0 5%;
+}
+
+.whitepaper_modal_description > .whitepaper_modal_description_title{
+    font-size: 35px;
+}
+
+.whitepaper_modal_description > .whitepaper_modal_description_points > ul > li{
+    font-size: 15px;
+    color: #999;
+}
+

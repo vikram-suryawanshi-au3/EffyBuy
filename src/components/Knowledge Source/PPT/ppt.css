@@ -38,6 +38,10 @@
     margin: 0 5% 0 5%;
 }
 
+.ppt_modal_description{
+    margin: 0 5% 0 5%;
+}
+
 .ppt_modal_description > .ppt_modal_description_title{
     font-size: 35px;
 }

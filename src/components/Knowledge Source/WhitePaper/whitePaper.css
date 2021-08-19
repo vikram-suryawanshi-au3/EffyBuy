@@ -38,6 +38,10 @@
     margin: 0 5% 0 5%;
 }
 
+.whitepaper_modal_description{
+    margin: 0 5% 0 5%;
+}
+
 .whitepaper_modal_description > .whitepaper_modal_description_title{
     font-size: 35px;
 }

@@ -39,6 +39,10 @@
     margin: 0 5% 0 5%;
 }
 
+.ebook_modal_description{
+    margin: 0 5% 0 5%;
+}
+
 .ebook_modal_description > .ebook_modal_description_title{
     font-size: 35px;
 }

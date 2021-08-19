@@ -167,7 +167,7 @@ export default class Aboutus extends Component {
                                 </IconButton> */}
                                 <div>
                                     <a href="https://www.linkedin.com/in/anup-agarwal/" rel="noreferrer" target="_blank">
-                                        <button type="button" class="btn btn-li"><i class="fab fa-linkedin"></i></button>
+                                        <button type="button" class="btn btn-li"><i class="fab fa-linkedin-in"></i></button>
                                     </a>
 
                                 </div>
@@ -203,7 +203,7 @@ export default class Aboutus extends Component {
                                 </IconButton> */}
                                 <div>
                                 <a href="https://www.linkedin.com/in/jebanesan-croos-77373723/" rel="noreferrer" target="_blank">
-                                        <button type="button" class="btn btn-li"><i class="fab fa-linkedin"></i></button>
+                                        <button type="button" class="btn btn-li"><i class="fab fa-linkedin-in"></i></button>
                                     </a>
 
                                 </div>

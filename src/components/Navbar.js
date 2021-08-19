@@ -45,8 +45,10 @@ export default class Navbar extends Component {
                             <Link className="dropdown-item" to='/EffyBuy' data-toggle="collapse" data-target=".navbar-collapse.show">RFP | RFQ</Link>
                             <Link className="dropdown-item" to='/EffyBuy' data-toggle="collapse" data-target=".navbar-collapse.show">Quick Auction</Link>
                             <Link className="dropdown-item" to='/EffyBuy' data-toggle="collapse" data-target=".navbar-collapse.show">Forward Auction</Link>
-                            <Link className="dropdown-item" to='/EffyBuy/ReverseAuction' data-toggle="collapse" data-target=".navbar-collapse.show">Reverse Auction</Link>
-                            <Link className="dropdown-item" to='/EffyBuy/shipment' data-toggle="collapse" data-target=".navbar-collapse.show">Logistics</Link>
+                            <Link className="dropdown-item" to='/EffyBuy' data-toggle="collapse" data-target=".navbar-collapse.show">Reverse Auction</Link>
+                            <Link className="dropdown-item" to='/EffyBuy' data-toggle="collapse" data-target=".navbar-collapse.show">Logistics</Link>
+                            {/* <Link className="dropdown-item" to='/EffyBuy/ReverseAuction' data-toggle="collapse" data-target=".navbar-collapse.show">Reverse Auction</Link>
+                            <Link className="dropdown-item" to='/EffyBuy/shipment' data-toggle="collapse" data-target=".navbar-collapse.show">Logistics</Link> */}
                         </div>
                     </li>
 

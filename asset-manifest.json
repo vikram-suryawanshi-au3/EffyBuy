@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/EffyBuy/static/css/main.e2e021ef.chunk.css",
-    "main.js": "/EffyBuy/static/js/main.8ffb73de.chunk.js",
-    "main.js.map": "/EffyBuy/static/js/main.8ffb73de.chunk.js.map",
-    "runtime-main.js": "/EffyBuy/static/js/runtime-main.19a8118a.js",
-    "runtime-main.js.map": "/EffyBuy/static/js/runtime-main.19a8118a.js.map",
+    "main.css": "/EffyBuy/static/css/main.be7aeaf8.chunk.css",
+    "main.js": "/EffyBuy/static/js/main.70236018.chunk.js",
+    "main.js.map": "/EffyBuy/static/js/main.70236018.chunk.js.map",
+    "runtime-main.js": "/EffyBuy/static/js/runtime-main.181a38b4.js",
+    "runtime-main.js.map": "/EffyBuy/static/js/runtime-main.181a38b4.js.map",
     "static/css/2.fd0c640a.chunk.css": "/EffyBuy/static/css/2.fd0c640a.chunk.css",
-    "static/js/2.00206354.chunk.js": "/EffyBuy/static/js/2.00206354.chunk.js",
-    "static/js/2.00206354.chunk.js.map": "/EffyBuy/static/js/2.00206354.chunk.js.map",
-    "static/js/3.21e098ff.chunk.js": "/EffyBuy/static/js/3.21e098ff.chunk.js",
-    "static/js/3.21e098ff.chunk.js.map": "/EffyBuy/static/js/3.21e098ff.chunk.js.map",
+    "static/js/2.93b13a7b.chunk.js": "/EffyBuy/static/js/2.93b13a7b.chunk.js",
+    "static/js/2.93b13a7b.chunk.js.map": "/EffyBuy/static/js/2.93b13a7b.chunk.js.map",
+    "static/js/3.e77092f2.chunk.js": "/EffyBuy/static/js/3.e77092f2.chunk.js",
+    "static/js/3.e77092f2.chunk.js.map": "/EffyBuy/static/js/3.e77092f2.chunk.js.map",
     "index.html": "/EffyBuy/index.html",
     "static/css/2.fd0c640a.chunk.css.map": "/EffyBuy/static/css/2.fd0c640a.chunk.css.map",
-    "static/css/main.e2e021ef.chunk.css.map": "/EffyBuy/static/css/main.e2e021ef.chunk.css.map",
-    "static/js/2.00206354.chunk.js.LICENSE.txt": "/EffyBuy/static/js/2.00206354.chunk.js.LICENSE.txt",
+    "static/css/main.be7aeaf8.chunk.css.map": "/EffyBuy/static/css/main.be7aeaf8.chunk.css.map",
+    "static/js/2.93b13a7b.chunk.js.LICENSE.txt": "/EffyBuy/static/js/2.93b13a7b.chunk.js.LICENSE.txt",
     "static/media/1621436901571.1fd701cd.png": "/EffyBuy/static/media/1621436901571.1fd701cd.png",
     "static/media/Efficient_buying_process.4019639b.svg": "/EffyBuy/static/media/Efficient_buying_process.4019639b.svg",
     "static/media/Expensive_procurement_tools.20266236.svg": "/EffyBuy/static/media/Expensive_procurement_tools.20266236.svg",
@@ -25,6 +25,7 @@
     "static/media/HomepageContent.css": "/EffyBuy/static/media/Wall_E_dollar.c2f7fe6f.jpg",
     "static/media/about_us.124994e2.png": "/EffyBuy/static/media/about_us.124994e2.png",
     "static/media/anup_agarwal.a216f997.jpg": "/EffyBuy/static/media/anup_agarwal.a216f997.jpg",
+    "static/media/dominos.ef4a6920.svg": "/EffyBuy/static/media/dominos.ef4a6920.svg",
     "static/media/jebanesan.89ea8af7.jpg": "/EffyBuy/static/media/jebanesan.89ea8af7.jpg",
     "static/media/kondaas.12ada7fa.jpeg": "/EffyBuy/static/media/kondaas.12ada7fa.jpeg",
     "static/media/parthiban.a7080000.jpeg": "/EffyBuy/static/media/parthiban.a7080000.jpeg",
@@ -37,10 +38,10 @@
     "static/media/test_two.06722ba1.svg": "/EffyBuy/static/media/test_two.06722ba1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.19a8118a.js",
+    "static/js/runtime-main.181a38b4.js",
     "static/css/2.fd0c640a.chunk.css",
-    "static/js/2.00206354.chunk.js",
-    "static/css/main.e2e021ef.chunk.css",
-    "static/js/main.8ffb73de.chunk.js"
+    "static/js/2.93b13a7b.chunk.js",
+    "static/css/main.be7aeaf8.chunk.css",
+    "static/js/main.70236018.chunk.js"
   ]
 }

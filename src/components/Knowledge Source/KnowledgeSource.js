@@ -39,18 +39,18 @@ export default class KnowledgeSource extends Component {
                 <div className="knowledge_source_title_div">
                     Knowledge Source
                 </div>
-                <div class="btn-group" data-toggle="buttons">
-                    <label class="btn btn-light active" onClick={()=>{this.ebook()}}>
-                        <input type="radio" name="options" id="option3" autocomplete="off" checked/> E-BOOK
+                <div className="btn-group" data-toggle="buttons">
+                    <label className="btn btn-light active" onClick={()=>{this.ebook()}}>
+                        <input type="radio" name="options" id="option3" autoComplete="off" defaultChecked/> E-BOOK
                     </label>
-                    <label class="btn btn-light" onClick={()=>{this.ppt()}}>
-                        <input type="radio" name="options" id="option1" autocomplete="off"/> PRESENTATION
+                    <label className="btn btn-light" onClick={()=>{this.ppt()}}>
+                        <input type="radio" name="options" id="option1" autoComplete="off"/> PRESENTATION
                     </label>
-                    <label class="btn btn-light" onClick={()=>{this.whitepaper()}}>
-                        <input type="radio" name="options" id="option2" autocomplete="off"/> WHITEPAPER
+                    <label className="btn btn-light" onClick={()=>{this.whitepaper()}}>
+                        <input type="radio" name="options" id="option2" autoComplete="off"/> WHITEPAPER
                     </label>
-                    {/* <label class="btn btn-danger">
-                        <input type="radio" name="options" id="option3" autocomplete="off"/> Critical
+                    {/* <label className="btn btn-danger">
+                        <input type="radio" name="options" id="option3" autoComplete="off"/> Critical
                     </label> */}
                 </div>
                 {this.state.show_ebook && <div><Ebooks/></div>}

@@ -146,10 +146,19 @@ export default class Footer extends Component {
                         <div className="footer_sub_third_address">
                             BizGam AI pvt ltd,
                             <br/>
+                            No.3, Kovai Estate,
+                            <br/>
+                            Veeriyam Palayam Road,
+                            <br/>
+                            Kalapatti, Coimbatore,
+                            <br/>
+                            Tamil Nadu, 641048
+                            <br/>
+                            {/* <br/>
                             Vikhroli,Mumbai, 
                             <br/>
                             Maharashtra 400079.
-                            <br/>
+                            <br/> */}
                             <i className="fas fa-phone-alt fa-sm" style={{"marginRight":"10px"}}></i>+91 7538 851 133
                             <br/>
                             <i className="fab fa-whatsapp" style={{"marginRight":"10px"}}></i>+91 7538 801 133

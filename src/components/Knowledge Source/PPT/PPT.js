@@ -56,7 +56,7 @@ export default class PPT extends Component {
                             keyboard={false}
                         >
                             <Modal.Header closeButton>
-                            <Modal.Title>Download PPT</Modal.Title>
+                            <Modal.Title style={{"color":"#008ed9"}}>Download PPT</Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
                                 <div className="ppt_modal_description">
@@ -91,6 +91,12 @@ export default class PPT extends Component {
                                             {/* <label for="inputEmail" >Email</label> */}
                                             <input type="email" className="form-control" id="inputEmail" data-error="Please enter correct email address" 
                                                 pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email" required/>
+                                            <div className="help-block with-errors"></div>
+                                        </div>
+                                        <div className="form-group mt-3">
+                                            {/* <label for="inputCompanyName" >Email</label> */}
+                                            <input type="text" className="form-control" id="inputCompanyName" data-error="Please enter company name" 
+                                                placeholder="Company Name" required/>
                                             <div className="help-block with-errors"></div>
                                         </div>
 
@@ -130,7 +136,7 @@ export default class PPT extends Component {
                             keyboard={false}
                         >
                             <Modal.Header closeButton>
-                            <Modal.Title>Download PPT</Modal.Title>
+                            <Modal.Title style={{"color":"#008ed9"}}>Download PPT</Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
                                 <div className="ppt_modal_description">
@@ -165,6 +171,12 @@ export default class PPT extends Component {
                                             {/* <label for="inputEmail" >Email</label> */}
                                             <input type="email" className="form-control" id="inputEmail" data-error="Please enter correct email address" 
                                                 pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email" required/>
+                                            <div className="help-block with-errors"></div>
+                                        </div>
+                                        <div className="form-group mt-3">
+                                            {/* <label for="inputCompanyName" >Email</label> */}
+                                            <input type="text" className="form-control" id="inputCompanyName" data-error="Please enter company name" 
+                                                placeholder="Company Name" required/>
                                             <div className="help-block with-errors"></div>
                                         </div>
 

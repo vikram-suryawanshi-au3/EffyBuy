@@ -58,7 +58,7 @@ export default class PricingTable extends Component {
                             <td>View reports</td>
                             <td><span >1 Month History</span></td>
                             <td><span >3 Month History</span></td>
-                            <td><span > Month History</span></td>
+                            <td><span >12 Month History</span></td>
                             <td><span >Lifetime Reports</span></td>
                         </tr>
 
@@ -279,7 +279,7 @@ export default class PricingTable extends Component {
                         </tr>
 
                         <tr>
-                            <td colSpan="5" className="sep">Reports</td>
+                            <td colSpan="5" className="sep">Support</td>
                         </tr>
 
                         <tr>

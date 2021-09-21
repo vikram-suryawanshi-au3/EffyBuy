@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './blog.css'
+import number_one_tool from './Blog_images/number_one_tool.jpg'
+
 
 export default class Blog_6 extends Component {
     render() {
@@ -12,7 +14,8 @@ export default class Blog_6 extends Component {
                     16 Aug 2021
                 </div>
                 <div className="individual_blog_image">
-                    Do You know the No. #1 tool available to increase your profits?
+                    {/* Do You know the No. #1 tool available to increase your profits? */}
+                    <img src={number_one_tool} alt="number_one_tool"/>
                 </div>
 
                 <div className="individual_blog_paragraph">

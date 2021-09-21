@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import './blog.css'
 import { Link } from "react-router-dom";
-
+import Common_challenge_img from './Blog_images/common_challenges.png'
+import three_simple_tips from './Blog_images/three_simple_tips.jpg'
+import number_one_tool from './Blog_images/number_one_tool.jpg'
+import anup_agarwal from './../../icons/About us/anup_agarwal.jpg'
+import meghna_khatee from './../../icons/About us/meghna_khatee.webp'
 
 export default class Blog extends Component {
     render() {
@@ -10,7 +14,8 @@ export default class Blog extends Component {
                 <div className="blog_page_blog_card">
                 <Link to="/EffyBuy/resources/blog/blog_1" style={{"textDecoration":"none"}}>
                     <div className="blog_page_blog_card_image">
-                        3 simple tips to unleash your buying power
+                        <img src={three_simple_tips} alt="three_simple_tips"/>
+                        {/* 3 simple tips to unleash your buying power */}
                     </div>
                     <div className="blog_page_blog_card_hashtags">
                         <div>Blog</div>
@@ -27,7 +32,9 @@ export default class Blog extends Component {
                         Now let us compare this with corporate purchasing process and...
                     </div>
                     <div className="blog_page_blog_card_writtenby">
-                        <div className="blog_page_blog_card_writtenby_image"></div>
+                        <div className="blog_page_blog_card_writtenby_image">
+                            <img src={anup_agarwal} alt="anup_agarwal"/>
+                        </div>
                         <div className="blog_page_blog_card_writtenby_details">
                             <div className="blog_page_blog_card_writtenby_name">Anup Agarwal</div>
                             <div className="blog_page_blog_card_writtenby_date">16 Aug 2021</div>
@@ -36,42 +43,42 @@ export default class Blog extends Component {
                 </Link>
                 </div>
 
-                <div className="blog_page_blog_card">
+                {/* <div className="blog_page_blog_card">
                 <Link to="/EffyBuy/resources/blog/blog_2" style={{"textDecoration":"none"}}>
-                    <div className="blog_page_blog_card_image">
-                        5 steps for effective procurement process
-                    </div>
-                    <div className="blog_page_blog_card_hashtags">
-                        <div>SupplierManagement</div>
-                        <div>Procurement</div>
-                        <div>SCM</div>
-                        <div>SupplyChain</div>
-                        <div>eNegotiation</div>
-                    </div>
-                    <div className="blog_page_blog_card_title">
-                        5 steps for effective procurement process
-                    </div>
-                    <div className="blog_page_blog_card_desc">
-                        Procurement plays a vital role in most of the organizations due to major 
-                        influence it has on overall cost of the business. Majority of Chief Procurement 
-                        Officers (CPOs) agree that cost reduction is their number one priority 
-                        (research by Deloitte Global, 2016) and 62% 
-                        expressed dissatisfaction with their respective procurement processes and...
-                    </div>
-                    <div className="blog_page_blog_card_writtenby">
-                        <div className="blog_page_blog_card_writtenby_image"></div>
-                        <div className="blog_page_blog_card_writtenby_details">
-                            <div className="blog_page_blog_card_writtenby_name">Anup Agarwal</div>
-                            <div className="blog_page_blog_card_writtenby_date">16 Aug 2021</div>
-                        </div>
-                    </div>
-                </Link>
+                <div className="blog_page_blog_card_image">
+                5 steps for effective procurement process
                 </div>
+                <div className="blog_page_blog_card_hashtags">
+                <div>SupplierManagement</div>
+                <div>Procurement</div>
+                <div>SCM</div>
+                <div>SupplyChain</div>
+                <div>eNegotiation</div>
+                </div>
+                <div className="blog_page_blog_card_title">
+                5 steps for effective procurement process
+                </div>
+                <div className="blog_page_blog_card_desc">
+                Procurement plays a vital role in most of the organizations due to major 
+                influence it has on overall cost of the business. Majority of Chief Procurement 
+                Officers (CPOs) agree that cost reduction is their number one priority 
+                (research by Deloitte Global, 2016) and 62% 
+                expressed dissatisfaction with their respective procurement processes and...
+                </div>
+                    <div className="blog_page_blog_card_writtenby">
+                    <div className="blog_page_blog_card_writtenby_image"></div>
+                    <div className="blog_page_blog_card_writtenby_details">
+                    <div className="blog_page_blog_card_writtenby_name">Anup Agarwal</div>
+                    <div className="blog_page_blog_card_writtenby_date">16 Aug 2021</div>
+                    </div>
+                    </div>
+                    </Link>
+                </div> */}
 
-                <div className="blog_page_blog_card">
+                {/* <div className="blog_page_blog_card">
                 <Link to="/EffyBuy/resources/blog/blog_3" style={{"textDecoration":"none"}}>
-                    <div className="blog_page_blog_card_image">
-                        100% transparency and immediate ROI for your procurement process
+                <div className="blog_page_blog_card_image">
+                100% transparency and immediate ROI for your procurement process
                     </div>
                     <div className="blog_page_blog_card_hashtags">
                         <div>Supply chain</div>
@@ -80,59 +87,60 @@ export default class Blog extends Component {
                         <div>Strategy and Technology</div>
                     </div>
                     <div className="blog_page_blog_card_title">
-                        100% transparency and immediate ROI for your procurement process
+                    100% transparency and immediate ROI for your procurement process
                     </div>
                     <div className="blog_page_blog_card_desc">
-                        Transparency is the most important and broadly accepted principle in today’s world 
-                        of procurement system that is based on competition. Thus procurement has to be carried 
-                        out in open markets with fair and transparent manner. Every CPO / leader knows that today 
-                        any one can go back, review orders, 
+                    Transparency is the most important and broadly accepted principle in today’s world 
+                    of procurement system that is based on competition. Thus procurement has to be carried 
+                    out in open markets with fair and transparent manner. Every CPO / leader knows that today 
+                    any one can go back, review orders, 
                         spending, requests and process which can change the entire scenario of...
                     </div>
                     <div className="blog_page_blog_card_writtenby">
-                        <div className="blog_page_blog_card_writtenby_image"></div>
+                    <div className="blog_page_blog_card_writtenby_image"></div>
                         <div className="blog_page_blog_card_writtenby_details">
-                            <div className="blog_page_blog_card_writtenby_name">Anup Agarwal</div>
-                            <div className="blog_page_blog_card_writtenby_date">16 Aug 2021</div>
+                        <div className="blog_page_blog_card_writtenby_name">Anup Agarwal</div>
+                        <div className="blog_page_blog_card_writtenby_date">16 Aug 2021</div>
                         </div>
-                    </div>
-                </Link>
-                </div>
+                        </div>
+                        </Link>
+                    </div> */}
 
-                <div className="blog_page_blog_card">
+                {/* <div className="blog_page_blog_card">
                 <Link to="/EffyBuy/resources/blog/blog_4" style={{"textDecoration":"none"}}>
-                    <div className="blog_page_blog_card_image">
-                        Are you struggling to bring down YOUR Purchase cost?
-                    </div>
-                    <div className="blog_page_blog_card_hashtags">
-                        <div>Blog</div>
-                        <div>EffyBuy</div>
-                        <div>BizGam</div>
-                    </div>
-                    <div className="blog_page_blog_card_title">
+                <div className="blog_page_blog_card_image">
+                Are you struggling to bring down YOUR Purchase cost?
+                </div>
+                <div className="blog_page_blog_card_hashtags">
+                <div>Blog</div>
+                <div>EffyBuy</div>
+                <div>BizGam</div>
+                </div>
+                <div className="blog_page_blog_card_title">
                         Are you struggling to bring down YOUR Purchase cost?
                     </div>
                     <div className="blog_page_blog_card_desc">
-                        Purchases cost account for majority of costs in business environment. 
-                        Most of the companies today know that reducing on procurement cost will not only 
-                        contribute to their profitability; but also increase their business competitiveness. 
-                        However, when questioned about this to any supplier, 
-                        reduction in procurement cost is not enough. There has to be...
+                    Purchases cost account for majority of costs in business environment. 
+                    Most of the companies today know that reducing on procurement cost will not only 
+                    contribute to their profitability; but also increase their business competitiveness. 
+                    However, when questioned about this to any supplier, 
+                    reduction in procurement cost is not enough. There has to be...
                     </div>
                     <div className="blog_page_blog_card_writtenby">
-                        <div className="blog_page_blog_card_writtenby_image"></div>
-                        <div className="blog_page_blog_card_writtenby_details">
-                            <div className="blog_page_blog_card_writtenby_name">Anup Agarwal</div>
+                    <div className="blog_page_blog_card_writtenby_image"></div>
+                    <div className="blog_page_blog_card_writtenby_details">
+                    <div className="blog_page_blog_card_writtenby_name">Anup Agarwal</div>
                             <div className="blog_page_blog_card_writtenby_date">16 Aug 2021</div>
-                        </div>
-                    </div>
-                </Link>
-                </div>
+                            </div>
+                            </div>
+                            </Link>
+                        </div> */}
 
                 <div className="blog_page_blog_card">
                 <Link to="/EffyBuy/resources/blog/blog_5" style={{"textDecoration":"none"}}>
                     <div className="blog_page_blog_card_image">
-                        Challenges & Solution To Implement A Robust Procurement Processes
+                        <img src={Common_challenge_img} alt="Common_challenge_img"/>
+                        {/* Challenges & Solution To Implement A Robust Procurement Processes */}
                     </div>
                     <div className="blog_page_blog_card_hashtags">
                         <div>Blog</div>
@@ -140,7 +148,8 @@ export default class Blog extends Component {
                         <div>BizGam</div>
                     </div>
                     <div className="blog_page_blog_card_title">
-                        Common Challenges & Their Solution To Implement A Robust Procurement Processes
+                        Common Challenges & Their Solution 
+                        {/* To Implement A Robust Procurement Processes */}
                     </div>
                     <div className="blog_page_blog_card_desc">
                         Every sale and transaction that a business deals with daily can 
@@ -148,9 +157,11 @@ export default class Blog extends Component {
                         must to have better business and purchasing processes...
                     </div>
                     <div className="blog_page_blog_card_writtenby">
-                        <div className="blog_page_blog_card_writtenby_image"></div>
+                        <div className="blog_page_blog_card_writtenby_image">
+                            <img src={meghna_khatee} alt="meghna_khatee"/>
+                        </div>
                         <div className="blog_page_blog_card_writtenby_details">
-                            <div className="blog_page_blog_card_writtenby_name">Anup Agarwal</div>
+                            <div className="blog_page_blog_card_writtenby_name">Meghna Khatee</div>
                             <div className="blog_page_blog_card_writtenby_date">16 Aug 2021</div>
                         </div>
                     </div>
@@ -160,7 +171,9 @@ export default class Blog extends Component {
                 <div className="blog_page_blog_card">
                 <Link to="/EffyBuy/resources/blog/blog_6" style={{"textDecoration":"none"}}>
                     <div className="blog_page_blog_card_image">
-                        Do You know the No. #1 tool available to increase your profits?
+                        {/* Do You know the No. #1 tool available to increase your profits?
+                         */}
+                         <img src={number_one_tool} alt="number_one_tool"/>
                     </div>
                     <div className="blog_page_blog_card_hashtags">
                         <div>Supplychain</div>
@@ -187,7 +200,7 @@ export default class Blog extends Component {
                 </Link>
                 </div>
 
-                <div className="blog_page_blog_card">
+                {/* <div className="blog_page_blog_card">
                 <Link to="/EffyBuy/resources/blog/blog_7" style={{"textDecoration":"none"}}>
                     <div className="blog_page_blog_card_image">
                         Negotiation - Are you super good at it?
@@ -217,7 +230,7 @@ export default class Blog extends Component {
                         </div>
                     </div>
                 </Link>
-                </div>
+                </div> */}
 
                 <div style={{"width":"45%"}}>
 

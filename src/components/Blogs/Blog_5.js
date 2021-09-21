@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './blog.css'
+import Common_challenge_img from './Blog_images/common_challenges.png'
+
 
 export default class Blog_5 extends Component {
     render() {
@@ -12,7 +14,7 @@ export default class Blog_5 extends Component {
                     16 Aug 2021
                 </div>
                 <div className="individual_blog_image">
-                    Common Challenges & Their Solution To Implement A Robust Procurement Processes
+                    <img src={Common_challenge_img} alt="Common_challenge_img"/>
                 </div>
 
                 <div className="individual_blog_paragraph">

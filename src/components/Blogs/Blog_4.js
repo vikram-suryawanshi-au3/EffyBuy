@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import './blog.css'
 
 export default class Blog_4 extends Component {
+    componentDidMount(){
+        window.scrollTo(0, 0)
+    }
     render() {
         return (
             <div className="individual_blog_main_div">

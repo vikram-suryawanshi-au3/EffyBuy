@@ -52,16 +52,16 @@ export default class Navbar extends Component {
                         </div>
                     </li>
 
-                    {/* <li className="nav-item dropdown">
+                    <li className="nav-item dropdown">
                         <Link className="nav-link dropdown-toggle" data-toggle="dropdown" to='#'
                         data-target="dropdown-target" >Resources
                         </Link>
                         <div className="dropdown-menu" aria-labelledby="dropdown-target">
                             <Link className="dropdown-item" to='/EffyBuy/resources/blog'>Blog</Link>
-                            <Link className="dropdown-item" to='/EffyBuy/resources/case_study'>Case Studies</Link>
-                            <Link className="dropdown-item" to='/EffyBuy/resources/knowledge_source'>Knowledge Source</Link>
+                            {/* <Link className="dropdown-item" to='/EffyBuy/resources/case_study'>Case Studies</Link>
+                            <Link className="dropdown-item" to='/EffyBuy/resources/knowledge_source'>Knowledge Source</Link> */}
                         </div>
-                    </li> */}
+                    </li>
 
                     <li className="nav-item dropdown">
                         <Link className="nav-link dropdown-toggle" data-toggle="dropdown" to='#'

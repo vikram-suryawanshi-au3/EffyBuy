@@ -1,9 +1,21 @@
 import React, { Component } from 'react'
 import './blog.css'
 import Common_challenge_img from './Blog_images/common_challenges.png'
+import three_simple_tips from './Blog_images/three_simple_tips.jpg'
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation } from 'swiper';
+import { Link } from "react-router-dom";
+// import Common_challenge_img from './Blog_images/common_challenges.png';
+import number_one_tool from './Blog_images/number_one_tool.jpg'
+
+// install Swiper modules
+SwiperCore.use([Navigation]);
 
 
 export default class Blog_5 extends Component {
+    componentDidMount(){
+        window.scrollTo(0, 0)
+    }
     render() {
         return (
             <div className="individual_blog_main_div">
@@ -166,6 +178,70 @@ export default class Blog_5 extends Component {
                     both the price and terms of your purchase transaction so you may not only save a lot of money, 
                     but also have the power of a 10/10 negotiation.
 
+                </div>
+
+                <div className="other_blogs_title">
+                        Our Other Blogs
+                </div>
+
+                <div className="individual_blog_other_blogs_main_div">
+
+                    <Swiper navigation={true} className="mySwiper">
+                        <SwiperSlide>
+                            <div className="individual_blog_other_blogs_display_Div" style={{"display":"flex","justifyContent":"space-evenly","width":"100%","alignItems":"center"}}>
+                                <div className="individual_div_other_blog_single" style={{"width":"40%"}}>
+                                    <Link to="/EffyBuy/resources/blog/blog_1" style={{"textDecoration":"none"}}>
+                                        <div className="individual_div_other_blog_single_blog_card_image">
+                                            <img src={three_simple_tips} alt="three_simple_tips"/>
+                                        </div>
+                                        <div className="individual_div_other_blog_single_blog_card_title">
+                                            3 simple tips to unleash your buying power
+                                        </div>
+                                        <div className="individual_div_other_blog_single_blog_card_desc">
+                                            Today’s customer can buy almost anything at any time with a nearly unlimited number of choices, 
+                                            which of course encourages people to shop...
+                                        </div>
+                                    </Link>
+                                </div>
+                                {/* <div className="individual_div_other_blog_single"style={{"width":"40%"}}>
+                                    <Link to="/EffyBuy/resources/blog/blog_5" style={{"textDecoration":"none"}}>
+                                        <div className="individual_div_other_blog_single_blog_card_image">
+                                            <img src={Common_challenge_img} alt="Common_challenge_img"/>
+                                        </div>
+                                        <div className="individual_div_other_blog_single_blog_card_title">
+                                            Common Challenges & Their Solution To Implement A Robust Procurement Processes
+                                        </div>
+                                        <div className="individual_div_other_blog_single_blog_card_desc">
+                                            Every sale and transaction that a business deals with daily can transform the business’s 
+                                            future. This makes the development of a procurement strategy...
+                                        </div>
+                                    </Link>
+                                </div> */}
+                                <div className="individual_div_other_blog_single"style={{"width":"40%"}}>
+                                    <Link to="/EffyBuy/resources/blog/blog_6" style={{"textDecoration":"none"}}>
+                                        <div className="individual_div_other_blog_single_blog_card_image">
+                                            <img src={number_one_tool} alt="number_one_tool"/>
+                                        </div>
+                                        <div className="individual_div_other_blog_single_blog_card_title">
+                                            Do You know the No. #1 tool available to increase your profits?
+                                        </div>
+                                        <div className="individual_div_other_blog_single_blog_card_desc">
+                                            You may be aware whether a wholesaler or retailer, direct sale or a large multilevel 
+                                            chain, the need always is to build good...
+                                        </div>
+                                    </Link>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        {/* <SwiperSlide>Slide 2</SwiperSlide>
+                        <SwiperSlide>Slide 3</SwiperSlide>
+                        <SwiperSlide>Slide 4</SwiperSlide>
+                        <SwiperSlide>Slide 5</SwiperSlide>
+                        <SwiperSlide>Slide 6</SwiperSlide>
+                        <SwiperSlide>Slide 7</SwiperSlide>
+                        <SwiperSlide>Slide 8</SwiperSlide>
+                        <SwiperSlide>Slide 9</SwiperSlide> */}
+                    </Swiper>
                 </div>
             </div>
         )

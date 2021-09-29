@@ -23,6 +23,7 @@ import BlogFour from './components/Blogs/Blog_4'
 import BlogFive from './components/Blogs/Blog_5'
 import BlogSix from './components/Blogs/Blog_6'
 import BlogSeven from './components/Blogs/Blog_7'
+import Resource from './components/Resources/Resource'
 import KnowledgeSource from './components/Knowledge Source/KnowledgeSource'
 
 import { Switch, Route, Redirect, useLocation } from "react-router-dom";
@@ -83,6 +84,10 @@ function App() {
 
         <Route path='/EffyBuy/ReverseAuction'>
           <ReverseAuction/>
+        </Route>
+
+        <Route exact path='/EffyBuy/resources'>
+          <Resource/>
         </Route>
 
         <Route path='/EffyBuy/resources/case_study'>

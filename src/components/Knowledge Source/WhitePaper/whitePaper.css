@@ -5,7 +5,7 @@
 }
 .whitepapers_main_div > .whitepaper_individual_card{
     width: 45%;
-    border: 1px solid #999;
+    /* border: 1px solid #999; */
     border-radius: 6px;
     padding: 15px;
     background-color: white;

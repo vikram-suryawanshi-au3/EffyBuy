@@ -1,0 +1,52 @@
+.resource_main_div{
+    margin: 10% 0% 5% 10%;
+}
+
+.resource_title{
+    color: #008ed9;
+    /* text-decoration: underline; */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.resource_main_div > .all_resources_div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resource_main_div > .all_resources_div > a > .individual_resource{
+    display: flex;
+    width: 300px;
+    margin: 10px;
+}
+.resource_main_div > .all_resources_div > a > .individual_resource:hover{
+    background-color: #eef9ff;
+    border-left: 5px solid #008ed9;
+    cursor: pointer;
+    /* margin-right: 8px; */
+}
+
+.resource_main_div > .all_resources_div > a > .individual_resource > .individual_resource_logo{
+    padding: 10px;
+}
+.resource_main_div > .all_resources_div > a > .individual_resource > .individual_resource_logo > i{
+    font-size: 30px;
+    color: #008ED9;
+}
+
+.resource_main_div > .all_resources_div > a > .individual_resource > .individual_resource_details > .individual_resource_title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.resource_main_div > .all_resources_div > a > .individual_resource > .individual_resource_details > .individula_resource_desc{
+    font-size: 15px;
+    color: #999;
+}
+
+.resource_main_div > .all_resources_div > a > .individual_resource > .individual_resource_details{
+    padding: 10px;
+}
+
+
+
+

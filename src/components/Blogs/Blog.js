@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Common_challenge_img from './Blog_images/common_challenges.png'
 import three_simple_tips from './Blog_images/three_simple_tips.jpg'
 import number_one_tool from './Blog_images/number_one_tool.jpg'
-import anup_agarwal from './../../icons/About us/anup_agarwal.jpg'
+// import anup_agarwal from './../../icons/About us/anup_agarwal.jpg'
 import meghna_khatee from './../../icons/About us/meghna_khatee.webp'
 import unknown from './../../icons/About us/unknown.png'
 
@@ -195,11 +195,11 @@ export default class Blog extends Component {
                         Your profit margin is the metric that should be always on the radar of...
                     </div>
                     <div className="blog_page_blog_card_writtenby">
-                        <div className="blog_page_blog_card_writtenby_image">
-                            <img src={anup_agarwal} alt="anup_agarwal"/>
+                    <div className="blog_page_blog_card_writtenby_image">
+                            <img src={unknown} alt="aarti_s"/>
                         </div>
                         <div className="blog_page_blog_card_writtenby_details">
-                            <div className="blog_page_blog_card_writtenby_name">Anup Agarwal</div>
+                            <div className="blog_page_blog_card_writtenby_name">Aarti S</div>
                             <div className="blog_page_blog_card_writtenby_date">16 Aug 2021</div>
                         </div>
                     </div>

@@ -7,7 +7,7 @@
 .ppt_main_div > .ppt_individual_card{
     padding: 15px;
     width: 45%;
-    border: 1px solid #999;
+    /* border: 1px solid #999; */
     border-radius: 6px;
     background-color: white;
     box-shadow: 10px 10px 10px 2px rgba(199,199,199,0.77);

@@ -30,9 +30,16 @@ export default class Blog_5 extends Component {
                 </div>
 
                 <div className="individual_blog_paragraph">
-                    Every sale and transaction that a business deals with daily can transform the business’s 
+                    {/* Every sale and transaction that a business deals with daily can transform the business’s 
                     future. This makes the development of a procurement strategy a 
-                    must to have better business and purchasing processes. 
+                    must to have better business and purchasing processes.  */}
+                    Although it is a known fact given all the challenges within procurment one has to abide by all 
+                    the rules and regulations, also adhereing to corporate responsibilties.
+                    <br/>
+                    There are wholly of challenges that procurement team and leadership has to undergo. 
+                    These are based on the size, type, products, area and others. But there are some common 
+                    challenges that all procurement would have to face, irrespective of above mentioned 
+                    patterns.
                 </div>
 
                 <div className="individual_blog_paragraph">
@@ -72,7 +79,7 @@ export default class Blog_5 extends Component {
                     </div>
                     <div style={{"fontWeight":"bold"}}>Problem</div>
 
-                    Risks are involved in every aspect of the business and supply risks, market risks, 
+                    {/* Risks are involved in every aspect of the business and supply risks, market risks, 
                     frauds, cost, quality, etc, comprise the most common risks that are involved in the procurement process. 
                     Additionally, risks like anti-corruption and policy adherence are also involved. 
                     <br/>
@@ -84,7 +91,20 @@ export default class Blog_5 extends Component {
                     Active and extensive information search, substantial conflict and political 
                     bargaining, preference for formal decision rules, emphasis on strong buyer 
                     relationships, and established and enhanced communication networks can help 
-                    mitigate the risks involved. 
+                    mitigate the risks involved.  */}
+                    There is risk involved in all types and varities of business world, amongst theose, some 
+                    can be named as supply risks, market risks, cost, quality, frauds and others.
+                    There are some newly identified risks like anti-corruption and following laws / rules. 
+                    These are relevant for the entire procurement cycle, hence it has to be given due 
+                    importance and not possible to be ignored.
+                    <br/>
+                    <div>
+
+                    </div>
+                    Extensive secondary research, political bargaining, strong long term supplier realtionships, 
+                    and better communication involved internally and externally can help reduce or mitigatge 
+                    risks.
+                    
                 </div>
 
                 <div className="individual_blog_paragraph">
@@ -93,20 +113,33 @@ export default class Blog_5 extends Component {
                     </div>
                     <div style={{"fontWeight":"bold"}}>Problem</div>
 
-                    Finding the right supplier that understands the importance of quality and 
+                    {/* Finding the right supplier that understands the importance of quality and 
                     delivers in time can keep any dissatisfaction related to the procurement processes away. 
                     Having high expectations from a supplier for the completion of a procurement 
-                    deal beyond their capabilities can be disastrous in the end. 
+                    deal beyond their capabilities can be disastrous in the end.  */}
+                    Identifying supplier that can meet up with quality and timely delivery of product requirement 
+                    can sort many of the hassels into the procurement cycle. Maintaining a pool few suppliers and 
+                    getting quotes from them versus just one supplier can create demand versus supply deficiet at 
+                    times or even some other issues might occur. 
+
                     <br/>
-                    The best solution to this is regular evaluation and continuous monitoring. 
+                    {/* The best solution to this is regular evaluation and continuous monitoring. 
                     Supplier performance can be monitored by ensuring that delivery demands 
                     and standards are met. A good supplier relationship
-                     is important for the smooth functioning of the procurement process. 
+                     is important for the smooth functioning of the procurement process.  */}
+                     The best solution to this is regular evaluation and continuous monitoring. Supplier performance 
+                     can be monitored by ensuring that delivery demands and standards are met. A good supplier 
+                     relationship is important for the smooth functioning of the procurement process.
+ 
                     <br/>
                     <br/>
                     <div style={{"fontWeight":"bold"}}>Solution</div>
-                    Holding a regular supply review, discussing key performance KPI, and agreeing on 
-                    improvement and action ideas can also help overcome this challenge. 
+                    {/* Holding a regular supply review, discussing key performance KPI, and agreeing on 
+                    improvement and action ideas can also help overcome this challenge.  */}
+                    Conducting regular suppliers meeting and discussing goals along with KPIs working to 
+                    improve on time, price or any terms from the procurement team will make the procurement 
+                    process smooth.
+
                 </div>
 
                 <div className="individual_blog_paragraph">
@@ -115,17 +148,26 @@ export default class Blog_5 extends Component {
                     </div>
                     <div style={{"fontWeight":"bold"}}>Problem</div>
 
-                    Withholding of important information by the organizations tends to create procurement 
+                    {/* Withholding of important information by the organizations tends to create procurement 
                     problems as it limits the suppliers from offering the best and jam-packed deals to the 
                     clients. Also, organizations usually keep the suppliers at arm’s length and this 
-                    treatment is similar to the one filled with zero confidence.
+                    treatment is similar to the one filled with zero confidence. */}
+                    Not sharing of important information or delivery details or any other specifications can 
+                    create issues in procurment cycle. Also companies tend to not involved suppliers during 
+                    any initial or goal setting aspects, which can create confusion and thereby considered to 
+                    be mistrust issues.
                     <br/>
                     <br/>
                     <div style={{"fontWeight":"bold"}}>Solution</div>
-                    To avoid these, ask for supplier’s demands and details in advance to offer quality 
+                    {/* To avoid these, ask for supplier’s demands and details in advance to offer quality 
                     services. Also, keep a request line open to ensure that any updates and changes 
                     about these can be included. Having some trust towards your key 
-                    suppliers can yield your problem-solving methods and give positive improvements. 
+                    suppliers can yield your problem-solving methods and give positive improvements.  */}
+                    It is essential to consider suppliers as a part of your organisation hence can give them 
+                    demand related / futuristic view and also visions details. This can create a harmonious 
+                    relationship between suppliers and the procurment team which can deliver outcome more 
+                    than defined - as in positive improvements.
+
                 </div>
 
                 <div className="individual_blog_paragraph">
@@ -134,14 +176,25 @@ export default class Blog_5 extends Component {
                     </div>
                     <div style={{"fontWeight":"bold"}}>Problem</div>
 
-                    Inaccurate data can lead to ill-informed or bad decisions which can ultimately 
+                    {/* Inaccurate data can lead to ill-informed or bad decisions which can ultimately 
                     reflect as loss in the business cycle. Access to accurate data is important as it 
                     helps to put up a strong front in the front of management or the decision 
-                    makers and it helps slim the chance of being unsuccessful. 
+                    makers and it helps slim the chance of being unsuccessful.  */}
+                    Bad data can lead to wrong decisions and thereby incurring loss due to procurement 
+                    activities that hamper entire business profits. Thus access to right kind of data is 
+                    highly required, to be provided to leadership and management. So this makes it possible 
+                    to get into win scenario for the business.
+
                     <br/>
                     <br/>
                     <div style={{"fontWeight":"bold"}}>Solution</div>
-                    The only solution to this is to make purchases and related decisions based on accurate and reliable data. 
+                    {/* The only solution to this is to make purchases and related decisions based on accurate and reliable data.  */}
+                    The one best solution could be for good purchase is based on right / appropriate data base. 
+                    Given this challenge organisation tend to incur losses operationally and financially. 
+                    Procurement on a whole is strategic process and nothing that wokrs on gut feel or instincts. 
+                    Implementation of the best procurement process includes integrating different measures and 
+                    high performance tasks to solve the above challenge. 
+
                     <br/>
                     These challenges in procurement hinder the growth of the business and create room 
                     for financial and operational losses. However, procurement should 
@@ -173,10 +226,15 @@ export default class Blog_5 extends Component {
                         Tap into the EffyBuy negotiation tool
                     </div>
 
-                    Effy Buy is a fully automated purchase negotiating tool that enables you to become a 
+                    {/* Effy Buy is a fully automated purchase negotiating tool that enables you to become a 
                     master negotiator and achieve win-win results. Get the best package tools to negotiate 
                     both the price and terms of your purchase transaction so you may not only save a lot of money, 
-                    but also have the power of a 10/10 negotiation.
+                    but also have the power of a 10/10 negotiation. */}
+                    Effy Buy is a fully automated purchase negotiating tool that enables you to become a 
+                    master negotiator and achieve win-win results. Get the best package tools to negotiate 
+                    both the price and terms of your purchase transaction so you may not only save a lot of 
+                    money, but also have the power of a 10/10 negotiation.
+
 
                 </div>
 

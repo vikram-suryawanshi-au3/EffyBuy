@@ -9,11 +9,11 @@ export default class Resource extends Component {
     render() {
         return (
             <div className="resource_main_div">
-                <div className="resource_title">
+                {/* <div className="resource_title">
                     ALL RESOURCES
                 </div>
 
-                <hr/>
+                <hr/> */}
 
                 <div className="all_resources_div">
                     <Link to="/EffyBuy/resources/blog" style={{"textDecoration":"none"}}>
@@ -32,7 +32,7 @@ export default class Resource extends Component {
                         </div>
                     </Link>
                     
-                    <Link to="/EffyBuy/resources" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
                                 <i class="fas fa-trophy"></i>
@@ -80,7 +80,7 @@ export default class Resource extends Component {
                         </div>
                     </Link>
 
-                    <Link to="/EffyBuy/resources" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
                                 <i class="fas fa-laptop-code"></i>
@@ -96,7 +96,7 @@ export default class Resource extends Component {
                         </div>
                     </Link>
 
-                    <Link to="/EffyBuy/resources" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
                                 <i class="fas fa-video"></i>
@@ -112,7 +112,7 @@ export default class Resource extends Component {
                         </div>
                     </Link>
 
-                    <Link to="/EffyBuy/resources" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
                                 <i class="fas fa-map-signs"></i>

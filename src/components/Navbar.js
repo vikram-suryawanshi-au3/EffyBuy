@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './navbar.css'
 import logo from '../icons/Logo_finalll.png'
 import $ from 'jquery'
+import Resources from './Resources/Resource'
 
 
 export default class Navbar extends Component {
@@ -52,15 +53,17 @@ export default class Navbar extends Component {
                         </div>
                     </li>
 
-                    <li className="nav-item">
-                        <Link className="nav-link" data-toggle="collapse" to='/EffyBuy/resources'
-                        data-target=".navbar-collapse.show" >Resources
+                    <li className="nav-item dropdown">
+                        <Link className="nav-link dropdown-toggle" data-toggle="dropdown" to='#'
+                        data-target="dropdown-target" aria-haspopup="true" aria-expanded="false" >Resources
                         </Link>
-                        {/* <div className="dropdown-menu" aria-labelledby="dropdown-target">
-                            <Link className="dropdown-item" to='/EffyBuy/resources/blog'>Blog</Link>
+                        <div className="dropdown-menu animate w-500" aria-labelledby="dropdown-target" data-dropdown-in="fadeInDown" 
+                        data-dropdown-out="fadeOutUp" >
+                            {/* <Link className="dropdown-item" to='/EffyBuy/resources/blog'>Blog</Link>
                             <Link className="dropdown-item" to='/EffyBuy/resources/case_study'>Case Studies</Link>
-                            <Link className="dropdown-item" to='/EffyBuy/resources/knowledge_source'>Knowledge Source</Link>
-                        </div> */}
+                            <Link className="dropdown-item" to='/EffyBuy/resources/knowledge_source'>Knowledge Source</Link> */}
+                            <Resources/>
+                        </div>
                     </li>
 
                     <li className="nav-item dropdown">

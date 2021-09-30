@@ -138,7 +138,7 @@ export default class Footer extends Component {
                             Contact Us
                         </div>
                         <div className="footer_sub_third_number">
-                            admin@effybuy.com
+                            support@effybuy.com
                         </div>
                         {/* <div className="footer_sub_third_website">
                             www.bizgam.com

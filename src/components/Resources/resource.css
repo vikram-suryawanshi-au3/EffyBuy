@@ -1,5 +1,6 @@
 .resource_main_div{
-    margin: 10% 0% 5% 10%;
+    /* margin: 10% 0% 5% 10%; */
+    margin: 5px;
 }
 
 .resource_title{
@@ -17,7 +18,7 @@
 .resource_main_div > .all_resources_div > a > .individual_resource{
     display: flex;
     width: 300px;
-    margin: 10px;
+    margin: 2px 5px;
 }
 .resource_main_div > .all_resources_div > a > .individual_resource:hover{
     background-color: #eef9ff;
@@ -27,24 +28,24 @@
 }
 
 .resource_main_div > .all_resources_div > a > .individual_resource > .individual_resource_logo{
-    padding: 10px;
+    padding: 5px;
 }
 .resource_main_div > .all_resources_div > a > .individual_resource > .individual_resource_logo > i{
-    font-size: 30px;
+    font-size: 20px;
     color: #008ED9;
 }
 
 .resource_main_div > .all_resources_div > a > .individual_resource > .individual_resource_details > .individual_resource_title{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
 }
 .resource_main_div > .all_resources_div > a > .individual_resource > .individual_resource_details > .individula_resource_desc{
-    font-size: 15px;
+    font-size: 12px;
     color: #999;
 }
 
 .resource_main_div > .all_resources_div > a > .individual_resource > .individual_resource_details{
-    padding: 10px;
+    padding: 5px;
 }
 
 

@@ -19,11 +19,11 @@ export default class Blog_6 extends Component {
     render() {
         return (
             <div className="individual_blog_main_div">
-                <div className="individual_blog_title_div">
+                {/* <div className="individual_blog_title_div">
                     Do You know the No. #1 tool available to increase your profits?
-                </div>
+                </div> */}
                 <div className="individual_blog_date">
-                    16 Aug 2021
+                    23 Aug 2021
                 </div>
                 <div className="individual_blog_image">
                     {/* Do You know the No. #1 tool available to increase your profits? */}
@@ -59,7 +59,7 @@ export default class Blog_6 extends Component {
                         <div>
                             Dealing with a large network of vendors by meeting up with specific 
                             requirements can result in errors. This might have a huge impact on the 
-                            profitability in the long run. Just so to avoid any mishap due the error 
+                            profitability in the long run. Just so to avoid any mishap due to the error 
                             the manager would have to revisit the list of 
                             vendors and carry on the process one more time
                         </div>

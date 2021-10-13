@@ -5,14 +5,65 @@
 
 .Reverse_auction_banner > .Reverse_auction_banner_text{
     font-size: 90px;
-    padding: 3%;
+    padding: 10% 5% 0% 5%;
     color: white;
-    text-align: center;
+    /* text-align: center; */
+}
+.Reverse_auction_banner > .Reverse_auction_banner_sub_text{
+    font-size: 25px;
+    padding: 0% 5% 10% 5%;
+    color: white;
+    /* text-align: center; */
 }
 
 .Reverse_auction_video{
     margin-top: 15%;
     margin-bottom: 10%;
+}
+
+.reverse_auction_second_slide{
+    margin: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.reverse_auction_second_slide > .reverse_auction_second_slide_image{
+    background-color: #55a4ce;
+    width: 45%;
+}
+.reverse_auction_second_slide > .reverse_auction_second_slide_desc{
+    width: 45%;
+}
+.reverse_auction_second_slide > .reverse_auction_second_slide_desc > .reverse_auction_second_slide_desc_title{
+    font-size: 50px;
+    color: #008ed9;
+}
+.reverse_auction_second_slide > .reverse_auction_second_slide_desc > .reverse_auction_second_slide_desc_details{
+ font-size: 20px;
+}
+.reverse_auction_second_slide > .reverse_auction_second_slide_desc > .reverse_auction_second_slide_desc_buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.reverse_auction_third_slide{
+    margin: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.reverse_auction_third_slide > .reverse_auction_third_slide_image{
+    background-color: #55a4ce;
+    width: 45%;
+}
+.reverse_auction_third_slide > .reverse_auction_third_slide_desc{
+    width: 45%;
+}
+.reverse_auction_third_slide > .reverse_auction_third_slide_desc > .reverse_auction_third_slide_desc_title{
+    font-size: 50px;
+    color: #008ed9;
+}
+.reverse_auction_third_slide > .reverse_auction_third_slide_desc > .reverse_auction_third_slide_desc_details{
+ font-size: 20px;
 }
 
 .reverse_auction_four_step_div{

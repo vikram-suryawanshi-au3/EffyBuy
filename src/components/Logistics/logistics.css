@@ -1,0 +1,148 @@
+.logistics_main_Div{
+    /* font-size: 100px; */
+}
+.logistics_main_Div > .logistics_banner_div{
+    background-color: #008ed9;
+    padding: 50px 0;
+    color: white;
+}
+.logistics_main_Div > .logistics_banner_div > .logistics_banner_main_title{
+    font-size: 70px;
+    margin-left: 100px;
+}
+.logistics_main_Div > .logistics_banner_div > .logistics_banner_sub_title{
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+.logistics_main_Div > .three_features{
+    margin-top: 100px;
+}
+
+.logistics_main_Div > .three_features > .individual_feature{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.logistics_main_Div > .three_features > .individual_feature > .individual_feature_image{
+    width: 35%;
+    background-color: #008ed9;
+}
+.logistics_main_Div > .three_features > .individual_feature > .individual_feature_details{
+    width: 60%;
+}
+.logistics_main_Div > .three_features > .individual_feature > .individual_feature_details > .individual_feature_details_title{
+    color: #008ed9;
+    font-size: 50px;
+}
+.logistics_main_Div > .three_features > .individual_feature > .individual_feature_details > .individual_feature_details_desc{
+    font-size: 20px;
+}
+
+.logistics_main_Div > .salient_features_main_div{
+    margin-top: 100px;
+}
+.logistics_main_Div > .salient_features_main_div > .salient_features_title{
+    color: #008ed9;
+    font-size: 50px;
+    margin-left: 100px;
+}
+.logistics_main_Div > .salient_features_main_div > .salient_features_div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logistics_main_Div > .salient_features_main_div > .salient_features_div > .salient_features_individual_div{
+    margin-top: 50px;
+}
+.logistics_main_Div > .salient_features_main_div > .salient_features_div > .salient_features_individual_div > .salient_features_individual_image{
+    width: 250px;
+    height: 200px;
+    background-color: #008ed9;
+    margin: 0 auto;
+}
+.logistics_main_Div > .salient_features_main_div > .salient_features_div > .salient_features_individual_div > .salient_features_individual_title{
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.logistics_main_Div > .how_it_works_main_div{
+    margin-top: 100px;
+}
+.logistics_main_Div > .how_it_works_main_div > .how_it_works_title{
+    color: #008ed9;
+    font-size: 50px;
+    margin-left: 100px;
+}
+.logistics_main_Div > .how_it_works_main_div > .how_it_works_div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logistics_main_Div > .how_it_works_main_div > .how_it_works_div > .how_it_works_individual_div{
+    margin-top: 50px;
+}
+.logistics_main_Div > .how_it_works_main_div > .how_it_works_div > .how_it_works_individual_div > .how_it_works_individual_image{
+    width: 250px;
+    height: 200px;
+    background-color: #008ed9;
+    margin: 0 auto;
+}
+.logistics_main_Div > .how_it_works_main_div > .how_it_works_div > .how_it_works_individual_div > .how_it_works_individual_title{
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.logistics_main_Div > .industries_that_used_main_div{
+    margin-top: 100px;
+}
+.logistics_main_Div > .industries_that_used_main_div > .industries_that_used_title{
+    color: #008ed9;
+    font-size: 50px;
+    margin-left: 100px;
+}
+.logistics_main_Div > .industries_that_used_main_div > .industries_that_used_div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logistics_main_Div > .industries_that_used_main_div > .industries_that_used_div > .industries_that_used_individual_div{
+    margin-top: 50px;
+}
+.logistics_main_Div > .industries_that_used_main_div > .industries_that_used_div > .industries_that_used_individual_div > .industries_that_used_individual_image{
+    width: 250px;
+    height: 200px;
+    background-color: #008ed9;
+    margin: 0 auto;
+}
+.logistics_main_Div > .industries_that_used_main_div > .industries_that_used_div > .industries_that_used_individual_div > .industries_that_used_individual_title{
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.logistics_main_Div > .why_should_it_matter{
+    margin-top: 100px;
+}
+.logistics_main_Div > .why_should_it_matter > .why_should_it_matter{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logistics_main_Div > .why_should_it_matter > .why_should_it_matter > .why_should_it_matter_desc{
+    
+    width: 45%;
+}
+.logistics_main_Div > .why_should_it_matter > .why_should_it_matter > .why_should_it_matter_desc > .why_should_it_matter_desc_title{
+    color: #008ed9;
+    font-size: 50px;
+}
+.logistics_main_Div > .why_should_it_matter > .why_should_it_matter > .why_should_it_matter_desc > .why_should_it_matter_desc_detsils{
+    font-size: 20px;
+}
+.logistics_main_Div > .why_should_it_matter > .why_should_it_matter > .why_should_it_matter_image{
+    width: 45%;
+    background-color: #008ed9;
+}

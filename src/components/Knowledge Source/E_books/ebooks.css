@@ -52,6 +52,14 @@
     color: #999;
 }
 
+.ebook_modal_header{
+    border-bottom: none!important;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,160L720,288L1440,192L1440,0L720,0L0,0Z"></path></svg>')!important;
+    /* background-size:cover!important;
+    background-color:pink; */
+
+}
+
 
 
 /* .ebook_modal_form > form > div > label{

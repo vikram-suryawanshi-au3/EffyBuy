@@ -42,29 +42,13 @@ export default class Resource extends Component {
                                     SUCCESS STORIES
                                 </div>
                                 <div className="individula_resource_desc">
-                                    See how netcore helps brands elevate customer experience
+                                    Seek how EffyBuy helps brands to evaluate customer experience
                                 </div>
                             </div>
                         </div>
                     </Link>
 
-                    <Link to="/EffyBuy/resources/case_study" style={{"textDecoration":"none"}}>
-                        <div className="individual_resource">
-                            <div className="individual_resource_logo">
-                            <i class="fas fa-poll-h"></i>
-                            </div>
-                            <div className="individual_resource_details">
-                                <div className="individual_resource_title">
-                                    CASE STUDIES
-                                </div>
-                                <div className="individula_resource_desc">
-                                    Take a look at our case studies
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
-
-                    <Link to="/EffyBuy/resources/knowledge_source" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy/resources/ebooks" style={{"textDecoration":"none"}}>
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
                                 <i class="fas fa-book-reader"></i>
@@ -74,7 +58,57 @@ export default class Resource extends Component {
                                     EBOOKS
                                 </div>
                                 <div className="individula_resource_desc">
-                                    Ebooks, Whitepapers, Presentations to keep you ahead
+                                    {/* Ebooks, Whitepapers, Presentations to keep you ahead */}
+                                    Get insightful updates about auto procurement with EffyBuy
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+
+                    <Link to="/EffyBuy/resources/case_study" style={{"textDecoration":"none"}}>
+                        <div className="individual_resource">
+                            <div className="individual_resource_logo">
+                                <i class="fas fa-poll-h"></i>
+                            </div>
+                            <div className="individual_resource_details">
+                                <div className="individual_resource_title">
+                                    CASE STUDIES
+                                </div>
+                                <div className="individula_resource_desc">
+                                    Take a look at what customers feel about our offerings
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+
+                    
+                    <Link to="/EffyBuy/resources/ppt" style={{"textDecoration":"none"}}>
+                        <div className="individual_resource">
+                            <div className="individual_resource_logo">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div className="individual_resource_details">
+                                <div className="individual_resource_title">
+                                    PPT
+                                </div>
+                                <div className="individula_resource_desc">
+                                    Get to know more about EffyBuy products through our presentations
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                    
+                    <Link to="/EffyBuy/resources/white_paper" style={{"textDecoration":"none"}}>
+                        <div className="individual_resource">
+                            <div className="individual_resource_logo">
+                                <i class="far fa-newspaper"></i>
+                            </div>
+                            <div className="individual_resource_details">
+                                <div className="individual_resource_title">
+                                    WHITEPAPER
+                                </div>
+                                <div className="individula_resource_desc">
+                                    Deep dive knowledge about EffyBuy offerings and its merits
                                 </div>
                             </div>
                         </div>
@@ -83,14 +117,14 @@ export default class Resource extends Component {
                     <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
-                                <i class="fas fa-laptop-code"></i>
+                                <i class="fas fa-laptop"></i>
                             </div>
                             <div className="individual_resource_details">
                                 <div className="individual_resource_title">
                                     WEBINARS
                                 </div>
                                 <div className="individula_resource_desc">
-                                    Game changing Marketing Insights to stay ahead
+                                    Highly engaging and personal way to connect with our experts
                                 </div>
                             </div>
                         </div>
@@ -106,7 +140,7 @@ export default class Resource extends Component {
                                     VIDEOS
                                 </div>
                                 <div className="individula_resource_desc">
-                                    Get the most out of Netcore with our step‑by‑step videos
+                                    Create the most out of EffyBuy with our step-by-step videos
                                 </div>
                             </div>
                         </div>

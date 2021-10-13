@@ -1,0 +1,52 @@
+.demo_case_study_main_div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.demo_case_study_main_div > .demo_case_study_individual_card{
+    padding: 15px;
+    width: 45%;
+    /* border: 1px solid #999; */
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 2px rgba(199,199,199,0.77);
+    -webkit-box-shadow: 10px 10px 10px 2px rgba(199,199,199,0.77);
+    -moz-box-shadow: 10px 10px 10px 2px rgba(199,199,199,0.77);
+}
+.demo_case_study_main_div > .demo_case_study_individual_card > .demo_case_study_individual_card_image{
+    padding: 15px;
+    height: 200px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+.demo_case_study_main_div > .demo_case_study_individual_card > .demo_case_study_individual_card_title{
+    padding: 15px;
+    font-size: 25px;
+}
+.demo_case_study_main_div > .demo_case_study_individual_card > .demo_case_study_individual_card_desc{
+    padding: 15px;
+    font-size: 15px;
+    color: #999;
+}
+.demo_case_study_main_div > .demo_case_study_individual_card > .demo_case_study_individual_card_download_button{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.demo_case_study_modal_form{
+    margin: 0 5% 0 5%;
+}
+
+.demo_case_study_modal_description{
+    margin: 0 5% 0 5%;
+}
+
+.demo_case_study_modal_description > .demo_case_study_modal_description_title{
+    font-size: 35px;
+}
+
+.demo_case_study_modal_description > .demo_case_study_modal_description_points > ul > li{
+    font-size: 15px;
+    color: #999;
+}

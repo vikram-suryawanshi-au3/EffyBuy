@@ -28,13 +28,52 @@ export default class ReverseAuction extends Component {
             <div className="Reverse_auction_main_div">
                 <div className="Reverse_auction_banner">
                     <div className="Reverse_auction_banner_text">
-                        Get the best prices for<br/>your products with #1<br/>Reverse Auction tool.
+                        Always buy right.
+                    </div>
+                    <div className="Reverse_auction_banner_sub_text">
+                        With Effybuy's state-of-the-art purchasing platform with automated reverse auction and RFQ.
                     </div>
                 </div>
 
                 {/* <div className="Reverse_auction_video">
                     <Video/>
                 </div> */}
+
+                <div className="reverse_auction_second_slide">
+                    <div className="reverse_auction_second_slide_image">
+                        image_here
+                    </div>
+                    <div className="reverse_auction_second_slide_desc">
+                        <div className="reverse_auction_second_slide_desc_title">
+                            Instantly automate all your purchases
+                        </div>
+                        <div className="reverse_auction_second_slide_desc_details">
+                            With 2 purchase options, RFQ and reverse auction, all your purchasing 
+                            activities can be automated.
+                        </div>
+                        <div className="reverse_auction_second_slide_desc_buttons">
+                            <button className="btn btn-primary">Learn more about RFQ</button>
+                            <button className="btn btn-primary">Learn more about Reverse auction</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="reverse_auction_third_slide">
+                    <div className="reverse_auction_third_slide_desc">
+                        <div className="reverse_auction_third_slide_desc_title">
+                            Get on-boarded in less than 10 minutes
+                        </div>
+                        <div className="reverse_auction_third_slide_desc_details">
+                            EffyBuy is extremely easy to sign-up and use. You can set it p on your own in less than 
+                            half an hour, or if you're a little low techie, you can always set it up with the help 
+                            of your customer support team via an online meeting. 
+                        </div>
+                    </div>
+                    <div className="reverse_auction_third_slide_image">
+                        image_here
+                    </div>
+                </div>
 
                 <div className="reverse_auction_four_step_div">
                     <div className="reverse_auction_step">

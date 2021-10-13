@@ -19,9 +19,9 @@ export default class Blog_5 extends Component {
     render() {
         return (
             <div className="individual_blog_main_div">
-                <div className="individual_blog_title_div">
+                {/* <div className="individual_blog_title_div">
                     Common Challenges & Their Solution To Implement A Robust Procurement Processes
-                </div>
+                </div> */}
                 <div className="individual_blog_date">
                     16 Aug 2021
                 </div>
@@ -191,7 +191,7 @@ export default class Blog_5 extends Component {
                     {/* The only solution to this is to make purchases and related decisions based on accurate and reliable data.  */}
                     The one best solution could be for good purchase is based on right / appropriate data base. 
                     Given this challenge organisation tend to incur losses operationally and financially. 
-                    Procurement on a whole is strategic process and nothing that wokrs on gut feel or instincts. 
+                    Procurement on a whole is strategic process and nothing that works on gut feel or instincts. 
                     Implementation of the best procurement process includes integrating different measures and 
                     high performance tasks to solve the above challenge. 
 
@@ -230,7 +230,7 @@ export default class Blog_5 extends Component {
                     master negotiator and achieve win-win results. Get the best package tools to negotiate 
                     both the price and terms of your purchase transaction so you may not only save a lot of money, 
                     but also have the power of a 10/10 negotiation. */}
-                    Effy Buy is a fully automated purchase negotiating tool that enables you to become a 
+                    <a href="http://www.effybuy.com">EffyBuy</a> is a fully automated purchase negotiating tool that enables you to become a 
                     master negotiator and achieve win-win results. Get the best package tools to negotiate 
                     both the price and terms of your purchase transaction so you may not only save a lot of 
                     money, but also have the power of a 10/10 negotiation.

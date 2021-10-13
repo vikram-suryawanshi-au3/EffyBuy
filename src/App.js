@@ -25,6 +25,9 @@ import BlogSix from './components/Blogs/Blog_6'
 import BlogSeven from './components/Blogs/Blog_7'
 import Resource from './components/Resources/Resource'
 import KnowledgeSource from './components/Knowledge Source/KnowledgeSource'
+import ProfitabilityChallenge from './components/Profitability challenge/Profitability_challenge'
+import Logistics from './components/Logistics/Logistics'
+import FiveEffectiveTactics from './components/Webinars/Five_effective_tactics'
 
 import { Switch, Route, Redirect, useLocation } from "react-router-dom";
 
@@ -40,7 +43,7 @@ function App() {
         <Navbar/>
       <Switch>
         <Route exact path='/EffyBuy'>
-        <HomapageContent location={location.pathname}/>
+        <HomapageContent />
         </Route>
 
         <Route path='/EffyBuy/shipment'>
@@ -90,9 +93,12 @@ function App() {
           <Resource/>
         </Route>
 
-        <Route path='/EffyBuy/resources/case_study'>
+        <Route path='/EffyBuy/cs'>
           <CaseStudy/>
         </Route>
+        {/* <Route path='/EffyBuy/resources/case_study'>
+          <CaseStudy/>
+        </Route> */}
 
         <Route exact path='/EffyBuy/resources/blog'>
           <Blog/>
@@ -120,8 +126,29 @@ function App() {
           <BlogSeven/>
         </Route>
 
-        <Route exact path='/EffyBuy/resources/knowledge_source'>
-          <KnowledgeSource/>
+        <Route exact key="ebook" path='/EffyBuy/resources/ebooks'>
+          <KnowledgeSource location={location.pathname}/>
+        </Route>
+        <Route exact key="ppt" path='/EffyBuy/resources/ppt'>
+          <KnowledgeSource location={location.pathname}/>
+        </Route>
+        <Route exact key="case_study" path='/EffyBuy/resources/case_study'>
+          <KnowledgeSource location={location.pathname}/>
+        </Route>
+        <Route exact key="white_paper" path='/EffyBuy/resources/white_paper'>
+          <KnowledgeSource location={location.pathname}/>
+        </Route>
+
+        <Route path='/EffyBuy/pc'>
+          <ProfitabilityChallenge/>
+        </Route>
+
+        <Route path='/EffyBuy/logistics'>
+          <Logistics/>
+        </Route>
+
+        <Route path='/EffyBuy/wb'>
+          <FiveEffectiveTactics/>
         </Route>
 
         <Redirect to='/EffyBuy/underwork' />

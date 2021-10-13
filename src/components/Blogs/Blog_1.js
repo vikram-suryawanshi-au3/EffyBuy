@@ -21,11 +21,11 @@ export default class Blog_1 extends Component {
     render() {
         return (
             <div className="individual_blog_main_div">
-                <div className="individual_blog_title_div">
+                {/* <div className="individual_blog_title_div">
                     3 simple tips to unleash your buying power
-                </div>
+                </div> */}
                 <div className="individual_blog_date">
-                    16 Aug 2021
+                    9 Aug 2021
                 </div>
                 <div className="individual_blog_image">
                     <img src={three_simple_tips} alt="three_simple_tips"/>
@@ -77,7 +77,8 @@ export default class Blog_1 extends Component {
                 </div>
 
                 <div className="individual_blog_paragraph">
-                    Now, a new tool, an autonomous negotiating tool—where with just a three step process 
+                
+                    Now, <a href="http://www.effybuy.com">a new tool</a>, an autonomous negotiating tool—where with just a three step process 
                     determines the factors that are negotiable in a supplier contract and carries out negotiations 
                     over email or a chat interface—is giving procurement teams even greater capabilities. 
                     This approach offer advantages over traditional, manual negotiations and then  

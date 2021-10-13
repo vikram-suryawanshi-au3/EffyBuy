@@ -42,9 +42,10 @@ export default class WhitePaper extends Component {
                                 Remote Working Guide
                             </div>
                             <div className="whitepaper_description_info_desc">
-                                Despite its many benefits, working remotely can be especially challenging for 
-                                customer-facing teams. Transitioning your support and sales team to a remote working 
-                                architecture can be a nightmare without the right tools and strategy.
+                                This document is designed to help you jumpstart your automated negotiation 
+                                strategy efforts. Listed below are some steps you should consider when developing 
+                                an automation in negotiation strategy. Links are provided to further your 
+                                understanding and explore how other companies are implementing it into their business.
                             </div>
                         </div>
                     </div>
@@ -70,14 +71,14 @@ export default class WhitePaper extends Component {
                                     <div className="whitepaper_modal_description_points">
                                         <ul>
                                             <li>
-                                                A background of customer support over phone calls
+                                                Automated negotiation is the future of the procurement world.
                                             </li>
                                             <li>
-                                                Emergence of cloud telephony and how it empowers businesses today
+                                                The document covers depth of information around the automated negotiation and its benefits.
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 Features, benefits and best practices of cloud telephony for businesses
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -85,26 +86,21 @@ export default class WhitePaper extends Component {
                                 <div className="whitepaper_modal_form">
                                     <form data-toggle="validator">
                                         <div className="form-group">
-                                            {/* <label for="inputName">Name</label> */}
                                             <input type="text" data-minlength="4" className="form-control" id="inputName"
                                                 data-error="Please enter atleast 4 words" placeholder="Name"
                                                  required />
                                             <div className="help-block with-errors"></div>
                                         </div>
                                         <div className="form-group mt-3">
-                                            {/* <label for="inputEmail" >Email</label> */}
                                             <input type="email" className="form-control" id="inputEmail" data-error="Please enter correct email address" 
                                                 pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email" required/>
                                             <div className="help-block with-errors"></div>
                                         </div>
                                         <div className="form-group mt-3">
-                                            {/* <label for="inputCompanyName" >Email</label> */}
                                             <input type="text" className="form-control" id="inputCompanyName" data-error="Please enter company name" 
                                                 placeholder="Company Name" required/>
                                             <div className="help-block with-errors"></div>
                                         </div>
-
-                                        
                                         <br/>
                                         <div className="form-group">
                                             <button type="submit" className="btn btn-primary btn-block">Download</button>
@@ -115,7 +111,8 @@ export default class WhitePaper extends Component {
                         </Modal>
                     </div>
                 </div>
-                <div className="whitepaper_individual_card">
+
+                {/* <div className="whitepaper_individual_card">
                     <div className="whitepaper_description">
                         <div className="whitepaper_description_image">
                             <img src="https://mk0exoteldmve0ui0rq.kinstacdn.com/wp-content/uploads/2020/03/Remote-working-guide-1.png" alt=""/>
@@ -132,7 +129,6 @@ export default class WhitePaper extends Component {
                         </div>
                     </div>
                     <div className="whitepaper_download_button">
-                        {/* <button className="btn btn-primary">Download</button> */}
                         <Button variant="primary" onClick={this.handleShow2}>
                             Download
                         </Button>
@@ -169,26 +165,21 @@ export default class WhitePaper extends Component {
                                 <div className="whitepaper_modal_form">
                                     <form data-toggle="validator">
                                         <div className="form-group">
-                                            {/* <label for="inputName">Name</label> */}
                                             <input type="text" data-minlength="4" className="form-control" id="inputName"
                                                 data-error="Please enter atleast 4 words" placeholder="Name"
                                                  required />
                                             <div className="help-block with-errors"></div>
                                         </div>
                                         <div className="form-group mt-3">
-                                            {/* <label for="inputEmail" >Email</label> */}
                                             <input type="email" className="form-control" id="inputEmail" data-error="Please enter correct email address" 
                                                 pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email" required/>
                                             <div className="help-block with-errors"></div>
                                         </div>
                                         <div className="form-group mt-3">
-                                            {/* <label for="inputCompanyName" >Email</label> */}
                                             <input type="text" className="form-control" id="inputCompanyName" data-error="Please enter company name" 
                                                 placeholder="Company Name" required/>
                                             <div className="help-block with-errors"></div>
                                         </div>
-
-                                        
                                         <br/>
                                         <div className="form-group">
                                             <button type="submit" className="btn btn-primary btn-block">Download</button>
@@ -198,7 +189,7 @@ export default class WhitePaper extends Component {
                             </Modal.Body>
                         </Modal>
                     </div>
-                </div>
+                </div> */}
             </div>
         )
     }

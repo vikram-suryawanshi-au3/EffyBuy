@@ -1,6 +1,6 @@
 .resource_main_div{
     /* margin: 10% 0% 5% 10%; */
-    margin: 5px;
+    /* margin: 5px; */
 }
 
 .resource_title{
@@ -17,7 +17,7 @@
 
 .resource_main_div > .all_resources_div > a > .individual_resource{
     display: flex;
-    width: 300px;
+    width: 350px;
     margin: 2px 5px;
 }
 .resource_main_div > .all_resources_div > a > .individual_resource:hover{

@@ -1,0 +1,87 @@
+.profitability_challenge_main_div{
+    margin: 5%;
+}
+.profitability_challenge_main_div > .profitability_challenge_main_banner > img{
+    width: 100%;
+}
+.profitability_challenge_main_div > .profitability_challenge_second_div{
+    text-align: center;
+    font-weight: bold;
+}
+.profitability_challenge_main_div > .profitability_challenge_second_div > .first_title{
+    font-size: 30px;
+}
+.profitability_challenge_main_div > .profitability_challenge_second_div > .second_title{
+    font-size: 40px;
+    margin: 100px 0px;
+}
+
+.profitability_challenge_main_div > .profitability_challenge_third_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
+.profitability_challenge_main_div > .profitability_challenge_third_div > .desc_div{
+    font-size: 30px;
+    width: 45%;
+    text-align: center;
+    font-weight: bold;
+
+}
+.profitability_challenge_main_div > .profitability_challenge_third_div > .image_div{
+    width: 45%;
+    display: block;
+    justify-content: center;
+    text-align: center
+}
+.profitability_challenge_main_div > .profitability_challenge_third_div > .image_div > .your_company{
+    font-size: 30px;
+    color: red;
+}
+.profitability_challenge_main_div > .profitability_challenge_third_div > .image_div > .subscribe{
+    font-size: 30px;
+    display: block;
+    width: 100%;
+}
+.profitability_challenge_main_div > .profitability_challenge_third_div > .image_div > .subscribe > .software{
+    font-size: 30px;
+    color: red;
+}
+.profitability_challenge_main_div > .profitability_challenge_third_div > .image_div > div > img{
+    width: 50%;
+}
+
+.profitability_challenge_main_div > .profitability_challenge_three_steps_main_div{
+    /* width: 100%; */
+    text-align: center;
+    font-size: 20px;
+}
+.profitability_challenge_main_div > .profitability_challenge_three_steps_main_div > .three_steps_title{
+    background-color: rgb(142, 170, 255);
+    width: 100%;
+    padding: 10px;
+}
+.profitability_challenge_main_div > .profitability_challenge_three_steps_main_div > .three_steps{
+    display: flex;
+    justify-content: space-evenly;
+}
+.profitability_challenge_main_div > .profitability_challenge_three_steps_main_div > .three_steps > .ind_step{
+    /* width: 100%; */
+    margin: 50px 0px;
+}
+.profitability_challenge_main_div > .profitability_challenge_three_steps_main_div > .three_steps > .ind_step > .step_number{
+    width: fit-content;
+    border: 2px solid red;
+    padding: 10px 20px;
+    border-radius: 50%;
+    margin: 0 auto; 
+}
+.profitability_challenge_main_div > .profitability_challenge_three_steps_main_div > .three_steps > .ind_step > .step_desc{
+    /* width: 100%; */
+    margin: 30px 0px;
+}
+.profitability_challenge_main_div > .profitability_challenge_three_steps_main_div > .so_basically{
+    font-size: 20px;
+    margin-top: 20px;
+}

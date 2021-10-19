@@ -5,7 +5,7 @@
     width: 100%;
 }
 .five_effective_tactics_main_div::before{
-    background-image: url('../../icons/Webinar/dummy_image.jpg');
+    /* background-image: url('../../icons/Webinar/dummy_image.jpg'); */
     /* background-size: cover; */
     background-size:100% 100%;
     content: "";
@@ -20,10 +20,20 @@
     position: relative;
 }
 
+.five_effective_tactics_main_div > .webinar_image{
+    margin: 0 5%;
+}
+.five_effective_tactics_main_div > .webinar_image > img{
+    width: 100%;
+}
 .five_effective_tactics_main_div > .webinar_title{
     font-size: 60px;
     text-align: center;
     padding-top: 50px;
+}
+.five_effective_tactics_main_div > .webinar_title > span{
+    font-size: 50px;
+    color: #999;
 }
 .five_effective_tactics_main_div > .webinar_sub_title{
     font-size: 20px;
@@ -43,7 +53,7 @@
     background-color: black;
     padding: 20px;
     border-radius: 10px;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 .five_effective_tactics_main_div > .webinar_content_div > .webinar_form > form  label{
     color: white;
@@ -59,9 +69,77 @@
     margin-bottom: 20px;
 }
 .five_effective_tactics_main_div > .webinar_content_div > .webinar_content{
-    font-size: 22px;
+    font-size: 25px;
     width: 55%;
 }
 .five_effective_tactics_main_div > .webinar_content_div > .webinar_content > ul{
+    margin-top: 50px;
     font-size: 28px;
+    list-style-type: none;
+}
+.five_effective_tactics_main_div > .webinar_content_div > .webinar_content > ul > li > i{
+    padding-right: 20px;
+    margin-top: 10px;
+    color: #008ed9;
+}
+.five_effective_tactics_main_div > .webinar_content_div > .webinar_content > ul > li{
+    display: flex;
+    padding-right: 20px;
+}
+.five_effective_tactics_main_div > .webinar_content_div > .webinar_content > .do_register{
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .five_effective_tactics_main_div > .webinar_content_div{
+        display: block;
+        margin-top: 50px;
+    }
+
+    .five_effective_tactics_main_div > .webinar_content_div > .webinar_form{
+        width: 90%;
+        margin: 2% 5%;
+    }
+    .five_effective_tactics_main_div > .webinar_content_div > .webinar_content{
+        width: 90%;
+        margin: 2% 5%;
+        font-size: 18px;
+    }
+
+    .five_effective_tactics_main_div > .webinar_title{
+        font-size: 24px;
+    }
+    .five_effective_tactics_main_div > .webinar_title > span{
+        font-size: 22px;
+    }
+    .five_effective_tactics_main_div > .webinar_sub_title{
+        font-size: 15px;
+    }
+    .five_effective_tactics_main_div > .webinar_timing{
+        font-size:15px;
+        margin-top: 20px;
+    }
+    .five_effective_tactics_main_div > .webinar_timing > span{
+        margin: 0 8px;
+    }
+    .five_effective_tactics_main_div > .webinar_content_div > .webinar_content > ul{
+        margin-top: 50px;
+        font-size: 20px;
+        padding: 0;
+    }
+    .five_effective_tactics_main_div > .webinar_content_div > .webinar_content > ul > li{
+        padding-right: 0;
+    }
+    .five_effective_tactics_main_div > .webinar_content_div > .webinar_content > .do_register{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .five_effective_tactics_main_div > .webinar_image{
+        margin: 0;
+    }
+    /* .five_effective_tactics_main_div > .webinar_image > img{
+        width: 100%;
+    } */
 }

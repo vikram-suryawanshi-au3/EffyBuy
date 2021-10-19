@@ -114,7 +114,7 @@ export default class Resource extends Component {
                         </div>
                     </Link>
 
-                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy/wb" style={{"textDecoration":"none"}}>
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
                                 <i class="fas fa-laptop"></i>

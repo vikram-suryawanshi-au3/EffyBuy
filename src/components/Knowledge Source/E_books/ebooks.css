@@ -54,10 +54,21 @@
 
 .ebook_modal_header{
     border-bottom: none!important;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,160L720,288L1440,192L1440,0L720,0L0,0Z"></path></svg>')!important;
-    /* background-size:cover!important;
-    background-color:pink; */
+    background-repeat: no-repeat;
+    /* padding-right: calc(1.5em + 0.75rem);
+    background-position: center right calc(0.375em + 0.1875rem);
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+    background-color: #999; */
+    
+}
 
+.vvvvvv{
+    /* width:600px;
+    height:120px; */
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4442 720"><path  d="M0,160L720,288L1440,192L1440,0L720,0L0,0Z"></path></svg>')!important;
+    /* background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="500" height="100" viewBox="0 0 4442 720"><path d="M36,297.64c317.62,0,428,134.58,696,136.74S1160,364,1436,389s431.72-102.09,618-91.36,505.93,73.37,715,72.29,339,72,674,64.45,712.27,157.83,920,174l46,111.14H36Z" ></path></svg>'); */
+  background-size:cover;
+  background-color:pink;
 }
 
 

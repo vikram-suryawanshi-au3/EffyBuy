@@ -31,13 +31,12 @@ export default class Blog_6 extends Component {
                 </div>
 
                 <div className="individual_blog_paragraph">
-                    Procurement industry includes many tasks within the processes. Purchase being a sub 
-                    set of procurement stands at a crossroads. There are lots of tasks that are been done on 
-                    daily basis with minimum to no outcomes on an immediate basis.
+                Procurement industry includes many tasks within the processes. Purchase being a sub set of procurement stands at a crossroads. 
+                There are lots of tasks that are been done on daily basis with minimum to no outcomes on an immediate basis.
                 </div>
 
                 <div className="individual_blog_paragraph" style={{"fontWeight":"bold"}}>
-                    So what should companies do or respond? 
+                    So how should companies respond? 
                 </div>
 
                 <div className="individual_blog_paragraph" >
@@ -46,10 +45,8 @@ export default class Blog_6 extends Component {
                             They can carry on as normal by the way of existence 
                         </li>
                         <li >
-                            Or recede into insignificance <span style={{"fontWeight":"bold"}}>OR ought to rethink </span> how they would like to bring in some 
-                        </li>
-                        <li >
-                            change to their purchase process 
+                            Or recede into insignificance <span style={{"fontWeight":"bold"}}>OR ought to rethink </span> how they 
+                            would like to bring in some change to their purchase process 
                         </li>
                         <li >
                             And make a difference to their company profits
@@ -63,7 +60,7 @@ export default class Blog_6 extends Component {
                 </div>
 
                 <div className="individual_blog_paragraph">
-                    Also we would like to cover following major areas concerned with Purchase process. 
+                    Also we would like to cover the following major areas concerned with the Purchase process. 
                     These points can help you take further action on registration:
                 </div>
 

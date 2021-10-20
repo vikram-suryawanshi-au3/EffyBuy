@@ -80,19 +80,31 @@ onLoad="if(submitted) {window.location='thankyou.html';}"></iframe> */}
                                 <label for="company_name">Company Name</label>
                                 <input type="text" class="form-control" id="company_name" placeholder="Company Name" name="entry.1685260071" required/>
                             </div>
-                            {/* <div class="form-group">
-                                <label for="designation">Designation</label>
-                                <input type="text" class="form-control" id="designation" placeholder="Designation"/>
-                            </div>
-                            <div class="form-group">
-                                <label for="country">Country</label>
-                                <input type="text" class="form-control" id="country" placeholder="Country"/>
-                            </div> */}
                             <div style={{"textAlign":"center"}}>
                                 <button type="submit" className="btn btn-primary">Register Now</button>
-                                {/* <input type="submit" value="Register Now"/> */}
                             </div>
                         </form>
+                        {/* <form target="_blank" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdTCs1x4c71tNSRxqvMQgEzX_ExErmvWqdvabe5_dXFWg1iAg/formResponse" method="post">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter Name" name="entry.1229557749" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="work_email">Work Email</label>
+                                <input type="email" class="form-control" id="work_email" placeholder="Work Email Id" name="entry.1462387956" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="work_phone">Work Phone</label>
+                                <input type="number" class="form-control" id="work_phone" placeholder="Work Phone No." name="entry.1417793228" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="company_name">Company Name</label>
+                                <input type="text" class="form-control" id="company_name" placeholder="Company Name" name="entry.1685260071" required/>
+                            </div>
+                            <div style={{"textAlign":"center"}}>
+                                <button type="submit" className="btn btn-primary">Register Now</button>
+                            </div>
+                        </form> */}
                     </div>
 
                 </div>

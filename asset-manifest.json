@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/EffyBuy/static/css/main.11dab1cc.chunk.css",
-    "main.js": "/EffyBuy/static/js/main.02cb55f5.chunk.js",
-    "main.js.map": "/EffyBuy/static/js/main.02cb55f5.chunk.js.map",
-    "runtime-main.js": "/EffyBuy/static/js/runtime-main.ce107395.js",
-    "runtime-main.js.map": "/EffyBuy/static/js/runtime-main.ce107395.js.map",
+    "main.js": "/EffyBuy/static/js/main.31266de1.chunk.js",
+    "main.js.map": "/EffyBuy/static/js/main.31266de1.chunk.js.map",
+    "runtime-main.js": "/EffyBuy/static/js/runtime-main.bea02871.js",
+    "runtime-main.js.map": "/EffyBuy/static/js/runtime-main.bea02871.js.map",
     "static/css/2.fd0c640a.chunk.css": "/EffyBuy/static/css/2.fd0c640a.chunk.css",
-    "static/js/2.c108949e.chunk.js": "/EffyBuy/static/js/2.c108949e.chunk.js",
-    "static/js/2.c108949e.chunk.js.map": "/EffyBuy/static/js/2.c108949e.chunk.js.map",
-    "static/js/3.d1097bbe.chunk.js": "/EffyBuy/static/js/3.d1097bbe.chunk.js",
-    "static/js/3.d1097bbe.chunk.js.map": "/EffyBuy/static/js/3.d1097bbe.chunk.js.map",
+    "static/js/2.93891ac1.chunk.js": "/EffyBuy/static/js/2.93891ac1.chunk.js",
+    "static/js/2.93891ac1.chunk.js.map": "/EffyBuy/static/js/2.93891ac1.chunk.js.map",
+    "static/js/3.d5e0adfe.chunk.js": "/EffyBuy/static/js/3.d5e0adfe.chunk.js",
+    "static/js/3.d5e0adfe.chunk.js.map": "/EffyBuy/static/js/3.d5e0adfe.chunk.js.map",
     "index.html": "/EffyBuy/index.html",
     "static/css/2.fd0c640a.chunk.css.map": "/EffyBuy/static/css/2.fd0c640a.chunk.css.map",
     "static/css/main.11dab1cc.chunk.css.map": "/EffyBuy/static/css/main.11dab1cc.chunk.css.map",
-    "static/js/2.c108949e.chunk.js.LICENSE.txt": "/EffyBuy/static/js/2.c108949e.chunk.js.LICENSE.txt",
+    "static/js/2.93891ac1.chunk.js.LICENSE.txt": "/EffyBuy/static/js/2.93891ac1.chunk.js.LICENSE.txt",
     "static/media/1621436901571.1fd701cd.png": "/EffyBuy/static/media/1621436901571.1fd701cd.png",
     "static/media/Efficient_buying_process.4019639b.svg": "/EffyBuy/static/media/Efficient_buying_process.4019639b.svg",
     "static/media/Expensive_procurement_tools.20266236.svg": "/EffyBuy/static/media/Expensive_procurement_tools.20266236.svg",
@@ -47,10 +47,10 @@
     "static/media/webinar_automate_your.763a0223.jpg": "/EffyBuy/static/media/webinar_automate_your.763a0223.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ce107395.js",
+    "static/js/runtime-main.bea02871.js",
     "static/css/2.fd0c640a.chunk.css",
-    "static/js/2.c108949e.chunk.js",
+    "static/js/2.93891ac1.chunk.js",
     "static/css/main.11dab1cc.chunk.css",
-    "static/js/main.02cb55f5.chunk.js"
+    "static/js/main.31266de1.chunk.js"
   ]
 }

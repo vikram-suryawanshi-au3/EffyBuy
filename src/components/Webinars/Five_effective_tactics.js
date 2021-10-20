@@ -63,7 +63,7 @@ export default class FiveEffectiveTactics extends Component {
 {/* <iframe name="hidden_iframe" title="webinar_form" id="hidden_iframe" style={{"display":"none"}} 
 onLoad="if(submitted) {window.location='thankyou.html';}"></iframe> */}
                     {/* <iframe title="webinar_form" src="https://docs.google.com/forms/d/e/1FAIpQLSdTCs1x4c71tNSRxqvMQgEzX_ExErmvWqdvabe5_dXFWg1iAg/viewform?embedded=true" width="100%" height="1000"  frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
-                        <form target="_blank" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdTCs1x4c71tNSRxqvMQgEzX_ExErmvWqdvabe5_dXFWg1iAg/formResponse" method="post" target="hidden_iframe">
+                        <form target="_blank" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdTCs1x4c71tNSRxqvMQgEzX_ExErmvWqdvabe5_dXFWg1iAg/formResponse" method="post">
                             <div class="form-group">
                                 <label for="name">Name</label>
                                 <input type="text" class="form-control" id="name" placeholder="Enter Name" name="entry.1229557749" required/>

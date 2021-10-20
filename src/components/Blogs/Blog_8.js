@@ -33,7 +33,7 @@ export default class Blog_6 extends Component {
                 <div className="individual_blog_paragraph">
                     Procurement industry includes many tasks within the processes. Purchase being a sub 
                     set of procurement stands at a crossroads. There are lots of tasks that are been done on 
-                    daily basis with minimum to no outcomes on immediate basis.
+                    daily basis with minimum to no outcomes on an immediate basis.
                 </div>
 
                 <div className="individual_blog_paragraph" style={{"fontWeight":"bold"}}>
@@ -58,7 +58,7 @@ export default class Blog_6 extends Component {
                 </div>
 
                 <div className="individual_blog_paragraph">
-                    This is our new rendezvous where we will discuss with you on how to ‘Automate your purchase process to save 5-10% more’, 
+                    This is our new rendezvous where we will discuss with you on how to<span style={{"fontWeight":"bold"}}> ‘Automate your purchase process to save 5-10% more’</span>, 
                     with some of the finest experts from our organization. 
                 </div>
 
@@ -73,10 +73,10 @@ export default class Blog_6 extends Component {
                             Increase purchase savings
                         </li>
                         <div>
-                            Every opportunity to save time on any activity ultimately culminates and add on to the increase profits. 
-                            Approx. 55% of purchase department still managing their activities using a spreadsheets. 
-                            Which needs to undergo a definite change. <br/>
-                            <span style={{"fontWeight":"bold"}}>“Anything anybody has was purchased with the currency of time.”</span>
+                        Every opportunity to save time on any activity ultimately culminates and add on to the increase profits. 
+                        Approx. 55% of purchase department still managing their activities using a spreadsheets. Which needs to 
+                        undergo a definite change. <br/>
+                            <span style={{"fontWeight":"bold","fontStyle":"italic"}}> “Anything anybody has was purchased with the currency of time.”</span>
                              —The Mountain of Ignorance
 
                         </div>
@@ -95,9 +95,8 @@ export default class Blog_6 extends Component {
                             Analytics
                         </li>
                         <div>
-                            Basic problem procurement department around the world are struggling is to maintaining inventory 
-                            cost and plan future purchases. A transformative digital technology that can dramatically support 
-                            entire process by navigating through challenges
+                            Basic problem procurement department around the world are struggling is to maintaining inventory cost and plan future purchases. 
+                            A transformative digital technology that can dramatically support entire process by navigating through challenges
                         </div>
                     </ul>
                 </div>

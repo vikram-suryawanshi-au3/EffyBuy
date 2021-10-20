@@ -7,6 +7,7 @@ import number_one_tool from './Blog_images/number_one_tool.jpg'
 // import anup_agarwal from './../../icons/About us/anup_agarwal.jpg'
 import meghna_khatee from './../../icons/About us/meghna_khatee.webp'
 import unknown from './../../icons/About us/unknown.png'
+import automate_your_purchase from '../../icons/Webinar/webinar_automate_your.jpg'
 
 export default class Blog extends Component {
     componentDidMount(){
@@ -237,6 +238,40 @@ export default class Blog extends Component {
                     </div>
                 </Link>
                 </div> */}
+
+                <div className="blog_page_blog_card">
+                <Link to="/EffyBuy/resources/blog/blog_8" style={{"textDecoration":"none"}}>
+                <div className="blog_page_blog_card_image">
+                        {/* Do You know the No. #1 tool available to increase your profits?
+                         */}
+                         <img src={automate_your_purchase} alt="automate_your_purchase"/>
+                    </div>
+                    <div className="blog_page_blog_card_hashtags">
+                        <div>Blog</div>
+                        <div>EffyBuy</div>
+                        <div>BizGam</div>
+                    </div>
+                    <div className="blog_page_blog_card_title">
+                        Automate your purchase process to save 5-10% more 
+                    </div>
+                    <div className="blog_page_blog_card_desc">
+                        Procurement industry includes many tasks within the processes. Purchase being a sub set 
+                        of procurement stands at a crossroads. There are lots of tasks that 
+                        are been done on daily basis with minimum to no outcomes on immediate basis.
+                        This is our new rendezvous where we will discuss with you on how to ‘Automate your 
+                        purchase process to save 5-10% more’, with some of the finest experts from our organization...
+                    </div>
+                    <div className="blog_page_blog_card_writtenby">
+                        <div className="blog_page_blog_card_writtenby_image">
+                            <img src={meghna_khatee} alt="meghna_khatee"/>
+                        </div>
+                        <div className="blog_page_blog_card_writtenby_details">
+                            <div className="blog_page_blog_card_writtenby_name">Meghna Khatee</div>
+                            <div className="blog_page_blog_card_writtenby_date">18 Oct 2021</div>
+                        </div>
+                    </div>
+                </Link>
+                </div>
 
                 <div style={{"width":"45%"}}>
 

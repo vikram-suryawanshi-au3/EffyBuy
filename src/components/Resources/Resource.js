@@ -48,7 +48,8 @@ export default class Resource extends Component {
                         </div>
                     </Link>
 
-                    <Link to="/EffyBuy/resources/ebooks" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
+                    {/* <Link to="/EffyBuy/resources/ebooks" style={{"textDecoration":"none"}}> */}
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
                                 <i class="fas fa-book-reader"></i>
@@ -65,7 +66,8 @@ export default class Resource extends Component {
                         </div>
                     </Link>
 
-                    <Link to="/EffyBuy/resources/case_study" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
+                    {/* <Link to="/EffyBuy/resources/case_study" style={{"textDecoration":"none"}}> */}
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
                                 <i class="fas fa-poll-h"></i>
@@ -82,7 +84,8 @@ export default class Resource extends Component {
                     </Link>
 
                     
-                    <Link to="/EffyBuy/resources/ppt" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
+                    {/* <Link to="/EffyBuy/resources/ppt" style={{"textDecoration":"none"}}> */}
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
                                 <i class="fas fa-laptop-code"></i>
@@ -98,7 +101,8 @@ export default class Resource extends Component {
                         </div>
                     </Link>
                     
-                    <Link to="/EffyBuy/resources/white_paper" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
+                    {/* <Link to="/EffyBuy/resources/white_paper" style={{"textDecoration":"none"}}> */}
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
                                 <i class="far fa-newspaper"></i>

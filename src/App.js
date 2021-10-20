@@ -23,6 +23,7 @@ import BlogFour from './components/Blogs/Blog_4'
 import BlogFive from './components/Blogs/Blog_5'
 import BlogSix from './components/Blogs/Blog_6'
 import BlogSeven from './components/Blogs/Blog_7'
+import BlogEight from './components/Blogs/Blog_8'
 import Resource from './components/Resources/Resource'
 import KnowledgeSource from './components/Knowledge Source/KnowledgeSource'
 import ProfitabilityChallenge from './components/Profitability challenge/Profitability_challenge'
@@ -124,6 +125,9 @@ function App() {
         </Route>
         <Route path='/EffyBuy/resources/blog/blog_7'>
           <BlogSeven/>
+        </Route>
+        <Route path='/EffyBuy/resources/blog/blog_8'>
+          <BlogEight/>
         </Route>
 
         <Route exact key="ebook" path='/EffyBuy/resources/ebooks'>

@@ -62,7 +62,7 @@ export default class FiveEffectiveTactics extends Component {
                     {/* <script type="text/javascript">var submitted=false;</script> */}
 {/* <iframe name="hidden_iframe" title="webinar_form" id="hidden_iframe" style={{"display":"none"}} 
 onLoad="if(submitted) {window.location='thankyou.html';}"></iframe> */}
-                    {/* <iframe title="webinar_form" src="https://docs.google.com/forms/d/e/1FAIpQLSdTCs1x4c71tNSRxqvMQgEzX_ExErmvWqdvabe5_dXFWg1iAg/viewform?embedded=true" width="100%" height="1000"  frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
+{/* <iframe title="webinar_form" width="360" height="240" src="https://meeting.zoho.in/meeting/register/embed?sessionId=1385422878" frameborder="0"> </iframe> */}
                         <form target="_blank" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdTCs1x4c71tNSRxqvMQgEzX_ExErmvWqdvabe5_dXFWg1iAg/formResponse" method="post">
                             <div class="form-group">
                                 <label for="name">Name</label>
@@ -84,27 +84,7 @@ onLoad="if(submitted) {window.location='thankyou.html';}"></iframe> */}
                                 <button type="submit" className="btn btn-primary">Register Now</button>
                             </div>
                         </form>
-                        {/* <form target="_blank" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdTCs1x4c71tNSRxqvMQgEzX_ExErmvWqdvabe5_dXFWg1iAg/formResponse" method="post">
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name" placeholder="Enter Name" name="entry.1229557749" required/>
-                            </div>
-                            <div class="form-group">
-                                <label for="work_email">Work Email</label>
-                                <input type="email" class="form-control" id="work_email" placeholder="Work Email Id" name="entry.1462387956" required/>
-                            </div>
-                            <div class="form-group">
-                                <label for="work_phone">Work Phone</label>
-                                <input type="number" class="form-control" id="work_phone" placeholder="Work Phone No." name="entry.1417793228" required/>
-                            </div>
-                            <div class="form-group">
-                                <label for="company_name">Company Name</label>
-                                <input type="text" class="form-control" id="company_name" placeholder="Company Name" name="entry.1685260071" required/>
-                            </div>
-                            <div style={{"textAlign":"center"}}>
-                                <button type="submit" className="btn btn-primary">Register Now</button>
-                            </div>
-                        </form> */}
+                        
                     </div>
 
                 </div>

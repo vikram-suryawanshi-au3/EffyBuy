@@ -165,6 +165,7 @@ export default class Resource extends Component {
                             </div>
                         </div>
                     </Link>
+
                 </div>
             </div>
         )

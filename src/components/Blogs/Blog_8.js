@@ -5,6 +5,7 @@ import three_simple_tips from './Blog_images/three_simple_tips.jpg'
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from 'swiper';
 import { Link } from "react-router-dom";
+// import Automate_your_purchase from './Blog_images/Automate_your_purchase.jpg';
 import automate_your_purchase from '../../icons/Webinar/webinar_automate_your.jpg';
 // import number_one_tool from './Blog_images/number_one_tool.jpg'
 
@@ -55,7 +56,7 @@ export default class Blog_6 extends Component {
                 </div>
 
                 <div className="individual_blog_paragraph">
-                    This is our new rendezvous where we will discuss with you on how to<span style={{"fontWeight":"bold"}}> ‘Automate your purchase process to save 5-10% more’</span>, 
+                    This is our new rendezvous where we will discuss with you on how to<Link to="/EffyBuy/wb"><span style={{"fontWeight":"bold","color":"blue"}}> ‘Automate your purchase process to save 5-10% more’</span></Link>, 
                     with some of the finest experts from our organization. 
                 </div>
 

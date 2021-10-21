@@ -7,7 +7,8 @@ import number_one_tool from './Blog_images/number_one_tool.jpg'
 // import anup_agarwal from './../../icons/About us/anup_agarwal.jpg'
 import meghna_khatee from './../../icons/About us/meghna_khatee.webp'
 import unknown from './../../icons/About us/unknown.png'
-import automate_your_purchase from '../../icons/Webinar/webinar_automate_your.jpg'
+// import automate_your_purchase from '../../icons/Webinar/webinar_automate_your.jpg'
+import Automate_your_purchase from './Blog_images/Automate_your_purchase.jpg'
 
 export default class Blog extends Component {
     componentDidMount(){
@@ -244,7 +245,7 @@ export default class Blog extends Component {
                 <div className="blog_page_blog_card_image">
                         {/* Do You know the No. #1 tool available to increase your profits?
                          */}
-                         <img src={automate_your_purchase} alt="automate_your_purchase"/>
+                         <img src={Automate_your_purchase} alt="automate_your_purchase"/>
                     </div>
                     <div className="blog_page_blog_card_hashtags">
                         <div>Blog</div>

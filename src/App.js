@@ -29,6 +29,7 @@ import KnowledgeSource from './components/Knowledge Source/KnowledgeSource'
 import ProfitabilityChallenge from './components/Profitability challenge/Profitability_challenge'
 import Logistics from './components/Logistics/Logistics'
 import FiveEffectiveTactics from './components/Webinars/Five_effective_tactics'
+import WebForm from './components/Webinars/Webinar_form'
 
 import { Switch, Route, Redirect, useLocation } from "react-router-dom";
 
@@ -153,6 +154,10 @@ function App() {
 
         <Route path='/EffyBuy/wb'>
           <FiveEffectiveTactics/>
+        </Route>
+
+        <Route path='/EffyBuy/check'>
+          <WebForm/>
         </Route>
 
         <Redirect to='/EffyBuy/underwork' />

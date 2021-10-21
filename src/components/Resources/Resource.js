@@ -16,7 +16,7 @@ export default class Resource extends Component {
                 <hr/> */}
 
                 <div className="all_resources_div">
-                    <Link to="/EffyBuy/resources/blog" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy/resources/blog" style={{"textDecoration":"none"}} data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
                                 <i class="fas fa-blog"></i>
@@ -32,7 +32,7 @@ export default class Resource extends Component {
                         </div>
                     </Link>
                     
-                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy" style={{"textDecoration":"none"}} data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
                                 <i class="fas fa-trophy"></i>
@@ -48,7 +48,7 @@ export default class Resource extends Component {
                         </div>
                     </Link>
 
-                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy" style={{"textDecoration":"none"}} data-toggle="collapse" data-target=".navbar-collapse.show">
                     {/* <Link to="/EffyBuy/resources/ebooks" style={{"textDecoration":"none"}}> */}
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
@@ -66,7 +66,7 @@ export default class Resource extends Component {
                         </div>
                     </Link>
 
-                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy" style={{"textDecoration":"none"}} data-toggle="collapse" data-target=".navbar-collapse.show">
                     {/* <Link to="/EffyBuy/resources/case_study" style={{"textDecoration":"none"}}> */}
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
@@ -84,7 +84,7 @@ export default class Resource extends Component {
                     </Link>
 
                     
-                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy" style={{"textDecoration":"none"}} data-toggle="collapse" data-target=".navbar-collapse.show">
                     {/* <Link to="/EffyBuy/resources/ppt" style={{"textDecoration":"none"}}> */}
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
@@ -101,7 +101,7 @@ export default class Resource extends Component {
                         </div>
                     </Link>
                     
-                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy" style={{"textDecoration":"none"}} data-toggle="collapse" data-target=".navbar-collapse.show">
                     {/* <Link to="/EffyBuy/resources/white_paper" style={{"textDecoration":"none"}}> */}
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
@@ -118,7 +118,7 @@ export default class Resource extends Component {
                         </div>
                     </Link>
 
-                    <Link to="/EffyBuy/wb" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy/wb" style={{"textDecoration":"none"}} data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
                                 <i class="fas fa-laptop"></i>
@@ -134,7 +134,7 @@ export default class Resource extends Component {
                         </div>
                     </Link>
 
-                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy" style={{"textDecoration":"none"}} data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
                                 <i class="fas fa-video"></i>
@@ -150,7 +150,7 @@ export default class Resource extends Component {
                         </div>
                     </Link>
 
-                    <Link to="/EffyBuy" style={{"textDecoration":"none"}}>
+                    <Link to="/EffyBuy" style={{"textDecoration":"none"}} data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div className="individual_resource">
                             <div className="individual_resource_logo">
                                 <i class="fas fa-map-signs"></i>

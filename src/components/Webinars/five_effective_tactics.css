@@ -140,7 +140,7 @@
     .five_effective_tactics_main_div > .webinar_image{
         margin: 0;
     }
-    .five_effective_tactics_main_div > .webinar_image > img{
+    /* .five_effective_tactics_main_div > .webinar_image > img{
         height: fit-content;
-    }
+    } */
 }

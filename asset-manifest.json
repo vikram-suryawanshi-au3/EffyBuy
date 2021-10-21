@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/EffyBuy/static/css/main.db413eff.chunk.css",
-    "main.js": "/EffyBuy/static/js/main.74053ac4.chunk.js",
-    "main.js.map": "/EffyBuy/static/js/main.74053ac4.chunk.js.map",
+    "main.js": "/EffyBuy/static/js/main.d18f42c9.chunk.js",
+    "main.js.map": "/EffyBuy/static/js/main.d18f42c9.chunk.js.map",
     "runtime-main.js": "/EffyBuy/static/js/runtime-main.bea02871.js",
     "runtime-main.js.map": "/EffyBuy/static/js/runtime-main.bea02871.js.map",
     "static/css/2.fd0c640a.chunk.css": "/EffyBuy/static/css/2.fd0c640a.chunk.css",
@@ -15,6 +15,7 @@
     "static/css/main.db413eff.chunk.css.map": "/EffyBuy/static/css/main.db413eff.chunk.css.map",
     "static/js/2.8c04b73d.chunk.js.LICENSE.txt": "/EffyBuy/static/js/2.8c04b73d.chunk.js.LICENSE.txt",
     "static/media/1621436901571.1fd701cd.png": "/EffyBuy/static/media/1621436901571.1fd701cd.png",
+    "static/media/Automate_your_purchase.79453011.jpg": "/EffyBuy/static/media/Automate_your_purchase.79453011.jpg",
     "static/media/Efficient_buying_process.4019639b.svg": "/EffyBuy/static/media/Efficient_buying_process.4019639b.svg",
     "static/media/Expensive_procurement_tools.20266236.svg": "/EffyBuy/static/media/Expensive_procurement_tools.20266236.svg",
     "static/media/Invisibility_Department.34f94a0a.svg": "/EffyBuy/static/media/Invisibility_Department.34f94a0a.svg",
@@ -51,6 +52,6 @@
     "static/css/2.fd0c640a.chunk.css",
     "static/js/2.8c04b73d.chunk.js",
     "static/css/main.db413eff.chunk.css",
-    "static/js/main.74053ac4.chunk.js"
+    "static/js/main.d18f42c9.chunk.js"
   ]
 }

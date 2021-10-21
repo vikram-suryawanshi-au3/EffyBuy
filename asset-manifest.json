@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/EffyBuy/static/css/main.11dab1cc.chunk.css",
+    "main.css": "/EffyBuy/static/css/main.db413eff.chunk.css",
     "main.js": "/EffyBuy/static/js/main.7eeb7283.chunk.js",
     "main.js.map": "/EffyBuy/static/js/main.7eeb7283.chunk.js.map",
     "runtime-main.js": "/EffyBuy/static/js/runtime-main.bea02871.js",
@@ -12,7 +12,7 @@
     "static/js/3.d5e0adfe.chunk.js.map": "/EffyBuy/static/js/3.d5e0adfe.chunk.js.map",
     "index.html": "/EffyBuy/index.html",
     "static/css/2.fd0c640a.chunk.css.map": "/EffyBuy/static/css/2.fd0c640a.chunk.css.map",
-    "static/css/main.11dab1cc.chunk.css.map": "/EffyBuy/static/css/main.11dab1cc.chunk.css.map",
+    "static/css/main.db413eff.chunk.css.map": "/EffyBuy/static/css/main.db413eff.chunk.css.map",
     "static/js/2.93891ac1.chunk.js.LICENSE.txt": "/EffyBuy/static/js/2.93891ac1.chunk.js.LICENSE.txt",
     "static/media/1621436901571.1fd701cd.png": "/EffyBuy/static/media/1621436901571.1fd701cd.png",
     "static/media/Efficient_buying_process.4019639b.svg": "/EffyBuy/static/media/Efficient_buying_process.4019639b.svg",
@@ -50,7 +50,7 @@
     "static/js/runtime-main.bea02871.js",
     "static/css/2.fd0c640a.chunk.css",
     "static/js/2.93891ac1.chunk.js",
-    "static/css/main.11dab1cc.chunk.css",
+    "static/css/main.db413eff.chunk.css",
     "static/js/main.7eeb7283.chunk.js"
   ]
 }

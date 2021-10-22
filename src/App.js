@@ -44,6 +44,9 @@ function App() {
       {/* <Router> */}
         <Navbar/>
       <Switch>
+        <Route exact path='/'>
+        <HomapageContent />
+        </Route>
         <Route exact path='/EffyBuy'>
         <HomapageContent />
         </Route>
